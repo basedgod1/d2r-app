@@ -64,7 +64,7 @@ const checkUniques = (filter) => {
   if (!item) {
     return filter;
   }
-  if (grails[filter.enUS] && item.lvl < 50 && !alwaysShow[filter.enUS] && item.code != 'rin') {
+  if (grails[filter.enUS] && item.lvl < 50 && !alwaysShow[item.index] && item.code != 'rin') {
     filter.enUS = '';
   }
   return filter;
