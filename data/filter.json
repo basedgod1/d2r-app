@@ -4711,7 +4711,7 @@
   {
     "id": 2207,
     "Key": "vps",
-    "enUS": "Stamina Potion",
+    "enUS": "",
     "zhTW": "精力藥水",
     "deDE": "Ausdauerelixier",
     "esES": "Poción de aguante",
@@ -4728,7 +4728,7 @@
   {
     "id": 2208,
     "Key": "yps",
-    "enUS": "Antidote Potion",
+    "enUS": "",
     "zhTW": "解毒藥水",
     "deDE": "Gegengiftelixier",
     "esES": "Poción antídoto",
@@ -4779,7 +4779,7 @@
   {
     "id": 2211,
     "Key": "wms",
-    "enUS": "Thawing Potion",
+    "enUS": "",
     "zhTW": "融冰藥水",
     "deDE": "Auftauelixier",
     "esES": "Poción descongelante",
@@ -5581,7 +5581,7 @@
   {
     "id": 2266,
     "Key": "hp1",
-    "enUS": "Minor Healing Potion",
+    "enUS": "",
     "zhTW": "弱效生命藥水",
     "deDE": "schwacher Heiltrank",
     "esES": "Poción de salud menor",
@@ -5598,7 +5598,7 @@
   {
     "id": 2267,
     "Key": "hp2",
-    "enUS": "Light Healing Potion",
+    "enUS": "",
     "zhTW": "輕效生命藥水",
     "deDE": "leichter Heiltrank",
     "esES": "Poción de salud ligera",
@@ -5615,7 +5615,7 @@
   {
     "id": 2268,
     "Key": "hp3",
-    "enUS": "Healing Potion",
+    "enUS": "",
     "zhTW": "生命藥水",
     "deDE": "Heiltrank",
     "esES": "Poción de salud",
@@ -5632,7 +5632,7 @@
   {
     "id": 2269,
     "Key": "hp4",
-    "enUS": "Greater Healing Potion",
+    "enUS": "",
     "zhTW": "強效生命藥水",
     "deDE": "guter Heiltrank",
     "esES": "Poción de salud superior",
@@ -5649,7 +5649,7 @@
   {
     "id": 2270,
     "Key": "hp5",
-    "enUS": "Super Healing Potion",
+    "enUS": "HP",
     "zhTW": "特效生命藥水",
     "deDE": "starker Heiltrank",
     "esES": "Superpoción de salud",
@@ -5666,7 +5666,7 @@
   {
     "id": 2271,
     "Key": "mp1",
-    "enUS": "Minor Mana Potion",
+    "enUS": "",
     "zhTW": "弱效法力藥水",
     "deDE": "schwacher Manatrank",
     "esES": "Poción de maná menor",
@@ -5683,7 +5683,7 @@
   {
     "id": 2272,
     "Key": "mp2",
-    "enUS": "Light Mana Potion",
+    "enUS": "",
     "zhTW": "輕效法力藥水",
     "deDE": "leichter Manatrank",
     "esES": "Poción de maná ligera",
@@ -5700,7 +5700,7 @@
   {
     "id": 2273,
     "Key": "mp3",
-    "enUS": "Mana Potion",
+    "enUS": "",
     "zhTW": "法力藥水",
     "deDE": "Manatrank",
     "esES": "Poción de maná",
@@ -5717,7 +5717,7 @@
   {
     "id": 2274,
     "Key": "mp4",
-    "enUS": "Greater Mana Potion",
+    "enUS": "",
     "zhTW": "強效法力藥水",
     "deDE": "guter Manatrank",
     "esES": "Poción de maná superior",
@@ -5734,7 +5734,7 @@
   {
     "id": 2275,
     "Key": "mp5",
-    "enUS": "Super Mana Potion",
+    "enUS": "MP",
     "zhTW": "特效法力藥水",
     "deDE": "starker Manatrank",
     "esES": "Superpoción de maná",
