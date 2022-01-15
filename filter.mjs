@@ -33,7 +33,7 @@ const items = { ...armor, ...misc, ...weapons };
 const types = await readExcel('data/itemtypes.txt');
 const filters = await readJson('data/item-names.json');
 
-const potions = (filter, item, type) => {
+const potions = (filter, item) => {
 
   if (/^(a|s|w)pot$/.test(item.type.code) || /^(hp|mp)[1-4]$/.test(item.code)) {
     filter.enUS = '';
@@ -47,15 +47,23 @@ const potions = (filter, item, type) => {
   return filter;
 };
 
-const gems = (filter, item, type) => {
+const gems = (filter, item) => {
 
-  if (/^Perfect\s(Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
+  if (/^Perfect (Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
     filter.enUS = filter.enUS.replace('Perfect', 'P');
   }
-  else if (/^Flawless\s(Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
+  else if (/^Flawless (Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
     filter.enUS = filter.enUS.replace('Flawless ', '');
   }
-  else if (/^(Chipped|Flawed|)\s(Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
+  else if (/^(Chipped|Flawed|) (Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
+    filter.enUS = '';
+  }
+  return filter;
+};
+
+const scolls = (filter, item) => {
+
+  if (/^Scroll of (Identify|Town Portal)$/.test(item.name)) {
     filter.enUS = '';
   }
   return filter;
@@ -70,6 +78,7 @@ filters.forEach((filter, index) => {
   item.type = types[item.type];
   filters[index] = potions(filter, item);
   filters[index] = gems(filter, item);
+  filters[index] = scolls(filter, item);
 });
 
 await writeFile('data/filter.json', JSON.stringify(filters, null, 2).replace(/\n/g, '\r\n') + '\r\n', 'utf8');
