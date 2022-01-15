@@ -43,6 +43,13 @@ const itemIsClassSpecific = (item) => {
   return (item.type.equiv2 && /^(amaz|assn|barb|drui|necr|pala|sorc)$/.test(item.type.equiv2) || /^(h2h|h2h2)$/.test(item.type.code));
 };
 
+const ammo = (filter, item) => {
+  if (item.code == 'aqv' || item.code == 'cqv') {
+    filter.enUS = '';
+  }
+  return filter;
+};
+
 const body = (filter, item) => {
 
   if (!item.type.body || itemIsQuest(item)) {
@@ -111,6 +118,7 @@ filters.forEach((filter, index) => {
     return;
   }
   item.type = types[item.type];
+  filters[index] = ammo(filter, item);
   filters[index] = body(filter, item);
   filters[index] = gems(filter, item);
   filters[index] = potions(filter, item);
