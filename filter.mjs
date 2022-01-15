@@ -87,7 +87,7 @@ const gems = (filter, item) => {
 };
 
 const potions = (filter, item) => {
-  if (/^(a|s|w)pot$/.test(item.type.code) || /^(hp|mp)[1-4]$/.test(item.code)) {
+  if (/^(a|s|t|w)pot$/.test(item.type.code) || /^(hp|mp)[1-4]$/.test(item.code)) {
     filter.enUS = '';
   }
   else if (item.code == 'hp5') {
