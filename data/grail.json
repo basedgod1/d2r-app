@@ -8845,7 +8845,7 @@
   {
     "id": 2575,
     "Key": "Deathspade",
-    "enUS": "Deathspade",
+    "enUS": "",
     "zhTW": "死亡之鏟",
     "deDE": "Todesspaten",
     "esES": "Pica de la muerte",
@@ -8862,7 +8862,7 @@
   {
     "id": 2576,
     "Key": "Bladebone",
-    "enUS": "Bladebone",
+    "enUS": "",
     "zhTW": "肩胛骨",
     "deDE": "Klingenknochen",
     "esES": "Filo óseo",
@@ -8879,7 +8879,7 @@
   {
     "id": 2577,
     "Key": "Mindrend",
-    "enUS": "Skull Splitter",
+    "enUS": "",
     "zhTW": "劈顱斧",
     "deDE": "Schädelspalter",
     "esES": "Partecalaveras",
@@ -8896,7 +8896,7 @@
   {
     "id": 2578,
     "Key": "Rakescar",
-    "enUS": "Rakescar",
+    "enUS": "",
     "zhTW": "耙痕",
     "deDE": "Teufelsnarbe",
     "esES": "Rastreador",
@@ -8930,7 +8930,7 @@
   {
     "id": 2580,
     "Key": "Goreshovel",
-    "enUS": "Goreshovel",
+    "enUS": "",
     "zhTW": "血鍬",
     "deDE": "Müllschaufel",
     "esES": "Pala sangrienta",
@@ -8947,7 +8947,7 @@
   {
     "id": 2581,
     "Key": "The Chieftan",
-    "enUS": "The Chieftain",
+    "enUS": "",
     "zhTW": "酋長",
     "deDE": "der Häuptling",
     "esES": "El cacique",
@@ -8964,7 +8964,7 @@
   {
     "id": 2582,
     "Key": "Brainhew",
-    "enUS": "Brainhew",
+    "enUS": "",
     "zhTW": "劈腦",
     "deDE": "Hirnhacke",
     "esES": "Cortacerebros",
@@ -8981,7 +8981,7 @@
   {
     "id": 2583,
     "Key": "The Humongous",
-    "enUS": "Humongous",
+    "enUS": "",
     "zhTW": "巨無霸",
     "deDE": "Riese",
     "esES": "Demoledora",
@@ -9049,7 +9049,7 @@
   {
     "id": 2587,
     "Key": "Umes Lament",
-    "enUS": "Ume's Lament",
+    "enUS": "",
     "zhTW": "梅花嘆",
     "deDE": "Umes Trauer",
     "esES": "Lamento de Ume",
@@ -9100,7 +9100,7 @@
   {
     "id": 2590,
     "Key": "Rusthandle",
-    "enUS": "Rusthandle",
+    "enUS": "",
     "zhTW": "鏽蝕把手",
     "deDE": "Rostgriff",
     "esES": "Mango oxidado",
@@ -9117,7 +9117,7 @@
   {
     "id": 2591,
     "Key": "Stormeye",
-    "enUS": "Stormeye",
+    "enUS": "",
     "zhTW": "暴風眼",
     "deDE": "Sturmauge",
     "esES": "Ojo de la tormenta",
@@ -9134,7 +9134,7 @@
   {
     "id": 2592,
     "Key": "Stoutnail",
-    "enUS": "Stoutnail",
+    "enUS": "",
     "zhTW": "特粗鐵釘",
     "deDE": "Festnagel",
     "esES": "Clavo sólido",
@@ -9151,7 +9151,7 @@
   {
     "id": 2593,
     "Key": "Crushflange",
-    "enUS": "Crushflange",
+    "enUS": "",
     "zhTW": "碎擊釘錘",
     "deDE": "Malmknüppel",
     "esES": "Remate machacador",
@@ -9168,7 +9168,7 @@
   {
     "id": 2594,
     "Key": "Bloodrise",
-    "enUS": "Bloodrise",
+    "enUS": "",
     "zhTW": "血升",
     "deDE": "Blutrausch",
     "esES": "Ascenso sangriento",
@@ -9185,7 +9185,7 @@
   {
     "id": 2595,
     "Key": "The Generals Tan Do Li Ga",
-    "enUS": "The General's Tan Do Li Ga",
+    "enUS": "",
     "zhTW": "將軍的連枷",
     "deDE": "das Tan-Do-Li-Ga des Generals",
     "esES": "Tan do li ga del general",
@@ -9202,7 +9202,7 @@
   {
     "id": 2596,
     "Key": "Ironstone",
-    "enUS": "Ironstone",
+    "enUS": "",
     "zhTW": "鐵石",
     "deDE": "Eisenstein",
     "esES": "Piedra de hierro",
@@ -9219,7 +9219,7 @@
   {
     "id": 2597,
     "Key": "Bonesob",
-    "enUS": "Bonesnap",
+    "enUS": "",
     "zhTW": "碎骨",
     "deDE": "Knochenbrecher",
     "esES": "Rompehuesos",
@@ -9236,7 +9236,7 @@
   {
     "id": 2598,
     "Key": "Steeldriver",
-    "enUS": "Steeldriver",
+    "enUS": "",
     "zhTW": "打鋼鎚",
     "deDE": "Stahlschläger",
     "esES": "Clavadora de aceros",
@@ -9287,7 +9287,7 @@
   {
     "id": 2601,
     "Key": "Krintizs Skewer",
-    "enUS": "Skewer of Krintiz",
+    "enUS": "",
     "zhTW": "克里維茲的肉叉",
     "deDE": "Spieß von Krintis",
     "esES": "Lanceta de Krintiz",
@@ -9304,7 +9304,7 @@
   {
     "id": 2602,
     "Key": "Gleamscythe",
-    "enUS": "Gleamscythe",
+    "enUS": "",
     "zhTW": "閃耀鐮刀",
     "deDE": "Sichelglanz",
     "esES": "Guadaña reluciente",
@@ -9338,7 +9338,7 @@
   {
     "id": 2604,
     "Key": "Griswolds Edge",
-    "enUS": "Griswold's Edge",
+    "enUS": "",
     "zhTW": "格里斯瓦德之刃",
     "deDE": "Griswolds Schneide",
     "esES": "Filo de Griswold",
@@ -9372,7 +9372,7 @@
   {
     "id": 2606,
     "Key": "Culwens Point",
-    "enUS": "Culwen's Point",
+    "enUS": "",
     "zhTW": "庫爾溫的尖刃",
     "deDE": "Culwens Spitze",
     "esES": "Puya de Culwen",
@@ -9389,7 +9389,7 @@
   {
     "id": 2607,
     "Key": "Shadowfang",
-    "enUS": "Shadowfang",
+    "enUS": "",
     "zhTW": "暗影之牙",
     "deDE": "Schattenzahn",
     "esES": "Colmillo sombrío",
@@ -9406,7 +9406,7 @@
   {
     "id": 2608,
     "Key": "Soulflay",
-    "enUS": "Soulflay",
+    "enUS": "",
     "zhTW": "剝魂",
     "deDE": "Seelenschinder",
     "esES": "Desollamiento del alma",
@@ -9423,7 +9423,7 @@
   {
     "id": 2609,
     "Key": "Kinemils Awl",
-    "enUS": "Kinemil's Awl",
+    "enUS": "",
     "zhTW": "金麥爾的鑽錐",
     "deDE": "Kinemils Ahle",
     "esES": "Punzón de Kinemil",
@@ -9440,7 +9440,7 @@
   {
     "id": 2610,
     "Key": "Blacktongue",
-    "enUS": "Blacktongue",
+    "enUS": "",
     "zhTW": "黑舌",
     "deDE": "Schwarzzunge",
     "esES": "Lengua negra",
@@ -9457,7 +9457,7 @@
   {
     "id": 2611,
     "Key": "Ripsaw",
-    "enUS": "Ripsaw",
+    "enUS": "",
     "zhTW": "齒鋸",
     "deDE": "Sägezahn",
     "esES": "Sierra de corte",
@@ -9474,7 +9474,7 @@
   {
     "id": 2612,
     "Key": "The Patriarch",
-    "enUS": "The Patriarch",
+    "enUS": "",
     "zhTW": "尊父",
     "deDE": "der Patriarch",
     "esES": "El patriarca",
@@ -9508,7 +9508,7 @@
   {
     "id": 2614,
     "Key": "The Diggler",
-    "enUS": "The Diggler",
+    "enUS": "",
     "zhTW": "迪格勒",
     "deDE": "der Gräber",
     "esES": "Diggler",
@@ -9525,7 +9525,7 @@
   {
     "id": 2615,
     "Key": "The Jade Tan Do",
-    "enUS": "The Jade Tan Do",
+    "enUS": "",
     "zhTW": "玉匕",
     "deDE": "das Jade-Tan-Do",
     "esES": "Tan do de jade",
@@ -9542,7 +9542,7 @@
   {
     "id": 2616,
     "Key": "Irices Shard",
-    "enUS": "Spectral Shard",
+    "enUS": "",
     "zhTW": "虹彩裂片",
     "deDE": "Geisterscherbe",
     "esES": "Esquirla espectral",
@@ -9576,7 +9576,7 @@
   {
     "id": 2618,
     "Key": "Razortine",
-    "enUS": "Razortine",
+    "enUS": "",
     "zhTW": "剃刀叉",
     "deDE": "Blitzklinge",
     "esES": "Diente de cuchilla",
@@ -9593,7 +9593,7 @@
   {
     "id": 2619,
     "Key": "Bloodthief",
-    "enUS": "Bloodthief",
+    "enUS": "",
     "zhTW": "血賊",
     "deDE": "Blutdieb",
     "esES": "Ladrón sangriento",
@@ -9610,7 +9610,7 @@
   {
     "id": 2620,
     "Key": "Lance of Yaggai",
-    "enUS": "Lance of Yaggai",
+    "enUS": "",
     "zhTW": "雅該長矛",
     "deDE": "Lanze von Yagai",
     "esES": "Lanza de Yaggai",
@@ -9627,7 +9627,7 @@
   {
     "id": 2621,
     "Key": "The Tannr Gorerod",
-    "enUS": "The Tannr Gorerod",
+    "enUS": "",
     "zhTW": "坦納血杖",
     "deDE": "der Tannr-Blutstab",
     "esES": "Caña sangrienta de Tannr",
@@ -9644,7 +9644,7 @@
   {
     "id": 2622,
     "Key": "Dimoaks Hew",
-    "enUS": "Dimoak's Hew",
+    "enUS": "",
     "zhTW": "迪馬克的砍刀",
     "deDE": "Dummeiches Haudrauf",
     "esES": "Talla de Dimoak",
@@ -9661,7 +9661,7 @@
   {
     "id": 2623,
     "Key": "Steelgoad",
-    "enUS": "Steelgoad",
+    "enUS": "",
     "zhTW": "鐵刺棒",
     "deDE": "Stahlsucher",
     "esES": "Aguijón de acero",
@@ -9678,7 +9678,7 @@
   {
     "id": 2624,
     "Key": "Soul Harvest",
-    "enUS": "Soul Harvest",
+    "enUS": "",
     "zhTW": "靈魂收割者",
     "deDE": "Seelenernte",
     "esES": "Cosechadora de almas",
@@ -9695,7 +9695,7 @@
   {
     "id": 2625,
     "Key": "The Battlebranch",
-    "enUS": "The Battlebranch",
+    "enUS": "",
     "zhTW": "戰鬥枝椏",
     "deDE": "der Kampfast",
     "esES": "Rama de la batalla",
@@ -9780,7 +9780,7 @@
   {
     "id": 2630,
     "Key": "Lazarus Spire",
-    "enUS": "Spire of Lazarus",
+    "enUS": "",
     "zhTW": "拉撒雷茲之杖",
     "deDE": "Spitze von Lazarus",
     "esES": "Aguja de Lázaro",
@@ -9797,7 +9797,7 @@
   {
     "id": 2631,
     "Key": "The Salamander",
-    "enUS": "The Salamander",
+    "enUS": "",
     "zhTW": "火精靈",
     "deDE": "der Salamander",
     "esES": "La salamandra",
@@ -9814,7 +9814,7 @@
   {
     "id": 2632,
     "Key": "The Iron Jang Bong",
-    "enUS": "The Iron Jang Bong",
+    "enUS": "",
     "zhTW": "鐵長棒",
     "deDE": "das Eisen-Jang-Bong",
     "esES": "Jang bong de hierro",
@@ -9865,7 +9865,7 @@
   {
     "id": 2635,
     "Key": "Rimeraven",
-    "enUS": "Raven Claw",
+    "enUS": "",
     "zhTW": "掠鴉之爪",
     "deDE": "Rabenklaue",
     "esES": "Garra del cuervo",
@@ -9882,7 +9882,7 @@
   {
     "id": 2636,
     "Key": "Piercerib",
-    "enUS": "Rogue's Bow",
+    "enUS": "",
     "zhTW": "俠盜之弓",
     "deDE": "Jägerbogen",
     "esES": "Arco de la arpía",
@@ -9899,7 +9899,7 @@
   {
     "id": 2637,
     "Key": "Pullspite",
-    "enUS": "Stormstrike",
+    "enUS": "",
     "zhTW": "暴風之擊",
     "deDE": "Sturmschlag",
     "esES": "Golpe de tormenta",
@@ -9916,7 +9916,7 @@
   {
     "id": 2638,
     "Key": "Wizendraw",
-    "enUS": "Wizendraw",
+    "enUS": "",
     "zhTW": "凋謝弓弦",
     "deDE": "Runzelrübe",
     "esES": "Tensión marchita",
@@ -9950,7 +9950,7 @@
   {
     "id": 2640,
     "Key": "Blastbark",
-    "enUS": "Blastbark",
+    "enUS": "",
     "zhTW": "爆裂咆哮",
     "deDE": "Knallrinde",
     "esES": "Corteza explosiva",
@@ -9967,7 +9967,7 @@
   {
     "id": 2641,
     "Key": "Leadcrow",
-    "enUS": "Leadcrow",
+    "enUS": "",
     "zhTW": "鉛烏鴉",
     "deDE": "Bleikrähe",
     "esES": "Cuervo de plomo",
@@ -10018,7 +10018,7 @@
   {
     "id": 2644,
     "Key": "Doomspittle",
-    "enUS": "Doomslinger",
+    "enUS": "",
     "zhTW": "毀滅投索",
     "deDE": "Verdammnisbringer",
     "esES": "Honda de la perdición",
@@ -10052,7 +10052,7 @@
   {
     "id": 2646,
     "Key": "Tarnhelm",
-    "enUS": "Tarnhelm",
+    "enUS": "",
     "zhTW": "塔因頭盔",
     "deDE": "Tarnhelm",
     "esES": "Yelmo de la laguna",
@@ -10086,7 +10086,7 @@
   {
     "id": 2648,
     "Key": "Duskdeep",
-    "enUS": "Duskdeep",
+    "enUS": "",
     "zhTW": "黃昏深處",
     "deDE": "Dämmertief",
     "esES": "Profundidad del crepúsculo",
@@ -10103,7 +10103,7 @@
   {
     "id": 2649,
     "Key": "Wormskull",
-    "enUS": "Wormskull",
+    "enUS": "",
     "zhTW": "蠕蟲頭骨",
     "deDE": "Wurmschädel",
     "esES": "Cráneo de gusano",
@@ -10120,7 +10120,7 @@
   {
     "id": 2650,
     "Key": "Howltusk",
-    "enUS": "Howltusk",
+    "enUS": "",
     "zhTW": "怒號長牙",
     "deDE": "Heulhauer",
     "esES": "Colmillo del aullido",
@@ -10154,7 +10154,7 @@
   {
     "id": 2652,
     "Key": "The Face of Horror",
-    "enUS": "The Face of Horror",
+    "enUS": "",
     "zhTW": "恐懼之臉",
     "deDE": "das Gesicht des Horrors",
     "esES": "El rostro del horror",
@@ -10222,7 +10222,7 @@
   {
     "id": 2656,
     "Key": "Twitchthroe",
-    "enUS": "Twitchthroe",
+    "enUS": "",
     "zhTW": "抽動掙扎",
     "deDE": "Zuckzappel",
     "esES": "Agonía temblorosa",
@@ -10239,7 +10239,7 @@
   {
     "id": 2657,
     "Key": "Darkglow",
-    "enUS": "Darkglow",
+    "enUS": "",
     "zhTW": "暗光",
     "deDE": "Dunkelglüh",
     "esES": "Resplandor de oscuridad",
@@ -10256,7 +10256,7 @@
   {
     "id": 2658,
     "Key": "Hawkmail",
-    "enUS": "Hawkmail",
+    "enUS": "",
     "zhTW": "鷹甲",
     "deDE": "Falkenhemd",
     "esES": "Cota del gerifalte",
@@ -10273,7 +10273,7 @@
   {
     "id": 2659,
     "Key": "Sparking Mail",
-    "enUS": "Sparking Mail",
+    "enUS": "",
     "zhTW": "電光之甲",
     "deDE": "Funkenhemd",
     "esES": "Cota chispeante",
@@ -10290,7 +10290,7 @@
   {
     "id": 2660,
     "Key": "Venomsward",
-    "enUS": "Venom Ward",
+    "enUS": "",
     "zhTW": "毒之守禦",
     "deDE": "Giftschutz",
     "esES": "Custodia de la ponzoña",
@@ -10307,7 +10307,7 @@
   {
     "id": 2661,
     "Key": "Iceblink",
-    "enUS": "Iceblink",
+    "enUS": "",
     "zhTW": "冰晶",
     "deDE": "Eisblinker",
     "esES": "Destello gélido",
@@ -10324,7 +10324,7 @@
   {
     "id": 2662,
     "Key": "Boneflesh",
-    "enUS": "Boneflesh",
+    "enUS": "",
     "zhTW": "骨肉",
     "deDE": "Knochenfleisch",
     "esES": "Carne de hueso",
@@ -10341,7 +10341,7 @@
   {
     "id": 2663,
     "Key": "Rockfleece",
-    "enUS": "Rockfleece",
+    "enUS": "",
     "zhTW": "石羊毛",
     "deDE": "Felsenfell",
     "esES": "Lana de roca",
@@ -10358,7 +10358,7 @@
   {
     "id": 2664,
     "Key": "Rattlecage",
-    "enUS": "Rattlecage",
+    "enUS": "",
     "zhTW": "震骨",
     "deDE": "Klapperkäfig",
     "esES": "Jaula vibradora",
@@ -10409,7 +10409,7 @@
   {
     "id": 2667,
     "Key": "Heavenly Garb",
-    "enUS": "Heavenly Garb",
+    "enUS": "",
     "zhTW": "天堂裝束",
     "deDE": "Himmlisches Gewand",
     "esES": "Vestido celestial",
@@ -10443,7 +10443,7 @@
   {
     "id": 2669,
     "Key": "Umbral Disk",
-    "enUS": "Umbral Disk",
+    "enUS": "",
     "zhTW": "陰影圓盤",
     "deDE": "Schattenscheibe",
     "esES": "Disco umbrío",
@@ -10460,7 +10460,7 @@
   {
     "id": 2670,
     "Key": "Stormguild",
-    "enUS": "Stormguild",
+    "enUS": "",
     "zhTW": "風暴同盟",
     "deDE": "Sturmgilde",
     "esES": "Gremio de la tormenta",
@@ -10477,7 +10477,7 @@
   {
     "id": 2671,
     "Key": "Wall of the Eyeless",
-    "enUS": "Wall of the Eyeless",
+    "enUS": "",
     "zhTW": "無眼者之牆",
     "deDE": "Wand der Augenlosen",
     "esES": "Muro de los sin ojos",
@@ -10511,7 +10511,7 @@
   {
     "id": 2673,
     "Key": "Steelclash",
-    "enUS": "Steelclash",
+    "enUS": "",
     "zhTW": "鋼鐵衝擊",
     "deDE": "Stahlklang",
     "esES": "Fragor de acero",
@@ -10528,7 +10528,7 @@
   {
     "id": 2674,
     "Key": "Bverrit Keep",
-    "enUS": "Bverrit Keep",
+    "enUS": "",
     "zhTW": "布雷維特要塞",
     "deDE": "Bverritturm",
     "esES": "Torreón de Bverrit",
@@ -10545,7 +10545,7 @@
   {
     "id": 2675,
     "Key": "The Ward",
-    "enUS": "The Ward",
+    "enUS": "",
     "zhTW": "庇護結界",
     "deDE": "der Schutz",
     "esES": "La custodia",
@@ -10579,7 +10579,7 @@
   {
     "id": 2677,
     "Key": "Bloodfist",
-    "enUS": "Bloodfist",
+    "enUS": "",
     "zhTW": "血拳",
     "deDE": "Blutfaust",
     "esES": "Puño sangriento",
@@ -10596,7 +10596,7 @@
   {
     "id": 2678,
     "Key": "Chance Guards",
-    "enUS": "Chance Guards",
+    "enUS": "",
     "zhTW": "運氣守護",
     "deDE": "Wächtertreu",
     "esES": "Protección de la suerte",
@@ -10613,7 +10613,7 @@
   {
     "id": 2679,
     "Key": "Magefist",
-    "enUS": "Magefist",
+    "enUS": "",
     "zhTW": "法師之拳",
     "deDE": "Magierfaust",
     "esES": "Puño del mago",
@@ -10630,7 +10630,7 @@
   {
     "id": 2680,
     "Key": "Frostburn",
-    "enUS": "Frostburn",
+    "enUS": "",
     "zhTW": "霜燃",
     "deDE": "Frostbrand",
     "esES": "Quemadura glacial",
@@ -10647,7 +10647,7 @@
   {
     "id": 2681,
     "Key": "Hotspur",
-    "enUS": "Hotspur",
+    "enUS": "",
     "zhTW": "熱靴刺",
     "deDE": "Heißsporn",
     "esES": "Espuela ardiente",
@@ -10664,7 +10664,7 @@
   {
     "id": 2682,
     "Key": "Gorefoot",
-    "enUS": "Gorefoot",
+    "enUS": "",
     "zhTW": "血腳",
     "deDE": "Schmutzfuß",
     "esES": "Pie sangriento",
@@ -10681,7 +10681,7 @@
   {
     "id": 2683,
     "Key": "Treads of Cthon",
-    "enUS": "Treads of Cthon",
+    "enUS": "",
     "zhTW": "凱松的足靴",
     "deDE": "Spuren von Cthon",
     "esES": "Huellas de Cthon",
@@ -10715,7 +10715,7 @@
   {
     "id": 2685,
     "Key": "Tearhaunch",
-    "enUS": "Tearhaunch",
+    "enUS": "",
     "zhTW": "裂臀",
     "deDE": "Tränenkeule",
     "esES": "Anca desgarrada",
@@ -10749,7 +10749,7 @@
   {
     "id": 2687,
     "Key": "Snakecord",
-    "enUS": "Snakecord",
+    "enUS": "",
     "zhTW": "蛇索",
     "deDE": "Schlangenband",
     "esES": "Cordón de culebra",
@@ -10766,7 +10766,7 @@
   {
     "id": 2688,
     "Key": "Nightsmoke",
-    "enUS": "Nightsmoke",
+    "enUS": "",
     "zhTW": "夜煙",
     "deDE": "Nachtrauch",
     "esES": "Humo nocturno",
@@ -10800,7 +10800,7 @@
   {
     "id": 2690,
     "Key": "Bladebuckle",
-    "enUS": "Bladebuckle",
+    "enUS": "",
     "zhTW": "刀鋒扣帶",
     "deDE": "Klingengurt",
     "esES": "Hebilla de espada",
@@ -10817,7 +10817,7 @@
   {
     "id": 2691,
     "Key": "Nokozan Relic",
-    "enUS": "Nokozan Relic",
+    "enUS": "",
     "zhTW": "諾科藍遺物",
     "deDE": "Nokozanrelikt",
     "esES": "Reliquia de Nokozan",
@@ -10834,7 +10834,7 @@
   {
     "id": 2692,
     "Key": "The Eye of Etlich",
-    "enUS": "The Eye of Etlich",
+    "enUS": "",
     "zhTW": "艾利曲之眼",
     "deDE": "das Auge von Ettlich",
     "esES": "Ojo de Etlich",
@@ -10851,7 +10851,7 @@
   {
     "id": 2693,
     "Key": "The Mahim-Oak Curio",
-    "enUS": "The Mahim-Oak Curio",
+    "enUS": "",
     "zhTW": "瑪哈姆橡木古董",
     "deDE": "das Mahim-Eiche-Kurio",
     "esES": "Curiosidad de roble mahim",
@@ -12228,7 +12228,7 @@
   {
     "id": 10911,
     "Key": "Whichwild String",
-    "enUS": "Witchwild String",
+    "enUS": "",
     "zhTW": "狂巫之弦",
     "deDE": "Wilde Kette",
     "esES": "Cuerda salvaje",
@@ -17005,7 +17005,7 @@
   {
     "id": 21288,
     "Key": "Butcher's Pupil",
-    "enUS": "Butcher's Pupil",
+    "enUS": "",
     "zhTW": "屠夫的徒弟",
     "deDE": "Schlachtergeselle",
     "esES": "Discípula del carnicero",
@@ -17073,7 +17073,7 @@
   {
     "id": 21292,
     "Key": "Warlord's Trust",
-    "enUS": "Warlord's Trust",
+    "enUS": "",
     "zhTW": "戰爵之證",
     "deDE": "Glaube des Kriegsherrn",
     "esES": "Confianza del caudillo",
@@ -17090,7 +17090,7 @@
   {
     "id": 21293,
     "Key": "Spellsteel",
-    "enUS": "Spellsteel",
+    "enUS": "",
     "zhTW": "鋼鐵魔咒",
     "deDE": "Zauberstahl",
     "esES": "Hechizo de acero",
@@ -17107,7 +17107,7 @@
   {
     "id": 21294,
     "Key": "Stormrider",
-    "enUS": "Stormrider",
+    "enUS": "",
     "zhTW": "暴風騎士",
     "deDE": "Sturmreiter",
     "esES": "Jinete de la tormenta",
@@ -17158,7 +17158,7 @@
   {
     "id": 21297,
     "Key": "Suicide Branch",
-    "enUS": "Suicide Branch",
+    "enUS": "",
     "zhTW": "自殘枝椏",
     "deDE": "Selbstmordzweig",
     "esES": "Rama del suicidio",
@@ -17209,7 +17209,7 @@
   {
     "id": 21300,
     "Key": "Blackhand Key",
-    "enUS": "Blackhand Key",
+    "enUS": "",
     "zhTW": "黑手之鑰",
     "deDE": "Schwarzhandschlüssel",
     "esES": "Llave de la mano negra",
@@ -17226,7 +17226,7 @@
   {
     "id": 21301,
     "Key": "Dark Clan Crusher",
-    "enUS": "Dark Clan Crusher",
+    "enUS": "",
     "zhTW": "闇族碎滅者",
     "deDE": "Zerschmetterer des Dunkelclans",
     "esES": "Aplastador del clan oscuro",
@@ -17311,7 +17311,7 @@
   {
     "id": 21306,
     "Key": "Fleshrender",
-    "enUS": "Fleshrender",
+    "enUS": "",
     "zhTW": "血肉撕裂者",
     "deDE": "Fleischwolf",
     "esES": "Desgarrador de carne",
@@ -17328,7 +17328,7 @@
   {
     "id": 21307,
     "Key": "Sureshrill Frost",
-    "enUS": "Sureshrill Frost",
+    "enUS": "",
     "zhTW": "尖嘯冰霜",
     "deDE": "Schrillfrost",
     "esES": "Escarcha estridente",
@@ -17430,7 +17430,7 @@
   {
     "id": 21313,
     "Key": "Bloodletter",
-    "enUS": "Bloodletter",
+    "enUS": "",
     "zhTW": "放血者",
     "deDE": "Blutvergießer",
     "esES": "Flebotomista",
@@ -17481,7 +17481,7 @@
   {
     "id": 21316,
     "Key": "Blade of Ali Baba",
-    "enUS": "Blade of Ali Baba",
+    "enUS": "",
     "zhTW": "阿里巴巴之刃",
     "deDE": "Klinge des Ali Baba",
     "esES": "Espada de Alí Babá",
@@ -17668,7 +17668,7 @@
   {
     "id": 21327,
     "Key": "Spineripper",
-    "enUS": "Spineripper",
+    "enUS": "",
     "zhTW": "裂脊者",
     "deDE": "Rückenbrecher",
     "esES": "Desgarramédulas",
@@ -17685,7 +17685,7 @@
   {
     "id": 21328,
     "Key": "Heart Carver",
-    "enUS": "Heart Carver",
+    "enUS": "",
     "zhTW": "刨心者",
     "deDE": "Herzausreißer",
     "esES": "Trinchacorazones",
@@ -17702,7 +17702,7 @@
   {
     "id": 21329,
     "Key": "Blackbog's Sharp",
-    "enUS": "Blackbog's Sharp",
+    "enUS": "",
     "zhTW": "黑沼之鋒",
     "deDE": "Blackbogs Spitze",
     "esES": "Aguja de la ciénaga negra",
@@ -17736,7 +17736,7 @@
   {
     "id": 21331,
     "Key": "The Impaler",
-    "enUS": "The Impaler",
+    "enUS": "",
     "zhTW": "刺穿者",
     "deDE": "Der Aufspießer",
     "esES": "La empaladora",
@@ -17753,7 +17753,7 @@
   {
     "id": 21332,
     "Key": "Kelpie Snare",
-    "enUS": "Kelpie Snare",
+    "enUS": "",
     "zhTW": "水魔陷阱",
     "deDE": "Kelpiefalle",
     "esES": "Cepo de kelpies",
@@ -17770,7 +17770,7 @@
   {
     "id": 21333,
     "Key": "Soulfeast Tine",
-    "enUS": "Soulfeast Tine",
+    "enUS": "",
     "zhTW": "噬魂叉",
     "deDE": "Seelenernter",
     "esES": "Diente devoraalmas",
@@ -17804,7 +17804,7 @@
   {
     "id": 21335,
     "Key": "Spire of Honor",
-    "enUS": "Spire of Honor",
+    "enUS": "",
     "zhTW": "榮耀尖塔",
     "deDE": "Spitze der Ehre",
     "esES": "Aguja de honor",
@@ -17821,7 +17821,7 @@
   {
     "id": 21336,
     "Key": "The Meat Scraper",
-    "enUS": "The Meat Scraper",
+    "enUS": "",
     "zhTW": "刮肉者",
     "deDE": "Der Beinschaber",
     "esES": "Espátula de carne",
@@ -17923,7 +17923,7 @@
   {
     "id": 21342,
     "Key": "Ribcracker",
-    "enUS": "Ribcracker",
+    "enUS": "",
     "zhTW": "肋骨粉碎者",
     "deDE": "Rippenbrecher",
     "esES": "Aplastacostillas",
@@ -17940,7 +17940,7 @@
   {
     "id": 21343,
     "Key": "Chromatic Ire",
-    "enUS": "Chromatic Ire",
+    "enUS": "",
     "zhTW": "炫彩之怒",
     "deDE": "Wallender Zorn",
     "esES": "Ira cromática",
@@ -17991,7 +17991,7 @@
   {
     "id": 21346,
     "Key": "Skystrike",
-    "enUS": "Skystrike",
+    "enUS": "",
     "zhTW": "天擊",
     "deDE": "Himmelsschlag",
     "esES": "Azote celestial",
@@ -18059,7 +18059,7 @@
   {
     "id": 21351,
     "Key": "Langer Briser",
-    "enUS": "Langer Briser",
+    "enUS": "",
     "zhTW": "蘭古布利薩",
     "deDE": "Langer Briser",
     "esES": "Langer Briser",
@@ -18076,7 +18076,7 @@
   {
     "id": 21352,
     "Key": "Pus Spiter",
-    "enUS": "Pus Spitter",
+    "enUS": "",
     "zhTW": "吐膿毒弩",
     "deDE": "Eiterspeier",
     "esES": "Maldad de pus",
@@ -18110,7 +18110,7 @@
   {
     "id": 21354,
     "Key": "Vampiregaze",
-    "enUS": "Vampire Gaze",
+    "enUS": "",
     "zhTW": "吸血鬼的凝視",
     "deDE": "Vampirblick",
     "esES": "Mirada de vampiro",
@@ -18178,7 +18178,7 @@
   {
     "id": 21358,
     "Key": "Venom Grip",
-    "enUS": "Venom Grip",
+    "enUS": "",
     "zhTW": "劇毒之握",
     "deDE": "Giftgriff",
     "esES": "Apretón de la ponzoña",
@@ -18297,7 +18297,7 @@
   {
     "id": 21365,
     "Key": "Peasent Crown",
-    "enUS": "Peasant Crown",
+    "enUS": "",
     "zhTW": "農夫王冠",
     "deDE": "Bauernkrone",
     "esES": "Corona campesina",
@@ -18365,7 +18365,7 @@
   {
     "id": 21369,
     "Key": "Riphook",
-    "enUS": "Riphook",
+    "enUS": "",
     "zhTW": "撕裂之鉤",
     "deDE": "Reißhaken",
     "esES": "Garfio desgarrador",
@@ -18382,7 +18382,7 @@
   {
     "id": 21370,
     "Key": "Razorswitch",
-    "enUS": "Razorswitch",
+    "enUS": "",
     "zhTW": "剃刀杖",
     "deDE": "Klingenreißer",
     "esES": "Pértiga de cuchilla",
@@ -18416,7 +18416,7 @@
   {
     "id": 21372,
     "Key": "Coldsteel Eye",
-    "enUS": "Coldsteel Eye",
+    "enUS": "",
     "zhTW": "冰鋼之眼",
     "deDE": "Kältestahlauge",
     "esES": "Ojo de acero frío",
@@ -20898,7 +20898,7 @@
   {
     "id": 21519,
     "Key": "Rockstopper",
-    "enUS": "Rockstopper",
+    "enUS": "",
     "zhTW": "石禦",
     "deDE": "Felsstopper",
     "esES": "Pararrocas",
@@ -20983,7 +20983,7 @@
   {
     "id": 21524,
     "Key": "The Spirit Shroud",
-    "enUS": "The Spirit Shroud",
+    "enUS": "",
     "zhTW": "靈魂帷幕",
     "deDE": "Der Geisterschleier",
     "esES": "Mortaja del espíritu",
@@ -21017,7 +21017,7 @@
   {
     "id": 21526,
     "Key": "Ironpelt",
-    "enUS": "Iron Pelt",
+    "enUS": "",
     "zhTW": "鋼鐵獸皮",
     "deDE": "Eisenpelz",
     "esES": "Cuero de hierro",
@@ -21204,7 +21204,7 @@
   {
     "id": 21537,
     "Key": "Stormchaser",
-    "enUS": "Stormchaser",
+    "enUS": "",
     "zhTW": "風暴追逐者",
     "deDE": "Sturmjäger",
     "esES": "Cazador de tormentas",
@@ -21289,7 +21289,7 @@
   {
     "id": 21542,
     "Key": "Ghoulhide",
-    "enUS": "Ghoulhide",
+    "enUS": "",
     "zhTW": "食屍鬼之皮",
     "deDE": "Ghulleder",
     "esES": "Pieles de necrófago",
@@ -21340,7 +21340,7 @@
   {
     "id": 21545,
     "Key": "Waterwalk",
-    "enUS": "Waterwalk",
+    "enUS": "",
     "zhTW": "水上飄",
     "deDE": "Wasserwanderung",
     "esES": "Paseo de agua",
@@ -21459,7 +21459,7 @@
   {
     "id": 21552,
     "Key": "Lidless Wall",
-    "enUS": "Lidless Wall",
+    "enUS": "",
     "zhTW": "警戒之牆",
     "deDE": "Lidlose Wand",
     "esES": "Muro vigilante",
@@ -22734,7 +22734,7 @@
   {
     "id": 21628,
     "Key": "Lance Guard",
-    "enUS": "Lance Guard",
+    "enUS": "",
     "zhTW": "長槍守衛",
     "deDE": "Lanzenwache",
     "esES": "Protección lancera",
@@ -22819,7 +22819,7 @@
   {
     "id": 21633,
     "Key": "Skin of the Flayerd One",
-    "enUS": "Skin of the Flayed One",
+    "enUS": "",
     "zhTW": "剝皮者之皮",
     "deDE": "Haut des Geschundenen",
     "esES": "Piel del azotado",
@@ -23227,7 +23227,7 @@
   {
     "id": 21657,
     "Key": "Zakarum's Hand",
-    "enUS": "Zakarum's Hand",
+    "enUS": "",
     "zhTW": "撒卡蘭姆之手",
     "deDE": "Zakarums Hand",
     "esES": "Mano de Zakarum",
@@ -25471,7 +25471,7 @@
   {
     "id": 21829,
     "Key": "Ginther's Rift",
-    "enUS": "Ginther's Rift",
+    "enUS": "",
     "zhTW": "金瑟的裂隙",
     "deDE": "Ginthers Zerrissenheit",
     "esES": "Falla de Ginther",

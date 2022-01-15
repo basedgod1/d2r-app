@@ -38,6 +38,16 @@ const sets = await readExcel('data/setitems.txt');
 const uniques = await readExcel('data/uniqueitems.txt');
 const filters = await readJson('data/filter.json');
 
+const alwaysShow = {};
+[
+  'Skin of the Vipermagi',
+  'String of Ears',
+  'The Stone of Jordan',
+  'Shaftstop',
+  'Headstriker',
+  'Vampiregaze'
+].forEach((name) => alwaysShow[name] = true);
+
 const checkSets = (filter) => {
   let item = sets[filter.Key];
   if (!item) {
@@ -49,8 +59,20 @@ const checkSets = (filter) => {
   return filter;
 };
 
+const checkUniques = (filter) => {
+  let item = uniques[filter.Key];
+  if (!item) {
+    return filter;
+  }
+  if (grails[filter.enUS] && item.lvl < 50 && !alwaysShow[filter.enUS] && item.code != 'rin') {
+    filter.enUS = '';
+  }
+  return filter;
+};
+
 filters.forEach((filter, index) => {
   filters[index] = checkSets(filter);
+  filters[index] = checkUniques(filter);
 });
 
 await writeFile('data/grail.json', JSON.stringify(filters, null, 2).replace(/\n/g, '\r\n') + '\r\n', 'utf8');
