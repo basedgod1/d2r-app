@@ -64,6 +64,9 @@ const body = (filter, item) => {
   else if (/^(scep|wand|staf|glov|boot)$/.test(item.type.code)) {
     return filter;
   }
+  else if (/^(scep|wand|staf|glov|boot|circ)$/.test(item.type.code)) {
+    return filter;
+  }
   else if (itemIsElite(item) && /tors|arm/.test(item.type.bodyloc1)) { // Elite body armor and weapons
     return filter;
   }

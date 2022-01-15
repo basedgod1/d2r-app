@@ -15169,7 +15169,7 @@
   {
     "id": 20337,
     "Key": "ci0",
-    "enUS": "",
+    "enUS": "Circlet",
     "zhTW": "頭環",
     "deDE": "[ms]Reif",
     "esES": "[fs]Aureola",
@@ -15186,7 +15186,7 @@
   {
     "id": 20338,
     "Key": "ci1",
-    "enUS": "",
+    "enUS": "Coronet",
     "zhTW": "寶冠",
     "deDE": "[ns]Krönchen",
     "esES": "[fs]Coronilla",
@@ -15203,7 +15203,7 @@
   {
     "id": 20339,
     "Key": "ci2",
-    "enUS": "",
+    "enUS": "Tiara",
     "zhTW": "頭冠",
     "deDE": "[fs]Tiara",
     "esES": "[fs]Tiara",
@@ -15220,7 +15220,7 @@
   {
     "id": 20340,
     "Key": "ci3",
-    "enUS": "",
+    "enUS": "Diadem",
     "zhTW": "權冠",
     "deDE": "[ns]Diadem",
     "esES": "[fs]Diadema",
