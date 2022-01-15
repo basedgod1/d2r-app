@@ -89,6 +89,12 @@ const potions = (filter, item) => {
   else if (item.code == 'mp5') {
     filter.enUS = 'MP';
   }
+  else if (item.code == 'rvs') {
+    filter.enUS = '';
+  }
+  else if (item.code == 'rvl') {
+    filter.enUS = 'RP';
+  }
   return filter;
 };
 
