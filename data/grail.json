@@ -12514,7 +12514,7 @@
   {
     "id": 20181,
     "Key": "ktr",
-    "enUS": "Katar",
+    "enUS": "",
     "zhTW": "拳刃",
     "deDE": "[ms]Katar",
     "esES": "[ms]Katar",
@@ -12531,7 +12531,7 @@
   {
     "id": 20182,
     "Key": "wrb",
-    "enUS": "Wrist Blade",
+    "enUS": "",
     "zhTW": "腕刃",
     "deDE": "[fs]Unterarmklinge",
     "esES": "[fs]Cuchilla de muñeca",
@@ -12548,7 +12548,7 @@
   {
     "id": 20183,
     "Key": "ces",
-    "enUS": "Cestus",
+    "enUS": "",
     "zhTW": "刃拳",
     "deDE": "[ms]Cestus",
     "esES": "[ms]Cestus",
@@ -12565,7 +12565,7 @@
   {
     "id": 20184,
     "Key": "clw",
-    "enUS": "Claws",
+    "enUS": "",
     "zhTW": "爪",
     "deDE": "[pl]Klauen",
     "esES": "[fp]Garras",
@@ -12582,7 +12582,7 @@
   {
     "id": 20185,
     "Key": "btl",
-    "enUS": "Blade Talons",
+    "enUS": "",
     "zhTW": "刃爪",
     "deDE": "[pl]Klingenklauen",
     "esES": "[fp]Garfas tajantes",
@@ -12599,7 +12599,7 @@
   {
     "id": 20186,
     "Key": "skr",
-    "enUS": "Scissors Katar",
+    "enUS": "",
     "zhTW": "剪刃",
     "deDE": "[ms]Scherenkatar",
     "esES": "[ms]Katar tijera",
@@ -12616,7 +12616,7 @@
   {
     "id": 20187,
     "Key": "9ar",
-    "enUS": "Quhab",
+    "enUS": "",
     "zhTW": "格鬥刃",
     "deDE": "[ns]Quhab",
     "esES": "[ms]Quhab",
@@ -12633,7 +12633,7 @@
   {
     "id": 20188,
     "Key": "9wb",
-    "enUS": "Wrist Spike",
+    "enUS": "",
     "zhTW": "腕刺",
     "deDE": "[ms]Unterarmdorn",
     "esES": "[fs]Punta de muñeca",
@@ -12650,7 +12650,7 @@
   {
     "id": 20189,
     "Key": "9xf",
-    "enUS": "Fascia",
+    "enUS": "",
     "zhTW": "格鬥爪",
     "deDE": "[fs]Faszie",
     "esES": "[fs]Fascia",
@@ -25145,7 +25145,7 @@
   {
     "id": 21780,
     "Key": "axf",
-    "enUS": "Hatchet Hands",
+    "enUS": "",
     "zhTW": "斧手",
     "deDE": "Axthände",
     "esES": "[fp]Manos de hachuela",
