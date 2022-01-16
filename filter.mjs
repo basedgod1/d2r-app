@@ -108,3 +108,50 @@ affixFilters.forEach((filter, index) => {
 });
 
 await writeFile('data/item-nameaffixes.json', JSON.stringify(affixFilters, null, 2).replace(/\n/g, '\r\n') + '\r\n', 'utf8');
+
+const filterAmmo = (filter, item) => {
+  if (item.code == 'aqv' || item.code == 'cqv') {
+    filter.enUS = '';
+  }
+  return filter;
+};
+
+const filterPotions = (filter, item) => {
+  if (/^(a|s|t|w)pot$/.test(item.type.code) || /^(hp|mp)[1-4]$/.test(item.code)) {
+    filter.enUS = '';
+  }
+  else if (item.code == 'hp5') {
+    filter.enUS = 'HP';
+  }
+  else if (item.code == 'mp5') {
+    filter.enUS = 'MP';
+  }
+  else if (item.code == 'rvs') {
+    filter.enUS = '';
+  }
+  else if (item.code == 'rvl') {
+    filter.enUS = 'RP';
+  }
+  return filter;
+};
+
+const filterScolls = (filter, item) => {
+  if (/^Scroll of (Identify|Town Portal)$/.test(item.name)) {
+    filter.enUS = '';
+  }
+  return filter;
+};
+
+itemFilters.forEach((filter, index) => {
+  let item = items[filter.Key];
+  if (!item || !types[item.type]) {
+    return;
+  }
+  item.type = types[item.type];
+  itemFilters[index] = filterAmmo(filter, item);
+  itemFilters[index] = filterGems(filter, item);
+  itemFilters[index] = filterPotions(filter, item);
+  itemFilters[index] = filterScolls(filter, item);
+});
+
+await writeFile('data/item-names.json', JSON.stringify(itemFilters, null, 2).replace(/\n/g, '\r\n') + '\r\n', 'utf8');
