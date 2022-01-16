@@ -8,31 +8,31 @@ const readJson = async (file) => {
 const affixFilters = await readJson('data/item-nameaffixes.original.json');
 const itemFilters = await readJson('data/item-names.original.json');
 
-const readExcel = async (file) => {
+const readExcel = async (file, key) => {
   const items = {};
   const data = await readFile(file, 'utf8');
   const lines = data.split(/\r?\n/);
-  const keys = lines.shift().split(/\t/);
+  const headers = lines.shift().split(/\t/);
   lines.forEach((line) => {
     var item = {};
     const values = line.split(/\t/);
     values.forEach((value, index) => {
-      item[keys[index].toLowerCase()] = value;
+      item[headers[index].toLowerCase().replace(/\s/g, '')] = value;
     });
-    if (item.code) {
-      items[item.code] = item;
+    if (item[key]) {
+      items[item[key]] = item;
     }
   });
   return items;
 };
 
-const armor = await readExcel('data/armor.txt');
-const misc = await readExcel('data/misc.txt');
-const weapons = await readExcel('data/weapons.txt');
+const armor = await readExcel('data/armor.txt', 'code');
+const misc = await readExcel('data/misc.txt', 'code');
+const weapons = await readExcel('data/weapons.txt', 'code');
 const items = { ...armor, ...misc, ...weapons };
-const types = await readExcel('data/itemtypes.txt');
-const sets = await readExcel('data/setitems.txt');
-const uniques = await readExcel('data/uniqueitems.txt');
+const types = await readExcel('data/itemtypes.txt', 'code');
+const sets = await readExcel('data/setitems.txt', 'index');
+const uniques = await readExcel('data/uniqueitems.txt', 'index');
 
 const readD2x = async (file) => {
   const grail = {};
@@ -45,18 +45,7 @@ const readD2x = async (file) => {
 };
 
 const grail = await readD2x('data/Grail.d2x.txt');
-
-const alwaysShow = {};
-[
-  'Natalya\'s Soul',
-  'Chance Guards',
-  'Skin of the Vipermagi',
-  'String of Ears',
-  'The Stone of Jordan',
-  'Shaftstop',
-  'Headstriker',
-  'Vampiregaze'
-].forEach((value) => alwaysShow[value] = true);
+const alwaysShow = {};//await readExcel('data/uniqueitems.txt', 'index');
 
 // Group by item/code
 const groupedItems = {};
@@ -142,8 +131,32 @@ const filterScolls = (filter, item) => {
   return filter;
 };
 
+const filterSets = (filter) => {
+  let item = sets[filter.Key];
+  if (!item) {
+    return filter;
+  }
+  if (grail[filter.enUS] && !alwaysShow[item.index]) {
+    filter.enUS = '';
+  }
+  return filter;
+};
+
+const filterUniques = (filter) => {
+  let item = uniques[filter.Key];
+  if (!item) {
+    return filter;
+  }
+  if (grail[filter.enUS] && !alwaysShow[item.index]) {
+    filter.enUS = '';
+  }
+  return filter;
+};
+
 itemFilters.forEach((filter, index) => {
-  let item = items[filter.Key];
+  itemFilters[index] = filterSets(filter);
+  itemFilters[index] = filterUniques(filter);
+  const item = items[filter.Key];
   if (!item || !types[item.type]) {
     return;
   }
