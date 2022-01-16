@@ -62,10 +62,10 @@ const body = (filter, item) => {
   else if (item.code == 'fla') { // Flail
     return filter;
   }
-  else if (/^(scep|wand|staf|glov|boot)$/.test(item.type.code)) {
-    return filter;
-  }
-  else if (/^(scep|wand|staf|glov|boot|circ)$/.test(item.type.code)) {
+  // else if (/^(scep|wand|staf|glov|boot)$/.test(item.type.code)) {
+  //   return filter;
+  // }
+  else if (/^(circ|wand)$/.test(item.type.code)) {
     return filter;
   }
   else if (itemIsElite(item) && /tors|arm/.test(item.type.bodyloc1)) { // Elite body armor and weapons

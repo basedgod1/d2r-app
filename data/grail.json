@@ -614,7 +614,7 @@
   {
     "id": 1958,
     "Key": "lgl",
-    "enUS": "Leather Gloves",
+    "enUS": "",
     "zhTW": "皮革手套",
     "deDE": "[pl]Lederhandschuhe",
     "esES": "[mp]Guantes de cuero",
@@ -631,7 +631,7 @@
   {
     "id": 1959,
     "Key": "vgl",
-    "enUS": "Heavy Gloves",
+    "enUS": "",
     "zhTW": "厚皮手套",
     "deDE": "[pl]schwere Handschuhe",
     "esES": "[mp]Guantes pesados",
@@ -648,7 +648,7 @@
   {
     "id": 1960,
     "Key": "mgl",
-    "enUS": "Chain Gloves",
+    "enUS": "",
     "zhTW": "鍊甲手套",
     "deDE": "[pl]Kettenhandschuhe",
     "esES": "[mp]Guantes de malla",
@@ -665,7 +665,7 @@
   {
     "id": 1961,
     "Key": "tgl",
-    "enUS": "Light Gauntlets",
+    "enUS": "",
     "zhTW": "輕型護手",
     "deDE": "[pl]leichte Panzerhandschuhe",
     "esES": "[mp]Guanteletes ligeros",
@@ -682,7 +682,7 @@
   {
     "id": 1962,
     "Key": "hgl",
-    "enUS": "Gauntlets",
+    "enUS": "",
     "zhTW": "鋼鐵護手",
     "deDE": "[pl]Panzerhandschuhe",
     "esES": "[mp]Guanteletes",
@@ -699,7 +699,7 @@
   {
     "id": 1963,
     "Key": "lbt",
-    "enUS": "Boots",
+    "enUS": "",
     "zhTW": "皮靴",
     "deDE": "[pl]Stiefel",
     "esES": "[fp]Botas",
@@ -716,7 +716,7 @@
   {
     "id": 1964,
     "Key": "vbt",
-    "enUS": "Heavy Boots",
+    "enUS": "",
     "zhTW": "重靴",
     "deDE": "[pl]schwere Stiefel",
     "esES": "[fp]Botas pesadas",
@@ -733,7 +733,7 @@
   {
     "id": 1965,
     "Key": "mbt",
-    "enUS": "Chain Boots",
+    "enUS": "",
     "zhTW": "鎖鍊靴",
     "deDE": "[pl]Kettenstiefel",
     "esES": "[fp]Botas de malla",
@@ -750,7 +750,7 @@
   {
     "id": 1966,
     "Key": "tbt",
-    "enUS": "Light Plated Boots",
+    "enUS": "",
     "zhTW": "輕鎧靴",
     "deDE": "[pl]leichte Plattenstiefel",
     "esES": "[fp]Botas de placas ligeras",
@@ -767,7 +767,7 @@
   {
     "id": 1967,
     "Key": "hbt",
-    "enUS": "Greaves",
+    "enUS": "",
     "zhTW": "護脛",
     "deDE": "[pl]Beinschienen",
     "esES": "[fp]Grebas",
@@ -1175,7 +1175,7 @@
   {
     "id": 1991,
     "Key": "scp",
-    "enUS": "Scepter",
+    "enUS": "",
     "zhTW": "權杖",
     "deDE": "[ns]Szepter",
     "esES": "[ms]Cetro",
@@ -1192,7 +1192,7 @@
   {
     "id": 1992,
     "Key": "gsc",
-    "enUS": "Grand Scepter",
+    "enUS": "",
     "zhTW": "莊嚴權杖",
     "deDE": "[ns]großes Szepter",
     "esES": "[ms]Gran cetro",
@@ -1209,7 +1209,7 @@
   {
     "id": 1993,
     "Key": "wsp",
-    "enUS": "War Scepter",
+    "enUS": "",
     "zhTW": "征戰權杖",
     "deDE": "[ns]Kriegsszepter",
     "esES": "[ms]Cetro de guerra",
@@ -1991,7 +1991,7 @@
   {
     "id": 2039,
     "Key": "sst",
-    "enUS": "Short Staff",
+    "enUS": "",
     "zhTW": "短杖",
     "deDE": "[ms]Kurzstab",
     "esES": "[ms]Bastón corto",
@@ -2008,7 +2008,7 @@
   {
     "id": 2040,
     "Key": "lst",
-    "enUS": "Long Staff",
+    "enUS": "",
     "zhTW": "長杖",
     "deDE": "[ms]Langstab",
     "esES": "[ms]Bastón largo",
@@ -2025,7 +2025,7 @@
   {
     "id": 2041,
     "Key": "cst",
-    "enUS": "Gnarled Staff",
+    "enUS": "",
     "zhTW": "木節法杖",
     "deDE": "[ms]Knorrenstab",
     "esES": "[ms]Bastón nudoso",
@@ -2042,7 +2042,7 @@
   {
     "id": 2042,
     "Key": "bst",
-    "enUS": "Battle Staff",
+    "enUS": "",
     "zhTW": "戰鬥法杖",
     "deDE": "[ms]Kriegsstab",
     "esES": "[ms]Bastón de batalla",
@@ -2059,7 +2059,7 @@
   {
     "id": 2043,
     "Key": "wst",
-    "enUS": "War Staff",
+    "enUS": "",
     "zhTW": "征戰法杖",
     "deDE": "[ms]Schlachtenstab",
     "esES": "[ms]Bastón de guerra",
@@ -2416,7 +2416,7 @@
   {
     "id": 2064,
     "Key": "xhb",
-    "enUS": "War Boots",
+    "enUS": "",
     "zhTW": "征戰靴",
     "deDE": "[pl]Kriegsstiefel",
     "esES": "[fp]Botas de guerra",
@@ -2433,7 +2433,7 @@
   {
     "id": 2065,
     "Key": "xtb",
-    "enUS": "Battle Boots",
+    "enUS": "",
     "zhTW": "戰鬥靴",
     "deDE": "[pl]Kampfstiefel",
     "esES": "[fp]Botas de batalla",
@@ -2450,7 +2450,7 @@
   {
     "id": 2066,
     "Key": "xmb",
-    "enUS": "Mesh Boots",
+    "enUS": "",
     "zhTW": "鐵網靴",
     "deDE": "[pl]Ringstiefel",
     "esES": "[fp]Botas malladas",
@@ -2467,7 +2467,7 @@
   {
     "id": 2067,
     "Key": "xvb",
-    "enUS": "Sharkskin Boots",
+    "enUS": "",
     "zhTW": "鯊皮靴",
     "deDE": "[pl]Hailederstiefel",
     "esES": "[fp]Botas de piel de tiburón",
@@ -2484,7 +2484,7 @@
   {
     "id": 2068,
     "Key": "xlb",
-    "enUS": "Demonhide Boots",
+    "enUS": "",
     "zhTW": "魔皮長靴",
     "deDE": "[pl]Dämonenlederstiefel",
     "esES": "[fp]Botas de cuero de demonio",
@@ -2501,7 +2501,7 @@
   {
     "id": 2070,
     "Key": "xtg",
-    "enUS": "Battle Gauntlets",
+    "enUS": "",
     "zhTW": "戰鬥護手",
     "deDE": "[pl]Kampfpanzerhandschuhe",
     "esES": "[mp]Guanteletes de batalla",
@@ -2518,7 +2518,7 @@
   {
     "id": 2071,
     "Key": "xmg",
-    "enUS": "Heavy Bracers",
+    "enUS": "",
     "zhTW": "重型護腕",
     "deDE": "[pl]schwere Armschienen",
     "esES": "[mp]Brazales pesados",
@@ -2535,7 +2535,7 @@
   {
     "id": 2072,
     "Key": "xvg",
-    "enUS": "Sharkskin Gloves",
+    "enUS": "",
     "zhTW": "鯊皮手套",
     "deDE": "[pl]Hailederhandschuhe",
     "esES": "[mp]Guantes de piel de tiburón",
@@ -2552,7 +2552,7 @@
   {
     "id": 2073,
     "Key": "xlg",
-    "enUS": "Demonhide Gloves",
+    "enUS": "",
     "zhTW": "魔皮手套",
     "deDE": "[pl]Dämonenlederhandschuhe",
     "esES": "[mp]Guantes de cuero de demonio",
@@ -3232,7 +3232,7 @@
   {
     "id": 2114,
     "Key": "8ws",
-    "enUS": "Rune Staff",
+    "enUS": "",
     "zhTW": "符文法杖",
     "deDE": "[ms]Runenstab",
     "esES": "[ms]Bastón rúnico",
@@ -3249,7 +3249,7 @@
   {
     "id": 2115,
     "Key": "8bs",
-    "enUS": "Gothic Staff",
+    "enUS": "",
     "zhTW": "哥德法杖",
     "deDE": "[ms]Prunkstab",
     "esES": "[ms]Bastón gótico",
@@ -3266,7 +3266,7 @@
   {
     "id": 2116,
     "Key": "8cs",
-    "enUS": "Cedar Staff",
+    "enUS": "",
     "zhTW": "杉木法杖",
     "deDE": "[ms]Zedernstab",
     "esES": "[ms]Bastón de cedro",
@@ -3283,7 +3283,7 @@
   {
     "id": 2117,
     "Key": "8ls",
-    "enUS": "Quarterstaff",
+    "enUS": "",
     "zhTW": "長棍",
     "deDE": "[ms]Kampfstab",
     "esES": "[ms]Bastón de mando",
@@ -3300,7 +3300,7 @@
   {
     "id": 2118,
     "Key": "8ss",
-    "enUS": "Jo Staff",
+    "enUS": "",
     "zhTW": "棍杖",
     "deDE": "[ms]Schlagstab",
     "esES": "[ms]Bastón de jo",
@@ -4048,7 +4048,7 @@
   {
     "id": 2163,
     "Key": "9ws",
-    "enUS": "Divine Scepter",
+    "enUS": "",
     "zhTW": "聖恩權杖",
     "deDE": "[ns]göttliches Szepter",
     "esES": "[ms]Cetro divino",
@@ -4065,7 +4065,7 @@
   {
     "id": 2164,
     "Key": "9qs",
-    "enUS": "Holy Water Sprinkler",
+    "enUS": "",
     "zhTW": "聖水禮杖",
     "deDE": "[ms]Weihwasserstab",
     "esES": "[ms]Hisopo de agua bendita",
@@ -4082,7 +4082,7 @@
   {
     "id": 2165,
     "Key": "9sc",
-    "enUS": "Rune Scepter",
+    "enUS": "",
     "zhTW": "符文權杖",
     "deDE": "[ns]Runenszepter",
     "esES": "[ms]Cetro rúnico",
@@ -12276,7 +12276,7 @@
   {
     "id": 11012,
     "Key": "xhg",
-    "enUS": "War Gauntlets",
+    "enUS": "",
     "zhTW": "征戰護手",
     "deDE": "Kriegspanzerhandschuhe",
     "esES": "[mp]Guanteletes de guerra",
@@ -14418,7 +14418,7 @@
   {
     "id": 20294,
     "Key": "am3",
-    "enUS": "Maiden Spear",
+    "enUS": "",
     "zhTW": "女戰長矛",
     "deDE": "[ms]Jungfernspeer",
     "esES": "[fs]Lanza doncella",
@@ -14435,7 +14435,7 @@
   {
     "id": 20295,
     "Key": "am4",
-    "enUS": "Maiden Pike",
+    "enUS": "",
     "zhTW": "女戰長槍",
     "deDE": "[fs]Jungfernpike",
     "esES": "[fs]Pica doncella",
@@ -14452,7 +14452,7 @@
   {
     "id": 20296,
     "Key": "am5",
-    "enUS": "Maiden Javelin",
+    "enUS": "",
     "zhTW": "女戰標槍",
     "deDE": "[ms]Jungfernwurfspieß",
     "esES": "[fs]Jabalina doncella",
@@ -14588,7 +14588,7 @@
   {
     "id": 20304,
     "Key": "am8",
-    "enUS": "Ceremonial Spear",
+    "enUS": "",
     "zhTW": "儀禮長矛",
     "deDE": "[ms]Zeremonialspeer",
     "esES": "[fs]Lanza ceremonial",
@@ -14605,7 +14605,7 @@
   {
     "id": 20305,
     "Key": "am9",
-    "enUS": "Ceremonial Pike",
+    "enUS": "",
     "zhTW": "儀禮長槍",
     "deDE": "[fs]Zeremonialpike",
     "esES": "[fs]Pica ceremonial",
@@ -14622,7 +14622,7 @@
   {
     "id": 20306,
     "Key": "ama",
-    "enUS": "Ceremonial Javelin",
+    "enUS": "",
     "zhTW": "儀禮標槍",
     "deDE": "[ms]Zeremonialwurfspieß",
     "esES": "[fs]Jabalina ceremonial",
@@ -15693,7 +15693,7 @@
   {
     "id": 20369,
     "Key": "ulg",
-    "enUS": "Bramble Mitts",
+    "enUS": "",
     "zhTW": "荊棘手套",
     "deDE": "[pl]Dornenhandschuhe",
     "esES": "[mp]Mitones de zarza",
@@ -15710,7 +15710,7 @@
   {
     "id": 20370,
     "Key": "uvg",
-    "enUS": "Vampirebone Gloves",
+    "enUS": "",
     "zhTW": "吸血鬼骸骨手套",
     "deDE": "[pl]Vampirknochenhandschuhe",
     "esES": "[mp]Guantes de hueso de vampiro",
@@ -15727,7 +15727,7 @@
   {
     "id": 20371,
     "Key": "umg",
-    "enUS": "Vambraces",
+    "enUS": "",
     "zhTW": "護臂",
     "deDE": "[pl]Vampirschienen",
     "esES": "[mp]Avambrazos",
@@ -15744,7 +15744,7 @@
   {
     "id": 20372,
     "Key": "utg",
-    "enUS": "Crusader Gauntlets",
+    "enUS": "",
     "zhTW": "聖教軍護手",
     "deDE": "[pl]Kreuzritterhandschuhe",
     "esES": "[mp]Guanteletes de cruzada",
@@ -15761,7 +15761,7 @@
   {
     "id": 20373,
     "Key": "uhg",
-    "enUS": "Ogre Gauntlets",
+    "enUS": "",
     "zhTW": "巨魔護手",
     "deDE": "[pl]Ogerhandschuhe",
     "esES": "[mp]Guanteletes de ogro",
@@ -15778,7 +15778,7 @@
   {
     "id": 20374,
     "Key": "ulb",
-    "enUS": "Wyrmhide Boots",
+    "enUS": "",
     "zhTW": "龍皮靴",
     "deDE": "[pl]Wyrmlederstiefel",
     "esES": "[fp]Botas de cuero de vermis",
@@ -15795,7 +15795,7 @@
   {
     "id": 20375,
     "Key": "uvb",
-    "enUS": "Scarabshell Boots",
+    "enUS": "",
     "zhTW": "聖甲蟲殼皮靴",
     "deDE": "[pl]Skarabäusschalenstiefel",
     "esES": "[fp]Botas de élitro de alfazaque",
@@ -15812,7 +15812,7 @@
   {
     "id": 20376,
     "Key": "umb",
-    "enUS": "Boneweave Boots",
+    "enUS": "",
     "zhTW": "骸骨網靴",
     "deDE": "[pl]Knochengespinststiefel",
     "esES": "[fp]Botas de hueso",
@@ -15829,7 +15829,7 @@
   {
     "id": 20377,
     "Key": "utb",
-    "enUS": "Mirrored Boots",
+    "enUS": "",
     "zhTW": "幻鏡戰靴",
     "deDE": "[pl]Verspiegelte Stiefel",
     "esES": "[fp]Botas de espejo",
@@ -15846,7 +15846,7 @@
   {
     "id": 20378,
     "Key": "uhb",
-    "enUS": "Myrmidon Greaves",
+    "enUS": "",
     "zhTW": "勇士護脛",
     "deDE": "[fs]Myrmidonbeinschienen",
     "esES": "[fp]Grebas de mirmidón",
