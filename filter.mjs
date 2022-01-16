@@ -45,7 +45,7 @@ const readD2x = async (file) => {
 };
 
 const grail = await readD2x('data/Grail.d2x.txt');
-const alwaysShow = {};//await readExcel('data/uniqueitems.txt', 'index');
+const alwaysShow = await readExcel('data/alwaysshow.csv', 'index');
 
 // Group by item/code
 const groupedItems = {};
