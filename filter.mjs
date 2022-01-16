@@ -136,7 +136,7 @@ const filterPotions = (filter, item) => {
 };
 
 const filterScolls = (filter, item) => {
-  if (/^Scroll of (Identify|Town Portal)$/.test(item.name)) {
+  if (item.code == 'isc' || item.code == 'tsc') {
     filter.enUS = '';
   }
   return filter;
