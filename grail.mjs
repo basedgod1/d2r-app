@@ -3,7 +3,7 @@ import { readFile, writeFile } from 'fs/promises';
 const readD2x = async (file) => {
   let grails = {};
   let data = await readFile(file, 'utf8');
-  let sections = data.split(/\r?\n\r?\n/);
+  let sections = data.split(/\r?\n(\r?\n)+/);
   sections.forEach((section) => {
     grails[section.split(/\r?\n/)[0]] = true;
   });
