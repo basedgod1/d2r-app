@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": 1060,
     "Key": "qf1",
@@ -5321,11 +5321,6 @@
     "zhCN": "有瑕疵的蓝宝石"
   },
   {
-    "id": 2248,
-    "Key": "gsb",
-    "enUS": "Sapphire"
-  },
-  {
     "id": 2249,
     "Key": "glb",
     "enUS": "Flawless Sapphire",
@@ -5395,11 +5390,6 @@
   },
   {
     "id": 2253,
-    "Key": "gsg",
-    "enUS": "Emerald"
-  },
-  {
-    "id": 2254,
     "Key": "glg",
     "enUS": "Flawless Emerald",
     "zhTW": "無瑕綠寶石",
@@ -5465,11 +5455,6 @@
     "ptBR": "Rubi Imperfeito",
     "ruRU": "Мутный рубин",
     "zhCN": "有瑕疵的红宝石"
-  },
-  {
-    "id": 2258,
-    "Key": "gsr",
-    "enUS": "Ruby"
   },
   {
     "id": 2259,
@@ -5538,11 +5523,6 @@
     "ptBR": "Diamante Imperfeito",
     "ruRU": "Мутный бриллиант",
     "zhCN": "有瑕疵的钻石"
-  },
-  {
-    "id": 2263,
-    "Key": "gsw",
-    "enUS": "Diamond"
   },
   {
     "id": 2264,
