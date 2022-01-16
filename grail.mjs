@@ -40,6 +40,7 @@ const filters = await readJson('data/filter.json');
 
 const alwaysShow = {};
 [
+  'Natalya\'s Soul',
   'Skin of the Vipermagi',
   'String of Ears',
   'The Stone of Jordan',
@@ -53,7 +54,7 @@ const checkSets = (filter) => {
   if (!item) {
     return filter;
   }
-  if (grails[filter.enUS] && item.lvlreq < 34) {
+  if (grails[filter.enUS] && item.lvlreq < 34 && !alwaysShow[item.index]) {
     filter.enUS = '';
   }
   return filter;
