@@ -123,7 +123,7 @@ filters.forEach((filter, index) => {
   }
   item.type = types[item.type];
   filters[index] = ammo(filter, item);
-  filters[index] = body(filter, item);
+  // filters[index] = body(filter, item);
   filters[index] = gems(filter, item);
   filters[index] = potions(filter, item);
   filters[index] = scolls(filter, item);
