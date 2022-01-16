@@ -83,7 +83,7 @@ const gems = (filter, item) => {
   else if (/^Flawless (Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
     filter.enUS = filter.enUS.replace('Flawless ', '');
   }
-  else if (/^(Chipped|Flawed|) (Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
+  else if (/^(Chipped|Flawed|)\s?(Amethyst|Diamond|Emerald|Ruby|Sapphire|Skull|Topaz)$/.test(item.name)) {
     filter.enUS = '';
   }
   return filter;
