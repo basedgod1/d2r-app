@@ -40,7 +40,8 @@ const itemIsElite = (item) => {
 };
 
 const itemIsClassSpecific = (item) => {
-  return (item.type.equiv2 && /^(amaz|barb|drui|necr|pala|sorc)$/.test(item.type.equiv2) || item.type.code == 'h2h2');
+  // return (item.type.equiv2 && /^(amaz|barb|drui|necr|pala|sorc)$/.test(item.type.equiv2) || item.type.code == 'h2h2');
+  return /^(abow|h2h2|phlm|pelt|head|ashd|orb)$/.test(item.type.code);
 };
 
 const ammo = (filter, item) => {

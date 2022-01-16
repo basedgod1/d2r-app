@@ -14418,7 +14418,7 @@
   {
     "id": 20294,
     "Key": "am3",
-    "enUS": "Maiden Spear",
+    "enUS": "",
     "zhTW": "女戰長矛",
     "deDE": "[ms]Jungfernspeer",
     "esES": "[fs]Lanza doncella",
@@ -14435,7 +14435,7 @@
   {
     "id": 20295,
     "Key": "am4",
-    "enUS": "Maiden Pike",
+    "enUS": "",
     "zhTW": "女戰長槍",
     "deDE": "[fs]Jungfernpike",
     "esES": "[fs]Pica doncella",
@@ -14452,7 +14452,7 @@
   {
     "id": 20296,
     "Key": "am5",
-    "enUS": "Maiden Javelin",
+    "enUS": "",
     "zhTW": "女戰標槍",
     "deDE": "[ms]Jungfernwurfspieß",
     "esES": "[fs]Jabalina doncella",
@@ -14588,7 +14588,7 @@
   {
     "id": 20304,
     "Key": "am8",
-    "enUS": "Ceremonial Spear",
+    "enUS": "",
     "zhTW": "儀禮長矛",
     "deDE": "[ms]Zeremonialspeer",
     "esES": "[fs]Lanza ceremonial",
@@ -14605,7 +14605,7 @@
   {
     "id": 20305,
     "Key": "am9",
-    "enUS": "Ceremonial Pike",
+    "enUS": "",
     "zhTW": "儀禮長槍",
     "deDE": "[fs]Zeremonialpike",
     "esES": "[fs]Pica ceremonial",
@@ -14622,7 +14622,7 @@
   {
     "id": 20306,
     "Key": "ama",
-    "enUS": "Ceremonial Javelin",
+    "enUS": "",
     "zhTW": "儀禮標槍",
     "deDE": "[ms]Zeremonialwurfspieß",
     "esES": "[fs]Jabalina ceremonial",
