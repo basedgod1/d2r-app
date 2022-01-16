@@ -41,6 +41,7 @@ const filters = await readJson('data/filter.json');
 const alwaysShow = {};
 [
   'Natalya\'s Soul',
+  'Chance Guards',
   'Skin of the Vipermagi',
   'String of Ears',
   'The Stone of Jordan',
