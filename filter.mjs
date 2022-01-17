@@ -155,12 +155,12 @@ const filterUniques = (filter) => {
 
 const filterBody = (filter, item) => {
 
-  if (!(item.type.body && item.ultracode)) { // Skip non-body and quest items
+  if (!(item.type.body && item.ultracode)) { // Skip non-body, jewelry, and quest items
     return filter;
   }
-  // else if (alwaysShow[item.name] || /^(abow|h2h2|phlm|pelt|ashd|orb|wand|circ)$/.test(item.type.code)) { // Skip specific items
-  //   return filter;
-  // }
+  else if (alwaysShow[item.name]/* || /^(abow|h2h2|phlm|pelt|ashd|orb|wand|circ)$/.test(item.type.code)*/) { // Skip specific items
+    return filter;
+  }
   // else if (item.code == 'crs') { // Crystal sword && Ring && Amulet
   //   return filter;
   // }
