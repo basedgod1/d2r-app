@@ -153,6 +153,24 @@ const filterUniques = (filter) => {
   return filter;
 };
 
+const filterBody = (filter, item) => {
+
+  if (!(item.type.body && item.ultracode)) { // Skip non-body and quest items
+    return filter;
+  }
+  // else if (alwaysShow[item.name] || /^(abow|h2h2|phlm|pelt|ashd|orb|wand|circ)$/.test(item.type.code)) { // Skip specific items
+  //   return filter;
+  // }
+  // else if (item.code == 'crs') { // Crystal sword && Ring && Amulet
+  //   return filter;
+  // }
+  // else if (item.code == 'fla') { // Flail
+  //   return filter;
+  // }
+  filter.enUS = '';
+  return filter;
+};
+
 itemFilters.forEach((filter, index) => {
   itemFilters[index] = filterSets(filter);
   itemFilters[index] = filterUniques(filter);
@@ -165,6 +183,7 @@ itemFilters.forEach((filter, index) => {
   itemFilters[index] = filterGems(filter, item);
   itemFilters[index] = filterPotions(filter, item);
   itemFilters[index] = filterScolls(filter, item);
+  itemFilters[index] = filterBody(filter, item);
 });
 
 await writeFile('data/item-names.json', JSON.stringify(itemFilters, null, 2).replace(/\n/g, '\r\n') + '\r\n', 'utf8');
