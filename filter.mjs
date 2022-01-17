@@ -46,17 +46,7 @@ const readD2x = async (file) => {
 
 const grail = await readD2x('data/Grail.d2x.txt');
 const alwaysShow = await readExcel('data/alwaysshow.csv', 'index');
-
-// Group by item/code
-const groupedItems = {};
-Object.values(sets).forEach((value) => {
-  groupedItems[value.item] = groupedItems[value.item] || [];
-  groupedItems[value.item].push(value);
-});
-Object.values(uniques).forEach((value) => {
-  groupedItems[value.code] = groupedItems[value.code] || [];
-  groupedItems[value.code].push(value);
-});
+const groupedItems = {}; // Items grouped by code
 
 const filterGems = (filter, item) => {
   if (!item) {
@@ -136,6 +126,8 @@ const filterSets = (filter) => {
   if (!item) {
     return filter;
   }
+  groupedItems[item.item] = groupedItems[item.item] || [];
+  groupedItems[item.item].push((lookup) => !alwaysShow[item.index] && (lookup[filter.enUS] || lookup[item.index])); // Humongous/The Humongous
   if (grail[filter.enUS] && !alwaysShow[item.index]) {
     filter.enUS = '';
   }
@@ -147,6 +139,8 @@ const filterUniques = (filter) => {
   if (!item) {
     return filter;
   }
+  groupedItems[item.code] = groupedItems[item.code] || [];
+  groupedItems[item.code].push((lookup) => !alwaysShow[item.index] && (lookup[filter.enUS] || lookup[item.index]));
   if (grail[filter.enUS] && !alwaysShow[item.index]) {
     filter.enUS = '';
   }
@@ -164,7 +158,7 @@ const filterBody = (filter, item) => {
   if (groupedItems[item.code]) { // Don't hide basic items until they have been grailed
     let grailed = true;
     groupedItems[item.code].forEach((groupedItem) => {
-      if (!grail[groupedItem.index]) {
+      if (!groupedItem(grail)) {
         return grailed = false;
       }
     });
@@ -179,6 +173,9 @@ const filterBody = (filter, item) => {
 itemFilters.forEach((filter, index) => {
   itemFilters[index] = filterSets(filter);
   itemFilters[index] = filterUniques(filter);
+});
+
+itemFilters.forEach((filter, index) => {
   const item = items[filter.Key];
   if (!item || !types[item.type]) {
     return;
