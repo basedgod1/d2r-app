@@ -161,6 +161,17 @@ const filterBody = (filter, item) => {
   else if (alwaysShow[item.name] || /^(h2h2|phlm|pelt|ashd|orb|wand|circ)$/.test(item.type.code)) { // Skip specific items
     return filter;
   }
+  if (groupedItems[item.code]) { // Don't hide basic items until they have been grailed
+    let grailed = true;
+    groupedItems[item.code].forEach((groupedItem) => {
+      if (!grail[groupedItem.index]) {
+        return grailed = false;
+      }
+    });
+    if (!grailed) {
+      return filter;
+    }
+  }
   filter.enUS = '';
   return filter;
 };
