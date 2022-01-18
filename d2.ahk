@@ -12,6 +12,6 @@ Players(x)
 
 #IfWinActive Diablo II: Resurrected
 wheeldown::Players(1)
-!wheeldown::Players(3)
++wheeldown::Players(3)
 wheelup::Players(7)
-!wheelup::Players(5)
++wheelup::Players(5)
