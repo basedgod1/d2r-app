@@ -172,7 +172,7 @@
   {
     "id": 1932,
     "Key": "hlm",
-    "enUS": "Helm",
+    "enUS": "",
     "zhTW": "頭盔",
     "deDE": "[ms]Helm",
     "esES": "[ms]Yelmo",
@@ -291,7 +291,7 @@
   {
     "id": 1939,
     "Key": "hla",
-    "enUS": "Hard Leather Armor",
+    "enUS": "",
     "zhTW": "硬皮甲",
     "deDE": "[ns]gehärtetes Leder",
     "esES": "[fs]Armadura de cuero duro",
@@ -818,7 +818,7 @@
   {
     "id": 1970,
     "Key": "mbl",
-    "enUS": "Belt",
+    "enUS": "",
     "zhTW": "腰帶",
     "deDE": "[ms]Gürtel",
     "esES": "[ms]Cinturón",
@@ -2008,7 +2008,7 @@
   {
     "id": 2040,
     "Key": "lst",
-    "enUS": "Long Staff",
+    "enUS": "",
     "zhTW": "長杖",
     "deDE": "[ms]Langstab",
     "esES": "[ms]Bastón largo",
@@ -2178,7 +2178,7 @@
   {
     "id": 2050,
     "Key": "swb",
-    "enUS": "Short War Bow",
+    "enUS": "",
     "zhTW": "征戰短弓",
     "deDE": "[ms]kurzer Kriegsbogen",
     "esES": "[ms]Arco corto de guerra",
@@ -2229,7 +2229,7 @@
   {
     "id": 2053,
     "Key": "mxb",
-    "enUS": "Crossbow",
+    "enUS": "",
     "zhTW": "弩",
     "deDE": "[fs]Armbrust",
     "esES": "[fs]Ballesta",
@@ -2654,7 +2654,7 @@
   {
     "id": 2079,
     "Key": "xuc",
-    "enUS": "Defender",
+    "enUS": "",
     "zhTW": "防禦盾",
     "deDE": "[ms]Verteidiger",
     "esES": "[ms]Defensor",
@@ -3164,7 +3164,7 @@
   {
     "id": 2110,
     "Key": "8cb",
-    "enUS": "Double Bow",
+    "enUS": "",
     "zhTW": "雙曲弓",
     "deDE": "[ms]Doppelbogen",
     "esES": "[ms]Arco doble",
@@ -3385,7 +3385,7 @@
   {
     "id": 2123,
     "Key": "9vo",
-    "enUS": "Bill",
+    "enUS": "",
     "zhTW": "長柄鍥",
     "deDE": "[fs]Pinne",
     "esES": "[ms]Hocino",
@@ -3997,7 +3997,7 @@
   {
     "id": 2160,
     "Key": "9mt",
-    "enUS": "Jagged Star",
+    "enUS": "",
     "zhTW": "鋸齒釘頭鎚",
     "deDE": "[ms]Zackenstern",
     "esES": "[fs]Estrella dentada",
@@ -9743,7 +9743,7 @@
   {
     "id": 2629,
     "Key": "Serpent Lord",
-    "enUS": "Serpent Lord",
+    "enUS": "",
     "zhTW": "海蛇之王",
     "deDE": "Natternfürst",
     "esES": "Señor de la serpiente",
@@ -9913,7 +9913,7 @@
   {
     "id": 2639,
     "Key": "Hellclap",
-    "enUS": "Hellclap",
+    "enUS": "",
     "zhTW": "地獄轟鳴",
     "deDE": "Höllenknall",
     "esES": "Trueno infernal",
@@ -9964,7 +9964,7 @@
   {
     "id": 2642,
     "Key": "Ichorsting",
-    "enUS": "Ichorsting",
+    "enUS": "",
     "zhTW": "膿毒之刺",
     "deDE": "Säurebrand",
     "esES": "Aguijón de Ichor",
@@ -10185,7 +10185,7 @@
   {
     "id": 2655,
     "Key": "The Centurion",
-    "enUS": "The Centurion",
+    "enUS": "",
     "zhTW": "百夫長",
     "deDE": "Der Zenturio",
     "esES": "El centurión",
@@ -11239,7 +11239,7 @@
   {
     "id": 10127,
     "Key": "Hsarus' Iron Stay",
-    "enUS": "Hsarus' Iron Stay",
+    "enUS": "",
     "zhTW": "海沙魯的鐵扣",
     "deDE": "Hsarus' Eisenstütze",
     "esES": "Cinturón de hierro de Hsarus",
@@ -11596,7 +11596,7 @@
   {
     "id": 10148,
     "Key": "Cathan's Sigil",
-    "enUS": "Cathan's Sigil",
+    "enUS": "",
     "zhTW": "卡珊的魔咒",
     "deDE": "Cathans Siegelring",
     "esES": "Sigilo de Cathan",
@@ -11902,7 +11902,7 @@
   {
     "id": 10166,
     "Key": "Berserker's Headgear",
-    "enUS": "Berserker's Headgear",
+    "enUS": "",
     "zhTW": "狂戰士頭盔",
     "deDE": "Berserkers Kopfschmuck",
     "esES": "Casco del berserker",
@@ -12140,7 +12140,7 @@
   {
     "id": 10180,
     "Key": "Arcanna's Sign",
-    "enUS": "Arcanna's Sign",
+    "enUS": "",
     "zhTW": "阿卡娜的符印",
     "deDE": "Arcannas Zeichen",
     "esES": "Símbolo de Arcanna",
@@ -18175,7 +18175,7 @@
   {
     "id": 21359,
     "Key": "Visceratuant",
-    "enUS": "Visceratuant",
+    "enUS": "",
     "zhTW": "維斯爾坦特",
     "deDE": "Eingeweidebeißer",
     "esES": "Visceratuant",
@@ -23139,7 +23139,7 @@
   {
     "id": 21653,
     "Key": "Endlesshail",
-    "enUS": "Endlesshail",
+    "enUS": "",
     "zhTW": "無盡冰雹",
     "deDE": "Endloshagel",
     "esES": "Granizo eterno",
@@ -24142,7 +24142,7 @@
   {
     "id": 21712,
     "Key": "Hwanin's Justice",
-    "enUS": "Hwanin's Justice",
+    "enUS": "",
     "zhTW": "桓因的制裁",
     "deDE": "Hwanins Gerechtigkeit",
     "esES": "Justicia de Hwanin",
@@ -25757,7 +25757,7 @@
   {
     "id": 21847,
     "Key": "Aldur's Gauntlet",
-    "enUS": "Aldur's Rhythm",
+    "enUS": "",
     "zhTW": "艾爾多的律動",
     "deDE": "Aldurs Rhythmus",
     "esES": "Ritmo de Aldur",
