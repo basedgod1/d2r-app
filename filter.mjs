@@ -64,18 +64,17 @@ const filterGems = (filter, item) => {
   return filter;
 };
 
+const affixMap = {};
+affixMap['Gold'] = 'ÿc6'; // Black
+affixMap['Low Quality'] = 'ÿcT'; // Sky blue
+affixMap['Damaged'] = 'ÿcT';
+affixMap['Cracked'] = 'ÿcT';
+affixMap['Crude'] = 'ÿcT';
+affixMap['Superior'] = 'ÿcO'; // Pink
+
 const filterQuality = (filter, item) => {
-  const makeBlack = {};
-  [
-    'Low Quality',
-    'Damaged',
-    'Cracked',
-    'Superior',
-    'Gold',
-    'Crude'
-  ].forEach((value) => makeBlack[value] = true);
-  if (makeBlack[filter.enUS] && (filter.enUS != 'Gold' || item)) {
-    filter.enUS = 'ÿc6';
+  if (affixMap[filter.enUS] && (filter.enUS != 'Gold' || item)) {
+    filter.enUS = affixMap[filter.enUS];
   }
   return filter;
 };
