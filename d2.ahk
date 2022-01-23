@@ -10,6 +10,9 @@ Players(x)
   SendInput `/players%x%{enter}
 }
 
++F8::+RButton
+^F8::^RButton
+!F8::RButton
 #IfWinActive Diablo II: Resurrected
 wheeldown::Players(1)
 +wheeldown::Players(3)
