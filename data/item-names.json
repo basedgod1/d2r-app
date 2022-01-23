@@ -1974,7 +1974,7 @@
   {
     "id": 2038,
     "Key": "wsc",
-    "enUS": "War Scythe",
+    "enUS": "",
     "zhTW": "征戰鐮刀",
     "deDE": "[fs]Kriegssense",
     "esES": "[fs]Guadaña de guerra",
@@ -2705,7 +2705,7 @@
   {
     "id": 2082,
     "Key": "xul",
-    "enUS": "Chaos Armor",
+    "enUS": "",
     "zhTW": "混沌戰甲",
     "deDE": "[fs]Chaosrüstung",
     "esES": "[fs]Armadura del caos",
@@ -9709,7 +9709,7 @@
   {
     "id": 2627,
     "Key": "The Grim Reaper",
-    "enUS": "The Grim Reaper",
+    "enUS": "",
     "zhTW": "猙獰奪魂者",
     "deDE": "Gevatter Tod",
     "esES": "Segador implacable",
@@ -10117,7 +10117,7 @@
   {
     "id": 2651,
     "Key": "Undead Crown",
-    "enUS": "Undead Crown",
+    "enUS": "",
     "zhTW": "不死皇冠",
     "deDE": "Untote Krone",
     "esES": "Corona viviente",
@@ -11341,7 +11341,7 @@
   {
     "id": 10133,
     "Key": "Iratha's Cuff",
-    "enUS": "Iratha's Cuff",
+    "enUS": "",
     "zhTW": "依雷撒的袖銬",
     "deDE": "Irathas Ärmelaufschläge",
     "esES": "Esposas de Iratha",
@@ -23326,7 +23326,7 @@
   {
     "id": 21664,
     "Key": "Trang-Oul's Scales",
-    "enUS": "Trang-Oul's Scales",
+    "enUS": "",
     "zhTW": "塔格奧之鱗",
     "deDE": "Trang-Ouls Schuppen",
     "esES": "Escamas de Trang-Oul",
@@ -24924,7 +24924,7 @@
   {
     "id": 21758,
     "Key": "Herald of Zakarum",
-    "enUS": "",
+    "enUS": "Herald of Zakarum",
     "zhTW": "撒卡蘭姆使者",
     "deDE": "Herold von Zakarum",
     "esES": "Heraldo de Zakarum",
