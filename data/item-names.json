@@ -563,7 +563,7 @@
   {
     "id": 1955,
     "Key": "kit",
-    "enUS": "Kite Shield",
+    "enUS": "",
     "zhTW": "鳶盾",
     "deDE": "[ms]eckiger Schild",
     "esES": "[ms]Escudo de lágrima",
@@ -2756,7 +2756,7 @@
   {
     "id": 2085,
     "Key": "xlt",
-    "enUS": "",
+    "enUS": "Templar Coat",
     "zhTW": "聖堂騎士戰甲",
     "deDE": "[ms]Templermantel",
     "esES": "[fs]Cota templaria",
@@ -2841,7 +2841,7 @@
   {
     "id": 2090,
     "Key": "xng",
-    "enUS": "Linked Mail",
+    "enUS": "",
     "zhTW": "鍊扣戰甲",
     "deDE": "[ns]Verbundkettenhemd",
     "esES": "[fs]Cota eslabonada",
@@ -2926,7 +2926,7 @@
   {
     "id": 2095,
     "Key": "xsk",
-    "enUS": "Death Mask",
+    "enUS": "",
     "zhTW": "死亡面具",
     "deDE": "[fs]Totenmaske",
     "esES": "[fs]Máscara de la muerte",
@@ -2960,7 +2960,7 @@
   {
     "id": 2098,
     "Key": "xhl",
-    "enUS": "Basinet",
+    "enUS": "",
     "zhTW": "輕盔",
     "deDE": "[ms]Kesselhelm",
     "esES": "[ms]Bacinete",
@@ -3011,7 +3011,7 @@
   {
     "id": 2101,
     "Key": "xap",
-    "enUS": "War Hat",
+    "enUS": "",
     "zhTW": "戰帽",
     "deDE": "[ms]Kriegshut",
     "esES": "[fs]Cofia de guerra",
@@ -3436,7 +3436,7 @@
   {
     "id": 2126,
     "Key": "9st",
-    "enUS": "Yari",
+    "enUS": "",
     "zhTW": "三尖槍",
     "deDE": "[fs]Yari",
     "esES": "[ms]Yari",
@@ -3640,7 +3640,7 @@
   {
     "id": 2138,
     "Key": "9tk",
-    "enUS": "Battle Dart",
+    "enUS": "",
     "zhTW": "戰鬥飛鏢",
     "deDE": "[ms]Kurzpfeil",
     "esES": "[ms]Dardo de batalla",
@@ -3742,7 +3742,7 @@
   {
     "id": 2145,
     "Key": "9gs",
-    "enUS": "Tusk Sword",
+    "enUS": "",
     "zhTW": "長牙劍",
     "deDE": "[ns]Stoßschwert",
     "esES": "[fs]Espada de colmillo",
@@ -4337,7 +4337,7 @@
   {
     "id": 2180,
     "Key": "9ha",
-    "enUS": "Hatchet",
+    "enUS": "",
     "zhTW": "短斧",
     "deDE": "[ns]Kriegsbeil",
     "esES": "[fs]Hachuela",
@@ -10712,7 +10712,7 @@
   {
     "id": 2686,
     "Key": "Lenyms Cord",
-    "enUS": "Lenymo",
+    "enUS": "",
     "zhTW": "雷尼摩",
     "deDE": "Lenymo",
     "esES": "Lenymo",
@@ -11324,7 +11324,7 @@
   {
     "id": 10132,
     "Key": "Iratha's Coil",
-    "enUS": "Iratha's Coil",
+    "enUS": "",
     "zhTW": "依雷撒的盤頂",
     "deDE": "Irathas Rolle",
     "esES": "Rosca de Iratha",
@@ -11562,7 +11562,7 @@
   {
     "id": 10146,
     "Key": "Milabrega's Orb",
-    "enUS": "Milabrega's Orb",
+    "enUS": "",
     "zhTW": "米拉伯佳之球",
     "deDE": "Milabregas Kugel",
     "esES": "Orbe de Milabrega",
@@ -13143,7 +13143,7 @@
   {
     "id": 20219,
     "Key": "7sp",
-    "enUS": "Tyrant Club",
+    "enUS": "",
     "zhTW": "暴君棍棒",
     "deDE": "[ms]Tyrannentöter",
     "esES": "[fs]Porra de tirano",
@@ -13279,7 +13279,7 @@
   {
     "id": 20227,
     "Key": "7sm",
-    "enUS": "Ataghan",
+    "enUS": "",
     "zhTW": "土耳其彎刀",
     "deDE": "[ns]Yatagan",
     "esES": "[ms]Yatagán",
@@ -15608,7 +15608,7 @@
   {
     "id": 20364,
     "Key": "uml",
-    "enUS": "Luna",
+    "enUS": "",
     "zhTW": "圓月盾",
     "deDE": "[fs]Luna",
     "esES": "[fs]Luna",
@@ -16951,7 +16951,7 @@
   {
     "id": 21286,
     "Key": "Coldkill",
-    "enUS": "Coldkill",
+    "enUS": "",
     "zhTW": "冷殺",
     "deDE": "Kältetod",
     "esES": "Sanguinaria",
@@ -17580,7 +17580,7 @@
   {
     "id": 21323,
     "Key": "The Vile Husk",
-    "enUS": "The Vile Husk",
+    "enUS": "",
     "zhTW": "兇邪軀殼",
     "deDE": "Die böse Schale",
     "esES": "Élitro vil",
@@ -17767,7 +17767,7 @@
   {
     "id": 21334,
     "Key": "Hone Sundan",
-    "enUS": "Hone Sundan",
+    "enUS": "",
     "zhTW": "骨寸斷",
     "deDE": "Hone Sundan",
     "esES": "Hone sundan",
@@ -18515,7 +18515,7 @@
   {
     "id": 21379,
     "Key": "Deathbit",
-    "enUS": "Deathbit",
+    "enUS": "",
     "zhTW": "死亡尖鑽",
     "deDE": "Todesbiss",
     "esES": "Trozo de muerte",
@@ -18651,7 +18651,7 @@
   {
     "id": 21387,
     "Key": "Demonlimb",
-    "enUS": "Demon Limb",
+    "enUS": "",
     "zhTW": "惡魔肢體",
     "deDE": "Dämonenglied",
     "esES": "Extremidad demoníaca",
@@ -19722,7 +19722,7 @@
   {
     "id": 21450,
     "Key": "Djinnslayer",
-    "enUS": "Djinn Slayer",
+    "enUS": "",
     "zhTW": "巨靈殺手",
     "deDE": "Dschinnschlächter",
     "esES": "Exterminagenios",
@@ -20113,7 +20113,7 @@
   {
     "id": 21473,
     "Key": "Jadetalon",
-    "enUS": "Jade Talon",
+    "enUS": "",
     "zhTW": "碧玉爪",
     "deDE": "Jadeklaue",
     "esES": "Garfa de jade",
@@ -20912,7 +20912,7 @@
   {
     "id": 21521,
     "Key": "Darksight Helm",
-    "enUS": "Darksight Helm",
+    "enUS": "",
     "zhTW": "暗視之盔",
     "deDE": "Dunkelsichthelm",
     "esES": "Yelmo de vista oscura",
@@ -20946,7 +20946,7 @@
   {
     "id": 21523,
     "Key": "Blackhorn's Face",
-    "enUS": "Blackhorn's Face",
+    "enUS": "",
     "zhTW": "黑荊角面具",
     "deDE": "Schwarzhorns Gesicht",
     "esES": "Cara del cuerno negro",
@@ -21014,7 +21014,7 @@
   {
     "id": 21527,
     "Key": "Spiritforge",
-    "enUS": "Spirit Forge",
+    "enUS": "",
     "zhTW": "靈魂熔爐",
     "deDE": "Geisterschmiede",
     "esES": "Fragua espiritual",
@@ -22510,7 +22510,7 @@
   {
     "id": 21615,
     "Key": "The Rising Sun",
-    "enUS": "",
+    "enUS": "The Rising Sun",
     "zhTW": "旭日東升",
     "deDE": "Die aufgehende Sonne",
     "esES": "El sol naciente",
@@ -22612,7 +22612,7 @@
   {
     "id": 21622,
     "Key": "Blackoak Shield",
-    "enUS": "Blackoak Shield",
+    "enUS": "",
     "zhTW": "黑橡樹盾",
     "deDE": "Schwarzeichenschild",
     "esES": "Escudo de roble negro",
@@ -22782,7 +22782,7 @@
   {
     "id": 21632,
     "Key": "Guardian Angel",
-    "enUS": "",
+    "enUS": "Guardian Angel",
     "zhTW": "守護天使",
     "deDE": "Schutzengel",
     "esES": "Ángel guardián",
@@ -23904,7 +23904,7 @@
   {
     "id": 21698,
     "Key": "Aldur's Deception",
-    "enUS": "Aldur's Deception",
+    "enUS": "",
     "zhTW": "艾爾多的欺暪",
     "deDE": "Aldurs Täuschung",
     "esES": "Engaño de Aldur",
@@ -24227,7 +24227,7 @@
   {
     "id": 21717,
     "Key": "Telling of Beads",
-    "enUS": "Telling of Beads",
+    "enUS": "",
     "zhTW": "誦唸珠",
     "deDE": "Perlenorakel",
     "esES": "Rezo de rosario",
@@ -24329,7 +24329,7 @@
   {
     "id": 21723,
     "Key": "Cow King's Horns",
-    "enUS": "Cow King's Horns",
+    "enUS": "",
     "zhTW": "牛王之角",
     "deDE": "Hörner des Rinderkönigs",
     "esES": "Cuernos del Rey de las Vacas",
@@ -25400,7 +25400,7 @@
   {
     "id": 21826,
     "Key": "Haemosu's Adament",
-    "enUS": "Haemosu's Adamant",
+    "enUS": "",
     "zhTW": "解慕漱的堅決",
     "deDE": "Haemosus Willenskraft",
     "esES": "Convicción de Haemosu",
