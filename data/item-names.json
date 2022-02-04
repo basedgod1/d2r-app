@@ -478,7 +478,7 @@
   {
     "id": 1950,
     "Key": "aar",
-    "enUS": "Ancient Armor",
+    "enUS": "",
     "zhTW": "上古鎧甲",
     "deDE": "[fs]alte Rüstung",
     "esES": "[fs]Armadura antigua",
@@ -1804,7 +1804,7 @@
   {
     "id": 2028,
     "Key": "spr",
-    "enUS": "Spear",
+    "enUS": "",
     "zhTW": "長矛",
     "deDE": "[ms]Speer",
     "esES": "[fs]Lanza",
@@ -2637,7 +2637,7 @@
   {
     "id": 2078,
     "Key": "xml",
-    "enUS": "Round Shield",
+    "enUS": "",
     "zhTW": "圓型盾",
     "deDE": "[ms]Rundschild",
     "esES": "[ms]Escudo redondo",
@@ -2756,7 +2756,7 @@
   {
     "id": 2085,
     "Key": "xlt",
-    "enUS": "Templar Coat",
+    "enUS": "",
     "zhTW": "聖堂騎士戰甲",
     "deDE": "[ms]Templermantel",
     "esES": "[fs]Cota templaria",
@@ -3130,7 +3130,7 @@
   {
     "id": 2108,
     "Key": "8l8",
-    "enUS": "Large Siege Bow",
+    "enUS": "",
     "zhTW": "攻城長弓",
     "deDE": "[ms]langer Belagerungsbogen",
     "esES": "[ms]Arco grande de asedio",
@@ -3623,7 +3623,7 @@
   {
     "id": 2137,
     "Key": "9ta",
-    "enUS": "Francisca",
+    "enUS": "",
     "zhTW": "法蘭西飛斧",
     "deDE": "[fs]Frankenaxt",
     "esES": "[fs]Francisca",
@@ -3708,7 +3708,7 @@
   {
     "id": 2143,
     "Key": "9gd",
-    "enUS": "Executioner Sword",
+    "enUS": "",
     "zhTW": "處刑劍",
     "deDE": "[ns]Scharfrichterschwert",
     "esES": "[fs]Espada de ejecución",
@@ -3946,7 +3946,7 @@
   {
     "id": 2157,
     "Key": "9m9",
-    "enUS": "War Club",
+    "enUS": "",
     "zhTW": "征戰重鎚",
     "deDE": "[fs]Kriegskeule",
     "esES": "[fs]Porra de guerra",
@@ -9539,7 +9539,7 @@
   {
     "id": 2617,
     "Key": "The Dragon Chang",
-    "enUS": "The Dragon Chang",
+    "enUS": "",
     "zhTW": "龍槍",
     "deDE": "der Drachen-Chang",
     "esES": "Chang de dragón",
@@ -10372,7 +10372,7 @@
   {
     "id": 2666,
     "Key": "Victors Silk",
-    "enUS": "Silks of the Victor",
+    "enUS": "",
     "zhTW": "勝利者的絲綢",
     "deDE": "Seide des Siegers",
     "esES": "Sedas del victorioso",
@@ -16305,7 +16305,7 @@
   {
     "id": 20405,
     "Key": "ne9",
-    "enUS": "Cantor Trophy",
+    "enUS": "",
     "zhTW": "領唱者首級",
     "deDE": "[fs]Kantortrophäe",
     "esES": "[ms]Trofeo de cantor",
@@ -16322,7 +16322,7 @@
   {
     "id": 20406,
     "Key": "nea",
-    "enUS": "",
+    "enUS": "Hierophant Trophy",
     "zhTW": "祭司首級",
     "deDE": "Hierophanttrophäe",
     "esES": "[ms]Trofeo de hierofante",
@@ -17376,7 +17376,7 @@
   {
     "id": 21311,
     "Key": "Bloodtree Stump",
-    "enUS": "Bloodtree Stump",
+    "enUS": "",
     "zhTW": "血樹殘株",
     "deDE": "Blutbaumstumpf",
     "esES": "Cepa del árbol sangriento",
@@ -17631,7 +17631,7 @@
   {
     "id": 21326,
     "Key": "Swordguard",
-    "enUS": "Swordguard",
+    "enUS": "",
     "zhTW": "劍衛",
     "deDE": "Schwertwache",
     "esES": "Espada guardiana",
@@ -18328,7 +18328,7 @@
   {
     "id": 21368,
     "Key": "Cliffkiller",
-    "enUS": "Cliffkiller",
+    "enUS": "",
     "zhTW": "懸崖殺手",
     "deDE": "Klippentöter",
     "esES": "Asesino del acantilado",
@@ -19688,7 +19688,7 @@
   {
     "id": 21448,
     "Key": "The Scalper",
-    "enUS": "The Scalper",
+    "enUS": "",
     "zhTW": "頭皮剝斧",
     "deDE": "Der Skalpierer",
     "esES": "Arrancacabelleras",
@@ -22748,7 +22748,7 @@
   {
     "id": 21630,
     "Key": "Mosers Blessed Circle",
-    "enUS": "Moser's Blessed Circle",
+    "enUS": "",
     "zhTW": "摩瑟的祝福之圓",
     "deDE": "Mosars gesegneter Kreis",
     "esES": "Círculo bendito de Moser",
@@ -22765,7 +22765,7 @@
   {
     "id": 21631,
     "Key": "Que-Hegan's Wisdon",
-    "enUS": "Que-Hegan's Wisdom",
+    "enUS": "",
     "zhTW": "教宗的智慧",
     "deDE": "Que-Hegans Weisheit",
     "esES": "Sabiduría de Que-Hegan",
@@ -22782,7 +22782,7 @@
   {
     "id": 21632,
     "Key": "Guardian Angel",
-    "enUS": "Guardian Angel",
+    "enUS": "",
     "zhTW": "守護天使",
     "deDE": "Schutzengel",
     "esES": "Ángel guardián",
@@ -23224,7 +23224,7 @@
   {
     "id": 21658,
     "Key": "Carin Shard",
-    "enUS": "",
+    "enUS": "Carin Shard",
     "zhTW": "凱林碎片",
     "deDE": "Monolithensplitter",
     "esES": "Esquirla de Cairn",
@@ -23292,7 +23292,7 @@
   {
     "id": 21662,
     "Key": "Trang-Oul's Wing",
-    "enUS": "Trang-Oul's Wing",
+    "enUS": "",
     "zhTW": "塔格奧之翼",
     "deDE": "Trang-Ouls Flügel",
     "esES": "Ala de Trang-Oul",
@@ -24788,7 +24788,7 @@
   {
     "id": 21750,
     "Key": "Jalal's Mane",
-    "enUS": "Jalal's Mane",
+    "enUS": "",
     "zhTW": "加爾的鬃毛",
     "deDE": "Jalals Mähne",
     "esES": "Crin de Jalal",
@@ -24873,7 +24873,7 @@
   {
     "id": 21755,
     "Key": "Homunculus",
-    "enUS": "",
+    "enUS": "Homunculus",
     "zhTW": "魔胎",
     "deDE": "Homunkulus",
     "esES": "Homúnculo",
@@ -25621,7 +25621,7 @@
   {
     "id": 21839,
     "Key": "Wilhelm's Pride",
-    "enUS": "Wilhelm's Pride",
+    "enUS": "",
     "zhTW": "威廉的自尊",
     "deDE": "Wilhelms Stolz",
     "esES": "Orgullo de Wilhelm",
