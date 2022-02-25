@@ -1,0 +1,515 @@
+index	name	code	lvl	lvl req	set
+Aldur's Stony Gaze	Hunter's Guise	dr8	29	36	Aldur's Watchtower
+Aldur's Deception	Shadow Plate	uul	29	76	Aldur's Watchtower
+Aldur's Gauntlet	Jagged Star	9mt	29	42	Aldur's Watchtower
+Aldur's Advance	Battle Boots	xtb	29	45	Aldur's Watchtower
+Angelic Sickle	Sabre	sbr	17	12	Angelical Raiment
+Angelic Mantle	Ring Mail	rng	17	12	Angelical Raiment
+Angelic Halo	Ring	rin	17	12	Angelical Raiment
+Angelic Wings	Amulet	amu	17	12	Angelical Raiment
+Arcanna's Sign	Amulet	amu	20	15	Arcanna's Tricks
+Arcanna's Deathwand	War Staff	wst	20	15	Arcanna's Tricks
+Arcanna's Head	Skull Cap	skp	20	15	Arcanna's Tricks
+Arcanna's Flesh	Light Plate	ltp	20	15	Arcanna's Tricks
+Arctic Horn	Short War Bow	swb	3	2	Arctic Gear
+Arctic Furs	Quilted Armor	qui	3	2	Arctic Gear
+Arctic Binding	Light Belt	vbl	3	2	Arctic Gear
+Arctic Mitts	Light Gauntlets	tgl	3	2	Arctic Gear
+Berserker's Headgear	Helm	hlm	5	3	Berserker's Garb
+Berserker's Hauberk	Splint Mail	spl	5	3	Berserker's Garb
+Berserker's Hatchet	Double Axe	2ax	5	3	Berserker's Garb
+Bul-Kathos' Sacred Charge	Colossus Blade	7gd	50	61	Bul-Kathos' Children
+Bul-Kathos' Tribal Guardian	Mythical Sword	7wd	50	54	Bul-Kathos' Children
+Cathan's Rule	Battle Staff	bst	15	11	Cathan's Traps
+Cathan's Mesh	Chain Mail	chn	15	11	Cathan's Traps
+Cathan's Visage	Mask	msk	15	11	Cathan's Traps
+Cathan's Sigil	Amulet	amu	15	11	Cathan's Traps
+Cathan's Seal	Ring	rin	15	11	Cathan's Traps
+Civerb's Ward	Large Shield	lrg	13	9	Civerb's Vestments
+Civerb's Icon	Amulet	amu	13	9	Civerb's Vestments
+Civerb's Cudgel	Grand Scepter	gsc	13	9	Civerb's Vestments
+Cleglaw's Tooth	Long Sword	lsd	6	4	Cleglaw's Brace
+Cleglaw's Claw	Small Shield	sml	6	4	Cleglaw's Brace
+Cleglaw's Pincers	Chain Gloves	mgl	6	4	Cleglaw's Brace
+Cow King's Horns	War Hat	xap	20	25	Cow King's Leathers
+Cow King's Hide	Studded Leather	stu	20	18	Cow King's Leathers
+Cow King's Hoofs	Heavy Boots	vbt	20	13	Cow King's Leathers
+Death's Hand	Leather Gloves	lgl	8	6	Death's Disguise
+Death's Guard	Sash	lbl	8	6	Death's Disguise
+Death's Touch	War Sword	wsd	8	6	Death's Disguise
+Griswold's Valor	Corona	urn	44	69	Griswold's Legacy
+Griswold's Heart	Ornate Plate	xar	44	45	Griswold's Legacy
+Griswolds's Redemption	Caduceus	7ws	44	53	Griswold's Legacy
+Griswold's Honor	Vortex Shield	paf	44	68	Griswold's Legacy
+Dangoon's Teaching	Reinforced Mace	7ma	55	68	Heaven's Brethren
+Heaven's Taebaek	Ward	uts	55	81	Heaven's Brethren
+Haemosu's Adament	Cuirass	xrs	55	44	Heaven's Brethren
+Ondal's Almighty	Spired Helm	uhm	55	69	Heaven's Brethren
+Hsarus' Iron Heel	Chain Boots	mbt	4	3	Hsarus' Defense
+Hsarus' Iron Fist	Buckler	buc	4	3	Hsarus' Defense
+Hsarus' Iron Stay	Belt	mbl	4	3	Hsarus' Defense
+Hwanin's Splendor	Grand Crown	xrn	28	45	Hwanin's Majesty
+Hwanin's Refuge	Tigulated Mail	xcl	28	30	Hwanin's Majesty
+Hwanin's Seal	Belt	mbl	28	35	Hwanin's Majesty
+Hwanin's Justice	Bill	9vo	28	28	Hwanin's Majesty
+Immortal King's Will	Avenger Guard	ba5	37	47	Immortal King
+Immortal King's Soul Cage	Sacred Armor	uar	37	76	Immortal King
+Immortal King's Detail	War Belt	zhb	37	29	Immortal King
+Immortal King's Forge	War Gauntlets	xhg	37	30	Immortal King
+Immortal King's Pillar	War Boots	xhb	37	31	Immortal King
+Immortal King's Stone Crusher	Ogre Maul	7m7	37	76	Immortal King
+Infernal Cranium	Cap	cap	7	5	Infernal Tools
+Infernal Torch	Grim Wand	gwn	7	5	Infernal Tools
+Infernal Sign	Heavy Belt	tbl	7	5	Infernal Tools
+Iratha's Collar	Amulet	amu	21	15	Iratha's Finery
+Iratha's Cuff	Light Gauntlets	tgl	21	15	Iratha's Finery
+Iratha's Coil	Crown	crn	21	15	Iratha's Finery
+Iratha's Cord	Heavy Belt	tbl	21	15	Iratha's Finery
+Isenhart's Lightbrand	Broad Sword	bsd	11	8	Isenhart's Armory
+Isenhart's Parry	Gothic Shield	gts	11	8	Isenhart's Armory
+Isenhart's Case	Breast Plate	brs	11	8	Isenhart's Armory
+Isenhart's Horns	Full Helm	fhl	11	8	Isenhart's Armory
+M'avina's True Sight	Diadem	ci3	21	59	M'avina's Battle Hymn
+M'avina's Embrace	Kraken Shell	uld	21	70	M'avina's Battle Hymn
+M'avina's Icy Clutch	Battle Gauntlets	xtg	21	32	M'avina's Battle Hymn
+M'avina's Tenet	Sharkskin Belt	zvb	21	45	M'avina's Battle Hymn
+M'avina's Caster	Grand Matron Bow	amc	21	70	M'avina's Battle Hymn
+McAuley's Paragon	Cap	cap	20	25	McAuley's Folly
+McAuley's Riprap	Heavy Boots	vbt	20	20	McAuley's Folly
+McAuley's Taboo	Heavy Gloves	vgl	20	28	McAuley's Folly
+McAuley's Superstition	Bone Wand	bwn	20	25	McAuley's Folly
+Milabrega's Orb	Kite Shield	kit	23	17	Milabrega's Regalia
+Milabrega's Rod	War Scepter	wsp	23	17	Milabrega's Regalia
+Milabrega's Diadem	Crown	crn	23	17	Milabrega's Regalia
+Milabrega's Robe	Ancient Armor	aar	23	17	Milabrega's Regalia
+Naj's Puzzler	Elder Staff	6cs	43	78	Naj's Ancient Set
+Naj's Light Plate	Hellforge Plate	ult	43	71	Naj's Ancient Set
+Naj's Circlet	Circlet	ci0	43	28	Naj's Ancient Set
+Natalya's Totem	Grim Helm	xh9	22	59	Natalya's Odium
+Natalya's Mark	Scissors Suwayyah	7qr	22	79	Natalya's Odium
+Natalya's Shadow	Loricated Mail	ucl	22	73	Natalya's Odium
+Natalya's Soul	Mesh Boots	xmb	22	25	Natalya's Odium
+Guillaume's Face	Winged Helm	xhm	41	34	Orphan's Call
+Wilhelm's Pride	Battle Belt	ztb	41	42	Orphan's Call
+Magnus' Skin	Sharkskin Gloves	xvg	41	37	Orphan's Call
+Wihtstan's Guard	Round Shield	xml	41	29	Orphan's Call
+Sazabi's Cobalt Redeemer	Cryptic Sword	7ls	34	73	Sazabi's Grand Tribute
+Sazabi's Ghost Liberator	Balrog Skin	upl	34	67	Sazabi's Grand Tribute
+Sazabi's Mental Sheath	Basinet	xhl	34	43	Sazabi's Grand Tribute
+Sigon's Gage	Gauntlets	hgl	9	6	Sigon's Complete Steel
+Sigon's Visor	Great Helm	ghm	9	6	Sigon's Complete Steel
+Sigon's Shelter	Gothic Plate	gth	9	6	Sigon's Complete Steel
+Sigon's Sabot	Greaves	hbt	9	6	Sigon's Complete Steel
+Sigon's Wrap	Plated Belt	hbl	9	6	Sigon's Complete Steel
+Sigon's Guard	Tower Shield	tow	9	6	Sigon's Complete Steel
+Tal Rasha's Fire-Spun Cloth	Mesh Belt	zmb	26	53	Tal Rasha's Wrappings
+Tal Rasha's Adjudication	Amulet	amu	26	67	Tal Rasha's Wrappings
+Tal Rasha's Lidless Eye	Swirling Crystal	oba	26	65	Tal Rasha's Wrappings
+Tal Rasha's Howling Wind	Lacquered Plate	uth	26	71	Tal Rasha's Wrappings
+Tal Rasha's Horadric Crest	Death Mask	xsk	26	66	Tal Rasha's Wrappings
+Tancred's Crowbill	Military Pick	mpi	27	20	Tancred's Battlegear
+Tancred's Spine	Full Plate Mail	ful	27	20	Tancred's Battlegear
+Tancred's Hobnails	Boots	lbt	27	20	Tancred's Battlegear
+Tancred's Weird	Amulet	amu	27	20	Tancred's Battlegear
+Tancred's Skull	Bone Helm	bhm	27	20	Tancred's Battlegear
+Telling of Beads	Amulet	amu	39	30	The Disciple
+Laying of Hands	Bramble Mitts	ulg	39	63	The Disciple
+Rite of Passage	Demonhide Boots	xlb	39	29	The Disciple
+Spiritual Custodian	Dusk Shroud	uui	39	43	The Disciple
+Credendum	Mithril Coil	umc	39	65	The Disciple
+Trang-Oul's Guise	Bone Visage	uh9	32	65	Trang-Oul's Avatar
+Trang-Oul's Scales	Chaos Armor	xul	32	49	Trang-Oul's Avatar
+Trang-Oul's Wing	Cantor Trophy	ne9	32	54	Trang-Oul's Avatar
+Trang-Oul's Claws	Heavy Bracers	xmg	32	45	Trang-Oul's Avatar
+Trang-Oul's Girth	Troll Belt	utc	32	47	Trang-Oul's Avatar
+Vidala's Barb	Long Battle Bow	lbb	19	14	Vidala's Rig
+Vidala's Fetlock	Light Plated Boots	tbt	19	14	Vidala's Rig
+Vidala's Ambush	Leather Armor	lea	19	14	Vidala's Rig
+Vidala's Snare	Amulet	amu	19	14	Vidala's Rig
+Amulet of the Viper	Amulet	vip	0	0	
+Staff of Kings	Staff	msf	0	0	
+Horadric Staff	Staff	hst	0	0	
+Hell Forge Hammer	Hammer	hfh	0	0	
+KhalimFlail	Flail	qf1	0	0	
+SuperKhalimFlail	Flail	qf2	0	0	
+Rixots Keen	Short Sword	ssd	3	2	
+Pelta Lunata	Buckler	buc	3	2	
+Felloak	Club	clb	4	3	
+War Bonnet	Cap	cap	4	3	
+Gull	Dagger	dgr	6	4	
+The Gnasher	Hand Axe	hax	7	5	
+Iros Torch	Wand	wnd	7	5	
+Knell Striker	Scepter	scp	7	5	
+Stoutnail	Spiked Club	spc	7	5	
+Bane Ash	Short Staff	sst	7	5	
+The Hand of Broc	Gloves	lgl	7	5	
+Hotspur	Leather Boots	lbt	7	5	
+Blood Crescent	Scimitar	scm	10	7	
+Pluckeye	Short Bow	sbw	10	7	
+Greyform	Quilted Armor	qui	10	7	
+Lenyms Cord	Sash	lbl	10	7	
+Nagelring	Ring	rin	10	7	
+Fechmars Axe	Large Axe	lax	11	8	
+The Dragon Chang	Spear	spr	11	8	
+Dimoaks Hew	Bardiche	bar	11	8	
+Deathspade	Axe	axe	12	9	
+Crushflange	Mace	mac	12	9	
+Serpent Lord	Long Staff	lst	12	9	
+Leadcrow	Light Crossbow	lxb	12	9	
+Umbral Disk	Small Shield	sml	12	9	
+Bloodfist	Heavy Gloves	vgl	12	9	
+Gorefoot	Heavy Boots	vbt	12	9	
+Krintizs Skewer	Saber	sbr	14	10	
+Nokozan Relic	Amulet	amu	14	10	
+The Diggler	Dirk	dir	15	11	
+Shadowfang	2-Handed Sword	2hs	16	12	
+Razortine	Trident	tri	16	12	
+Blinkbats Form	Leather Armor	lea	16	12	
+Snakecord	Light Belt	vbl	16	12	
+Gleamscythe	Falchion	flc	18	13	
+Azurewrath	Crystal Sword	crs	18	13	
+Witherstring	Hunter\92s Bow	hbw	18	13	
+Stormguild	Large Shield	lrg	18	13	
+Goreshovel	Broad Axe	bax	19	14	
+Maelstromwrath	Yew Wand	ywn	19	14	
+Steelgoad	Voulge	vou	19	14	
+Coif of Glory	Helm	hlm	19	14	
+The Centurion	Hard Leather	hla	19	14	
+Darkglow	Ring Mail	rng	19	14	
+Bladebone	Double Axe	2ax	20	15	
+Bloodrise	Morning Star	mst	20	15	
+Rimeraven	Long Bow	lbw	20	15	
+Tarnhelm	Skull Cap	skp	20	15	
+Hawkmail	Scale Mail	scl	20	15	
+Swordback Hold	Spiked Shield	spk	20	15	
+Chance Guards	Bracers	mgl	20	15	
+Treads of Cthon	Chain Boots	mbt	20	15	
+The Eye of Etlich	Amulet	amu	20	15	
+Manald Heal	Ring	rin	20	15	
+Twitchthroe	Studded Leather	stu	22	16	
+Rusthandle	Grand Scepter	gsc	23	17	
+Griswolds Edge	Broad Sword	bsd	23	17	
+Bloodthief	Brandistock	brn	23	17	
+Duskdeep	Full Helm	fhl	23	17	
+Sparking Mail	Chain Mail	chn	23	17	
+Steelclash	Kite Shield	kit	23	17	
+Lazarus Spire	Gnarled Staff	cst	24	18	
+Ichorsting	Crossbow	mxb	24	18	
+The Chieftan	Battle Axe	btx	26	19	
+Soulflay	Claymore	clm	26	19	
+The Jade Tan Do	Kris	kri	26	19	
+Soul Harvest	Scythe	scy	26	19	
+Bverrit Keep	Tower Shield	tow	26	19	
+Gravenspine	Bone Wand	bwn	27	20	
+Piercerib	Composite Bow	cbw	27	20	
+The Face of Horror	Mask	msk	27	20	
+Venomsward	Breast Plate	brs	27	20	
+Wall of the Eyeless	Bone Shield	bsh	27	20	
+Nightsmoke	Belt	mbl	27	20	
+Mindrend	Military Pick	mpi	28	21	
+The Generals Tan Do Li Ga	Flail	fla	28	21	
+The Salamander	Battle Staff	bst	28	21	
+Wormskull	Bone Helm	bhm	28	21	
+Hellplague	Long Sword	lsd	30	22	
+Lance of Yaggai	Spetum	spt	30	22	
+Iceblink	Splint Mail	spl	30	22	
+Goblin Toe	Light Plate Boots	tbt	30	22	
+Stormeye	War Scepter	wsp	31	23	
+Kinemils Awl	Giant Sword	gis	31	23	
+Magefist	Light Gauntlets	tgl	31	23	
+Bonesob	Maul	mau	32	24	
+Brainhew	Great Axe	gax	34	25	
+Irices Shard	Blade	bld	34	25	
+The Battlebranch	Poleaxe	pax	34	25	
+Pullspite	Short Battle Bow	sbb	34	25	
+Howltusk	Great Helm	ghm	34	25	
+The Mahim-Oak Curio	Amulet	amu	34	25	
+Blacktongue	Bastard Sword	bsw	35	26	
+Ripsaw	Flamberge	flb	35	26	
+Wizendraw	Long Battle Bow	lbb	35	26	
+Boneflesh	Plate Mail	plt	35	26	
+The Ward	Gothic Shield	gts	35	26	
+Rakescar	War Axe	wax	36	27	
+Ironstone	War Hammer	whm	36	27	
+The Tannr Gorerod	Pike	pik	36	27	
+Hellclap	Short War Bow	swb	36	27	
+Hellcast	Heavy Crossbow	hxb	36	27	
+Goldwrap	Heavy Belt	tbl	36	27	
+Razorswitch	Jo Stalf	8ss	36	28	
+Skystrike	Edge Bow	8sb	36	28	
+Peasent Crown	War Hat	xap	36	28	
+The Spirit Shroud	Ghost Armor	xui	36	28	
+Visceratuant	Defender	xuc	36	28	
+Skin of the Vipermagi	SerpentSkin Armor	xea	37	29	
+Venom Grip	Demonhide Gloves	xlg	37	29	
+Infernostride	Demonhide Boots	xlb	37	29	
+String of Ears	Demonhide Sash	zlb	37	29	
+Umes Lament	Grim Wand	gwn	38	28	
+Woestave	Halberd	hal	38	28	
+The Iron Jang Bong	War Staff	wst	38	28	
+Blastbark	Long War Bow	lwb	38	28	
+Doomspittle	Repeating Crossbow	rxb	38	28	
+Rockfleece	Field Plate	fld	38	28	
+Goldskin	Full Plate Mail	ful	38	28	
+Victors Silk	AncientArmor	aar	38	28	
+Bloodletter	Gladius	9ss	38	30	
+The Humongous	Giant Axe	gix	39	29	
+Steeldriver	Great Maul	gma	39	29	
+Culwens Point	War Sword	wsd	39	29	
+The Patriarch	Great Sword	gsd	39	29	
+The Grim Reaper	War Scythe	wsc	39	29	
+Undead Crown	Crown	crn	39	29	
+Rattlecage	Gothic Plate	gth	39	29	
+Heavenly Garb	Light Plate	ltp	39	29	
+Frostburn	Gauntlets	hgl	39	29	
+Tearhaunch	Plate Boots	hbt	39	29	
+Bladebuckle	Girdle	hbl	39	29	
+The Stone of Jordan	Ring	rin	39	29	
+Coldsteel Eye	Cutlass	9sm	39	31	
+The Impaler	War Spear	9sr	39	31	
+Ribcracker	Quarterstaff	8ls	39	31	
+Riphook	Razor Bow	8hb	39	31	
+Rockstopper	Sallet	xkp	39	31	
+Skin of the Flayerd One	Demonhide Armor	xla	39	31	
+Mosers Blessed Circle	Round Shield	xml	39	31	
+Gravepalm	Sharkskin Gloves	xvg	39	32	
+Razortail	Sharkskin Belt	zvb	39	32	
+Spineripper	Poignard	9dg	40	32	
+Langer Briser	Arbalest	8lx	40	32	
+Waterwalk	Sharkskin Boots	xvb	40	32	
+Suicide Branch	Burnt Wand	9wn	41	33	
+Hexfire	Shamshir	9sb	41	33	
+Kelpie Snare	Fuscina	9tr	41	33	
+Kuko Shakaku	CedarBow	8lb	41	33	
+Ironpelt	Tresllised Armor	xtu	41	33	
+Dark Clan Crusher	Cudgel	9cl	42	34	
+Warlord's Trust	Military Axe	9la	43	35	
+Carin Shard	Petrified Wand	9yw	43	35	
+Blade of Ali Baba	Tulwar	9fc	43	35	
+Soulfeast Tine	War Fork	9br	43	35	
+Chromatic Ire	Cedar Staff	8cs	43	35	
+Stealskull	Casque	xlm	43	35	
+Spiritforge	Linked Mail	xng	43	35	
+Stormchaser	Scutum	xrg	43	35	
+Lance Guard	Barbed Shield	xpk	43	35	
+Coldkill	Hatchet	9ha	44	36	
+Arm of King Leoric	Tomb Wand	9bw	44	36	
+Heart Carver	Rondel	9di	44	36	
+Endlesshail	Double Bow	8cb	44	36	
+Pus Spiter	Siege Crossbow	8mx	44	36	
+Ghoulhide	Heavy Bracers	xmg	44	36	
+Silkweave	Mesh Boots	xmb	44	36	
+Zakarum's Hand	Rune Scepter	9sc	45	37	
+Ginther's Rift	Dimensional Blade	9cr	45	37	
+Hone Sundan	Yari	9st	45	37	
+Crow Caw	Tigulated Mail	xcl	45	37	
+Gloomstrap	Mesh Belt	zmb	45	36	
+The Fetid Sprinkler	Holy Water Sprinkler	9qs	46	38	
+Fleshrender	Barbed Club	9sp	46	38	
+Blackbog's Sharp	Cinquedeas	9kr	46	38	
+Darksight Helm	Basinet	xhl	46	38	
+Shaftstop	Mesh Armor	xhn	46	38	
+Tiamat's Rebuke	Dragon Shield	xit	46	38	
+Butcher's Pupil	Cleaver	9ax	47	39	
+Spellsteel	Bearded Axe	9ba	47	39	
+Sureshrill Frost	Flanged Mace	9ma	47	39	
+Headstriker	Battle Sword	9bs	47	39	
+Spire of Honor	Lance	9p9	47	39	
+Warpspear	Gothic Staff	8bs	47	39	
+Whichwild String	Short Siege Bow	8s8	47	39	
+Stormrider	Tabar	9bt	49	41	
+Blackhand Key	Grave Wand	9gw	49	41	
+Plague Bearer	Rune Sword	9ls	49	41	
+Stormspike	Stilleto	9bl	49	41	
+The Meat Scraper	Lochaber Axe	9b7	49	41	
+Skullcollector	Rune Staff	8ws	49	41	
+Cliffkiller	Long Siege Bow	8l8	49	41	
+Blackhorn's Face	Death Mask	xsk	49	41	
+Vampiregaze	Grim Helm	xh9	49	41	
+Duriel's Shell	Cuirass	xrs	49	41	
+Lidless Wall	Grim Shield	xsh	49	41	
+Snowclash	Battle Belt	ztb	49	42	
+Boneslayer Blade	Gothic Axe	9ga	50	42	
+Hand of Blessed Light	Divine Scepter	9ws	50	42	
+Moonfall	Jagged Star	9mt	50	42	
+The Atlantian	Ancient Sword	9wd	50	42	
+Crainte Vomir	Espadon	92h	50	42	
+Blackleach Blade	Bill	9vo	50	42	
+Athena's Wrath	Battle Scythe	9s8	50	42	
+Skullder's Ire	Russet Armor	xpl	50	42	
+Lavagout	Battle Guantlets	xtg	50	42	
+Wartraveler	Battle Boots	xtb	50	42	
+Arreat's Face	Slayer Guard	baa	50	42	
+Homunculus	Heirophant Trophy	nea	50	42	
+Titan's Revenge	Ceremonial Javelin	ama	50	42	
+Lycander's Aim	Ceremonial Bow	am7	50	42	
+Lycander's Flank	Ceremonial Pike	am9	50	42	
+The Oculus	Swirling Crystal	oba	50	42	
+Herald of Zakarum	Aerin Shield	pa9	50	42	
+Cutthroat1	Runic Talons	9tw	50	42	
+Jalal's Mane	Dream Spirit	dra	50	42	
+Islestrike	Twin Axe	92a	51	43	
+Earthshaker	Battle Hammer	9wh	51	43	
+Bing Sz Wang	Dacian Falx	9cm	51	43	
+Pierre Tombale Couant	Partizan	9pa	51	43	
+Magewrath	Rune Bow	8sw	51	43	
+The Vile Husk	Tusk Sword	9gs	52	44	
+Husoldal Evo	Bec-de-Corbin	9h9	52	44	
+Grim's Burning Dead	Grim Scythe	9wc	52	45	
+Valkiry Wing	Winged Helm	xhm	52	44	
+Kerke's Sanctuary	Pavise	xow	52	44	
+Deathbit	battle dart	9tk	52	44	
+Pompe's Wrath	Crowbill	9mp	53	45	
+The Minataur	Ancient Axe	9gi	53	45	
+Baezil's Vortex	Knout	9fl	53	45	
+The Gavel of Pain	Martel de Fer	9gm	53	45	
+Cloudcrack	Gothic Sword	9b9	53	45	
+Guardian Angel	Templar Coat	xlt	53	45	
+Dwarf Star	Ring	rin	53	45	
+Raven Frost	Ring	rin	53	45	
+Todesfaelle Flamme	Zweihander	9fb	54	46	
+Godstrike Arch	Gothic Bow	8lw	54	46	
+Swordguard	Executioner Sword	9gd	55	48	
+Hellmouth	War Gauntlets	xhg	55	47	
+Gorerider	War Boots	xhb	55	47	
+Thudergod's Vigor	War Belt	zhb	55	47	
+Saracen's Chance	Amulet	amu	55	47	
+Guardian Naga	Naga	9wa	56	48	
+Bloodtree Stump	War Club	9m9	56	48	
+Toothrow	Sharktooth Armor	xld	56	48	
+Demon Machine	Chu-Ko-Nu	8rx	57	49	
+Crown of Thieves	Grand Crown	xrn	57	49	
+Radimant's Sphere	Ancient Shield	xts	58	50	
+The Cat's Eye	Amulet	amu	58	50	
+Crescent Moon	Amulet	amu	58	50	
+Buriza-Do Kyanon	Balista	8hx	59	41	
+Atma's Wail	Embossed Plate	xth	59	51	
+Que-Hegan's Wisdon	Mage Plate	xtp	59	51	
+Atma's Scarab	Amulet	amu	60	60	
+Black Hades	Chaos Armor	xul	61	53	
+Corpsemourn	Ornate Armor	xar	63	55	
+The Scalper	Francisca	9ta	65	57	
+Lightsabre	Phase Blade	7cr	66	58	
+Bul Katho's Wedding Band	Ring	rin	66	58	
+Blackoak Shield	Luna	uml	67	61	
+Nosferatu's Coil	vampirefang belt	uvc	68	51	
+Carrion Wind	ring	rin	68	60	
+Ironward	caduceus	7ws	68	60	
+Harlequin Crest	Shako	uap	69	62	
+Wizardspike	Bone Knife	7dg	69	61	
+Bloodmoon	elegant blade	7sb	69	61	
+Demonhorn's Edge	destroyer helm	bad	69	61	
+Heaven's Light	mighty scepter	7sc	69	61	
+Baranar's Star	Devil Star	7mt	70	65	
+Steelshade	armet	ulm	70	62	
+Ghostflame	legend spike	7bl	70	62	
+Gheed's Fortune	charm	cm3	70	62	
+Hellslayer	Decapitator	7bt	71	66	
+Demonlimb	tyrant club	7sp	71	63	
+Cerebus	blood spirit	drb	71	63	
+Verdugo's Hearty Cord	mithril coil	umc	71	63	
+Cranebeak	war spike	7mp	71	63	
+Horizon's Tornado	scourge	7fl	72	64	
+Stoneraven	matriarchal spear	amd	72	64	
+Darkforge Spawn	bloodlord skull	nef	72	64	
+Sandstorm Trek	scarabshell boots	uvb	72	64	
+Bonehew	ogre axe	7o7	72	64	
+The Rising Sun	Amulet	amu	73	65	
+Highlord's Wrath	Amulet	amu	73	65	
+Djinnslayer	ataghan	7sm	73	65	
+Seraph's Hymn	amulet	amu	73	65	
+Leviathan	kraken shell	uld	73	65	
+Widowmaker	ward bow	6sw	73	65	
+Giantskull	bone visage	uh9	73	65	
+Deaths's Web	unearthed wand	7gw	74	66	
+Jadetalon	wrist sword	7wb	74	66	
+Steel Carapice	shadow plate	uul	74	66	
+Marrowwalk	boneweave boots	umb	74	66	
+Ondal's Wisdom	elder staff	6cs	74	66	
+Messerschmidt's Reaver	Champion Axe	7ga	75	70	
+Doombringer	Champion Sword	7b7	75	69	
+Razoredge	tomahawk	7ha	75	67	
+Spiritkeeper	earth spirit	drd	75	67	
+Nightwing's Veil	spired helm	uhm	75	67	
+Firelizard's Talons	feral claws	7lw	75	67	
+Fleshripper	fanged knife	7kr	76	68	
+Stone Crusher	legendary mallet	7wh	76	68	
+Lacerator	winged axe	7b8	76	68	
+Windhammer	ogre maul	7m7	76	68	
+Demon's Arch	balrog spear	7s7	76	68	
+Spirit Ward	ward	uts	76	68	
+Nord's Tenderizer	truncheon	7cl	76	68	
+Veil of Steel	Spired Helm	uhm	77	73	
+Stormshield	Monarch	uit	77	73	
+Eaglehorn	Crusader Bow	6l7	77	69	
+Nature's Peace	ring	rin	77	69	
+Thunderstroke	matriarchal javelin	amf	77	69	
+Steelpillar	war pike	7p7	77	69	
+Earthshifter	thunder maul	7gm	77	69	
+Stormspire	Giant Thresher	7wc	78	70	
+Deathcleaver	berserker axe	7wa	78	70	
+Gargoyle's Bite	winged harpoon	7ts	78	70	
+Gimmershred	flying axe	7ta	78	70	
+Spike Thorn	blade barrier	upk	78	70	
+Frostwind	cryptic sword	7ls	78	70	
+Steelrend	ogre gauntlets	uhg	78	70	
+Gutsiphon	demon crossbow	6rx	79	71	
+Shadowdancer	myrmidon greaves	uhb	79	71	
+Viperfork	war fork	7br	79	71	
+Bloodraven's Charge	matriarchal bow	amb	79	71	
+Flamebellow	balrog blade	7gs	79	71	
+Windforce	Hydra Bow	6lw	80	73	
+Mara's Kaleidoscope	Amulet	amu	80	67	
+Runemaster	ettin axe	72a	80	72	
+Boneflame	succubae skull	nee	80	72	
+Eschuta's temper	eldritch orb	obc	80	72	
+The Reedeemer	mighty scepter	7sc	80	72	
+Fathom	dimensional shard	obf	81	73	
+Souldrain	vambraces	umg	82	74	
+Ethereal Edge	silver-edged axe	7ba	82	74	
+Ravenlore	sky spirit	dre	82	74	
+Templar's Might	sacred armor	uar	82	74	
+Schaefer's Hammer	Legendary Mallet	7wh	83	79	
+Warshrike	winged knife	7bk	83	75	
+Executioner's Justice	glorious axe	7gi	83	75	
+The Reaper's Toll	thresher	7s8	83	75	
+Ormus' Robes	dusk shroud	uui	83	75	
+Headhunter's Glory	troll nest	ush	83	75	
+Wisp	ring	rin	84	76	
+Hellrack	colossus crossbow	6hx	84	76	
+Griffon's Eye	diadem	ci3	84	76	
+Dragonscale	zakarum shield	pae	84	80	
+Medusa's Gaze	aegis	uow	84	76	
+Boneshade	lich wand	7bw	84	79	
+Dracul's Grasp	vampirebone gloves	uvg	84	76	
+Wraithflight	ghost glaive	7gl	84	76	
+The Gladiator's Bane	Wire Fleece	utu	85	85	
+Arkaine's Valor	Balrog Skin	upl	85	85	
+The Cranium Basher	Thunder Maul	7gm	85	87	
+The Grandfather	Colossus Blade	7gd	85	81	
+Alma Negra	sacred rondache	pac	85	77	
+Shadowkiller	battle cestus	7cs	85	78	
+Andariel's Visage	demonhead	usk	85	83	
+Wolfhowl	fury visor	bac	85	79	
+Kira's Guardian	tiara	ci2	85	77	
+Halaberd's Reign	conqueror crown	bae	85	77	
+Metalgrid	amulet	amu	85	81	
+Arioc's Needle	hyperion spear	7sr	85	81	
+Rainbow Facet	jewel	jew	85	49	
+Rainbow Facet	jewel	jew	85	49	
+Rainbow Facet	jewel	jew	85	49	
+Rainbow Facet	jewel	jew	85	49	
+Rainbow Facet	jewel	jew	85	49	
+Rainbow Facet	jewel	jew	85	49	
+Rainbow Facet	jewel	jew	85	49	
+Rainbow Facet	jewel	jew	85	49	
+Tomb Reaver	cryptic axe	7pa	86	84	
+Mang Song's Lesson	archon staff	6ws	86	82	
+Crown of Ages	corona	urn	86	82	
+Stormlash	scourge	7fl	86	82	
+Azurewrath	phase blade	7cr	87	85	
+Tyrael's Might	sacred armor	uar	87	84	
+Arachnid Mesh	spiderweb sash	ulc	87	80	
+Constricting Ring	Ring	rin	95	95	
+Annihilus	charm	cm1	110	70	
+Hellfire Torch	charm	cm2	110	75	
