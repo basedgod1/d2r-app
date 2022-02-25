@@ -2603,7 +2603,7 @@
   {
     "id": 2076,
     "Key": "xit",
-    "enUS": "Dragon Shield",
+    "enUS": "",
     "zhTW": "龍盾",
     "deDE": "[ms]Drachenschild",
     "esES": "[ms]Escudo de dragón",
@@ -2790,7 +2790,7 @@
   {
     "id": 2087,
     "Key": "xrs",
-    "enUS": "Cuirass",
+    "enUS": "",
     "zhTW": "護胸甲",
     "deDE": "[ms]Harnisch",
     "esES": "[ms]Peto",
@@ -3810,7 +3810,7 @@
   {
     "id": 2149,
     "Key": "9ls",
-    "enUS": "Rune Sword",
+    "enUS": "",
     "zhTW": "符文劍",
     "deDE": "[ns]Runenschwert",
     "esES": "[fs]Espada rúnica",
@@ -10202,7 +10202,7 @@
   {
     "id": 2656,
     "Key": "Twitchthroe",
-    "enUS": "Twitchthroe",
+    "enUS": "",
     "zhTW": "抽動掙扎",
     "deDE": "Zuckzappel",
     "esES": "Agonía temblorosa",
@@ -13602,7 +13602,7 @@
   {
     "id": 20246,
     "Key": "7bk",
-    "enUS": "Winged Knife",
+    "enUS": "",
     "zhTW": "刃翼飛刀",
     "deDE": "[ms]Schwingendolch",
     "esES": "[ms]Cuchillo alado",
@@ -14724,7 +14724,7 @@
   {
     "id": 20312,
     "Key": "amb",
-    "enUS": "Matriarchal Bow",
+    "enUS": "",
     "zhTW": "女傑之弓",
     "deDE": "[ms]Matriarchenbogen",
     "esES": "[ms]Arco matriarcal",
@@ -17512,7 +17512,7 @@
   {
     "id": 21319,
     "Key": "Plague Bearer",
-    "enUS": "Plague Bearer",
+    "enUS": "",
     "zhTW": "疫病帶原者",
     "deDE": "Pestbringer",
     "esES": "Portadora de la plaga",
@@ -18532,7 +18532,7 @@
   {
     "id": 21380,
     "Key": "Warshrike",
-    "enUS": "Warshrike",
+    "enUS": "",
     "zhTW": "戰爭之鳥",
     "deDE": "Kriegswürger",
     "esES": "Alcaudón guerrero",
@@ -19960,7 +19960,7 @@
   {
     "id": 21464,
     "Key": "Seraph's Hymn",
-    "enUS": "Seraph's Hymn",
+    "enUS": "",
     "zhTW": "熾天使之韻",
     "deDE": "Seraphims Psalm",
     "esES": "Himno del serafín",
@@ -20691,7 +20691,7 @@
   {
     "id": 21508,
     "Key": "Bloodraven's Charge",
-    "enUS": "Blood Raven's Charge",
+    "enUS": "",
     "zhTW": "血鴉之擊",
     "deDE": "Blutrabes Ansturm",
     "esES": "Carga de Cuervo Sangriento",
@@ -21048,7 +21048,7 @@
   {
     "id": 21529,
     "Key": "Duriel's Shell",
-    "enUS": "Duriel's Shell",
+    "enUS": "",
     "zhTW": "都瑞爾之殼",
     "deDE": "Duriels Schale",
     "esES": "Concha de Duriel",
@@ -21201,7 +21201,7 @@
   {
     "id": 21538,
     "Key": "Tiamat's Rebuke",
-    "enUS": "Tiamat's Rebuke",
+    "enUS": "",
     "zhTW": "魔龍的非難",
     "deDE": "Tiamats Rüge",
     "esES": "Reprimenda de Tiamat",
@@ -23224,7 +23224,7 @@
   {
     "id": 21658,
     "Key": "Carin Shard",
-    "enUS": "Carin Shard",
+    "enUS": "",
     "zhTW": "凱林碎片",
     "deDE": "Monolithensplitter",
     "esES": "Esquirla de Cairn",

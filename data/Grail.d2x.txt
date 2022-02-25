@@ -22415,5 +22415,1466 @@ Weapons: +75% Damage to Undead
 +50 to Attack Rating against Undead
 Armor: 15% Slower Stamina Drain
 Shields: 7% Increased Chance of Blocking
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Small Charm of Good Luck
+Small Charm
+Required Level: 33
+Fingerprint: 0xd4adac7c
+Item Level: 85
+Version: Resurrected
+7% Better Chance of Getting Magic Items
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Hel Rune
+Version: Resurrected
+Weapons: Requirements --20%
+Armor: Requirements --15%
+Shields: Requirements --15%
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Warshrike
+Winged Knife
+Throw Damage: 76 - 129
+One Hand Damage: 89 - 116
+Quantity: 200
+Required Level: 75
+Required Strength: 45
+Required Dexterity: 142
+Fingerprint: 0xff3f9bfe
+Item Level: 84
+Version: Resurrected
+25% Chance to cast level 9 Nova on striking
++30% Increased Attack Speed
+Piercing Attack
+233% Enhanced Damage
+50% Deadly Strike
+Replenishes quantity
+
+Thresher
+Two Hand Damage: 12 - 141
+Durability: 45 of 65
+Required Level: 53
+Required Strength: 152
+Required Dexterity: 118
+Fingerprint: 0x53bb0a77
+Item Level: 81
+Version: Resurrected
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Low Quality Archon Plate
+Archon Plate
+Defense: 360
+Durability: 13 of 19
+Required Level: 63
+Required Strength: 103
+Fingerprint: 0xc0c4fc59
+Item Level: 81
+Version: Resurrected
+
+Ocher Small Charm
+Small Charm
+Required Level: 10
+Fingerprint: 0x88b6f6ca
+Item Level: 81
+Version: Resurrected
+Lightning Resist +6%
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Sharp Large Charm
+Large Charm
+Required Level: 21
+Fingerprint: 0x1d71f761
+Item Level: 81
+Version: Resurrected
++4 to Maximum Damage
++43 to Attack Rating
+
+Superior Tiara
+Defense: 58
+Durability: 20 of 25
+Required Level: 52
+Fingerprint: 0x71da51b6
+Item Level: 81
+Version: Resurrected
++15% Enhanced Defense
+
+Blood Raven's Charge
+Matriarchal Bow
+Two Hand Damage: 57 - 134
+Durability: 46 of 48
+Required Level: 71
+Required Strength: 87
+Required Dexterity: 187
+Fingerprint: 0xc2b6c204
+Item Level: 87
+Version: Resurrected
++4 to Bow and Crossbow Skills (Amazon Only)
+Fires Explosive Arrows or Bolts
+187% Enhanced Damage
+255% Bonus to Attack Rating
+Level 5 Revive (11/30 Charges)
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Lucky Grand Charm of Greed
+Grand Charm
+Required Level: 14
+Fingerprint: 0xa8ca96be
+Item Level: 80
+Version: Resurrected
+37% Extra Gold from Monsters
+12% Better Chance of Getting Magic Items
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Duriel's Shell
+Cuirass
+Defense: 626
+Durability: 34 of 150
+Required Level: 41
+Required Strength: 65
+Fingerprint: 0x2cc79d82
+Item Level: 87
+Version: Resurrected
++163% Enhanced Defense
++93 Defense (Based on Character Level)
++15 to Strength
++75 to Life (Based on Character Level)
+Cold Resist +30%
+All Resistances +20
+Cannot Be Frozen
++100 Maximum Durability
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Arreat's Face
+Slayer Guard
+Defense: 314
+Durability: 46 of 55
+Required Level: 42
+Required Strength: 118
+Fingerprint: 0xaccef348
+Item Level: 87
+Version: Resurrected
++2 to Combat Skills (Barbarian Only)
++2 to Barbarian Skill Levels
++30% Faster Hit Recovery
+20% Bonus to Attack Rating
+5% Life stolen per hit
++160% Enhanced Defense
++20 to Strength
++20 to Dexterity
+All Resistances +30
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Carin Shard
+Petrified Wand
+One Hand Damage: 8 - 24
+Durability: 7 of 15
+Required Level: 35
+Required Strength: 25
+Fingerprint: 0x4a81dacc
+Item Level: 87
+Version: Resurrected
++2 to Summoning Skills (Necromancer Only)
++1 to Necromancer Skill Levels
++10% Faster Cast Rate
++30% Faster Hit Recovery
++93 to Life (Based on Character Level)
+Replenish Life +5
++93 to Mana (Based on Character Level)
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Sapphire Small Charm of Dexterity
+Small Charm
+Required Level: 32
+Fingerprint: 0x48902194
+Item Level: 85
+Version: Resurrected
++2 to Dexterity
+Cold Resist +10%
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Twitchthroe
+Studded Leather
+Defense: 57
+Durability: 22 of 32
+Required Level: 16
+Required Strength: 27
+Fingerprint: 0xba73bc8c
+Item Level: 85
+Version: Resurrected
++20% Increased Attack Speed
++20% Faster Hit Recovery
+25% Increased Chance of Blocking
++25 Defense
++10 to Strength
++10 to Dexterity
+
+Tal Rasha's Adjudication
+Amulet
+Required Level: 67
+Fingerprint: 0xce185818
+Item Level: 85
+Version: Resurrected
++2 to Sorceress Skill Levels
+Adds 3 - 32 Lightning Damage
++50 to Life
++42 to Mana
+Lightning Resist +33%
+Set (4 items): +10% Faster Cast Rate
+
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Steel Small Charm of Sustenance
+Small Charm
+Required Level: 49
+Fingerprint: 0x35bc80b9
+Item Level: 85
+Version: Resurrected
++26 to Attack Rating
++13 to Life
+
+Dol Rune
+Required Level: 31
+Version: Resurrected
+Weapons: Hit Causes Monster to Flee 25%
+Armor: Replenish Life +7
+Shields: Replenish Life +7
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Gale Crest
+Circlet
+Defense: 45
+Durability: 32 of 35
+Required Level: 31
+Fingerprint: 0x49dafbf3
+Item Level: 85
+Version: Resurrected
++1 to Amazon Skill Levels
++30% Faster Run/Walk
++46% Enhanced Defense
+All Resistances +20
+Damage Reduced by 4
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Ghoul Whorl
+Ring
+Required Level: 66
+Fingerprint: 0xa4a731cb
+Item Level: 85
+Version: Resurrected
++1 to Maximum Damage
++101 to Attack Rating
++17 to Strength
++10 to Dexterity
+Fire Resist +25%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Iron Large Charm of Balance
+Large Charm
+Required Level: 18
+Fingerprint: 0x9f8d38be
+Item Level: 85
+Version: Resurrected
++8% Faster Hit Recovery
++37 to Attack Rating
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Bartuc's Cut-Throat
+Greater Talons
+One Hand Damage: 77 - 138
+Durability: 65 of 69
+Required Level: 42
+Required Strength: 79
+Required Dexterity: 79
+Fingerprint: 0x7367a5d1
+Item Level: 85
+Version: Resurrected
++1 to Martial Art Skills (Assassin Only)
++2 to Assassin Skill Levels
++30% Faster Hit Recovery
+152% Enhanced Damage
+Adds 25 - 50 Damage
+20% Bonus to Attack Rating
+5% Life stolen per hit
++20 to Strength
++20 to Dexterity
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+El Rune
+Required Level: 11
+Version: Resurrected
+Weapons: +50 to Attack Rating
++1 to Light Radius
+Armor: +15 Defense
++1 to Light Radius
+Shields: +15 Defense
++1 to Light Radius
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Fal Rune
+Required Level: 41
+Version: Resurrected
+Weapons: +10 to Strength
+Armor: +10 to Strength
+Shields: +10 to Strength
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Hel Rune
+Version: Resurrected
+Weapons: Requirements --20%
+Armor: Requirements --15%
+Shields: Requirements --15%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Hel Rune
+Version: Resurrected
+Weapons: Requirements --20%
+Armor: Requirements --15%
+Shields: Requirements --15%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Thul Rune
+Required Level: 23
+Version: Resurrected
+Weapons: Adds 3 - 14 Cold Damage Over 3 Secs (75 Frames)
+Armor: Cold Resist +30%
+Shields: Cold Resist +35%
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Coral Small Charm of Strength
+Small Charm
+Required Level: 20
+Fingerprint: 0x97df1042
+Item Level: 85
+Version: Resurrected
++2 to Strength
+Lightning Resist +9%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Gheed's Fortune
+Grand Charm
+Required Level: 62
+Fingerprint: 0xe8b31a5f
+Item Level: 81
+Version: Resurrected
+121% Extra Gold from Monsters
+Reduces all Vendor Prices 12%
+32% Better Chance of Getting Magic Items
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Io Rune
+Required Level: 35
+Version: Resurrected
+Weapons: +10 to Vitality
+Armor: +10 to Vitality
+Shields: +10 to Vitality
+
+Mal Rune
+Required Level: 49
+Version: Resurrected
+Weapons: Prevent Monster Heal
+Armor: Magic Damage Reduced by 7
+Shields: Magic Damage Reduced by 7
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Tiamat's Rebuke
+Dragon Shield
+Defense: 165
+Chance to Block: 0
+Durability: 46 of 116
+Required Level: 38
+Required Strength: 91
+Fingerprint: 0x260cbbd2
+Item Level: 85
+Version: Resurrected
+3% Chance to cast level 6 Hydra when struck
+5% Chance to cast level 7 Nova when struck
+5% Chance to cast level 9 Frost Nova when struck
+Adds 35 - 95 Fire Damage
+Adds 1 - 120 Lightning Damage
+Adds 27 - 53 Cold Damage Over 6 Secs (150 Frames)
++143% Enhanced Defense
+All Resistances +34
++40 Maximum Durability
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Harlequin Crest
+Shako
+Defense: 121
+Durability: 7 of 12
+Required Level: 62
+Required Strength: 50
+Fingerprint: 0xb4627fc5
+Item Level: 87
+Version: Resurrected
++2 to All Skills
+All Stats +2
++112 to Life (Based on Character Level)
++112 to Mana (Based on Character Level)
+Damage Reduced by 10%
+50% Better Chance of Getting Magic Items
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Dol Rune
+Required Level: 31
+Version: Resurrected
+Weapons: Hit Causes Monster to Flee 25%
+Armor: Replenish Life +7
+Shields: Replenish Life +7
+
+Grand Charm of Greed
+Grand Charm
+Required Level: 14
+Fingerprint: 0xa0fc5b1a
+Item Level: 85
+Version: Resurrected
+37% Extra Gold from Monsters
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Garnet Grand Charm of Life
+Grand Charm
+Required Level: 15
+Fingerprint: 0x1be1ea62
+Item Level: 85
+Version: Resurrected
++14 to Life
+Fire Resist +21%
+
+Ko Rune
+Required Level: 39
+Version: Resurrected
+Weapons: +10 to Dexterity
+Armor: +10 to Dexterity
+Shields: +10 to Dexterity
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Plague Bearer
+Rune Sword
+One Hand Damage: 35 - 150
+Durability: 35 of 44
+Required Level: 41
+Required Strength: 103
+Required Dexterity: 79
+Fingerprint: 0xf4010b57
+Item Level: 87
+Version: Resurrected
+5% Chance to cast level 4 Poison Nova on striking
+150% Enhanced Damage
+Adds 10 - 45 Damage
+Adds 300 Poison Damage Over 8 Secs (200 Frames)
++5 to Rabies (Druid Only)
+Poison Resist +45%
+
+Seraph's Hymn
+Amulet
+Required Level: 65
+Fingerprint: 0xc31d84cf
+Item Level: 87
+Version: Resurrected
++2 to All Skills
++2 to Defensive Aura Skills (Paladin Only)
++26% Damage to Demons
++182 to Attack Rating against Demons
++32% Damage to Undead
++154 to Attack Rating against Undead
++2 to Light Radius
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Ith Rune
+Required Level: 15
+Version: Resurrected
+Weapons: Armor: 15% Damage Taken Goes To Mana
+Shields: 15% Damage Taken Goes To Mana
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Vampire Gaze
+Grim Helm
+Defense: 252
+Durability: 21 of 40
+Required Level: 41
+Required Strength: 58
+Fingerprint: 0x278feabf
+Item Level: 85
+Version: Resurrected
+Adds 6 - 22 Cold Damage Over 4 Secs (100 Frames)
+7% Mana stolen per hit
+8% Life stolen per hit
++100% Enhanced Defense
+15% Slower Stamina Drain
+Damage Reduced by 15%
+Magic Damage Reduced by 11
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Flawless Diamond
+Required Level: 15
+Version: Resurrected
+Weapons: +54% Damage to Undead
+Armor: +80 to Attack Rating
+Shields: Cold Resist +14%
+Lightning Resist +14%
+Fire Resist +14%
+Poison Resist +14%
+
+Toxic Small Charm
+Small Charm
+Required Level: 55
+Fingerprint: 0xb6b5bcee
+Item Level: 85
+Version: Resurrected
+Adds 100 Poison Damage Over 5 Secs (125 Frames)
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Amber Small Charm
+Small Charm
+Required Level: 32
+Fingerprint: 0x152b5690
+Item Level: 80
+Version: Resurrected
+Lightning Resist +11%
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Sol Rune
+Required Level: 27
+Version: Resurrected
+Weapons: Armor: Damage Reduced by 7
+Shields: Damage Reduced by 7
+
+Flawless Skull
+Required Level: 15
+Version: Resurrected
+Weapons: 3% Mana stolen per hit
+3% Life stolen per hit
+Armor: Replenish Life +4
+Regenerate Mana 12%
+Shields: Attacker Takes Damage of 16
+
+Flawless Ruby
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 10 - 16 Fire Damage
+Armor: +31 to Life
+Shields: Fire Resist +28%
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Amethyst
+Required Level: 15
+Version: Resurrected
+Weapons: +100 to Attack Rating
+Armor: +8 to Strength
+Shields: +24 Defense
+
+Small Charm of Vita
+Small Charm
+Required Level: 39
+Fingerprint: 0x1d798211
+Item Level: 85
+Version: Resurrected
++18 to Life
+
+Flawless Topaz
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 1 - 30 Lightning Damage
+Armor: 20% Better Chance of Getting Magic Items
+Shields: Lightning Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Shadow Torc
+Amulet
+Required Level: 25
+Fingerprint: 0x64f0663f
+Item Level: 85
+Version: Resurrected
++1 to Combat Skills (Paladin Only)
++1 to Maximum Damage
+All Resistances +15
+Damage Reduced by 3
+Magic Damage Reduced by 2
+
+Flawless Emerald
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 60 Poison Damage Over 6 Secs (152 Frames)
+Armor: +8 to Dexterity
+Shields: Poison Resist +28%
+
+Ral Rune
+Required Level: 19
+Version: Resurrected
+Weapons: Adds 5 - 30 Fire Damage
+Armor: Fire Resist +30%
+Shields: Fire Resist +35%
+
+Chaos Master
+Ring
+Required Level: 15
+Fingerprint: 0x71895b1c
+Item Level: 85
+Version: Resurrected
++10% Faster Cast Rate
++4 to Strength
++7 to Life
++4 to Mana
+Fire Resist +16%
+
+Fal Rune
+Required Level: 41
+Version: Resurrected
+Weapons: +10 to Strength
+Armor: +10 to Strength
+Shields: +10 to Strength
+
+Flawless Sapphire
+Required Level: 15
+Version: Resurrected
+Weapons: Adds 6 - 10 Cold Damage Over 2 Secs (60 Frames)
+Armor: +31 to Mana
+Shields: Cold Resist +28%
+
+Mara's Kaleidoscope
+Amulet
+Required Level: 67
+Fingerprint: 0x6991f623
+Item Level: 85
+Version: Resurrected
++2 to All Skills
+All Stats +5
+All Resistances +27
+
+Steel Large Charm of Greed
+Large Charm
+Required Level: 36
+Fingerprint: 0xf2336323
+Item Level: 85
+Version: Resurrected
++60 to Attack Rating
+9% Extra Gold from Monsters
+
+Rugged Large Charm of Inertia
+Large Charm
+Required Level: 18
+Fingerprint: 0x8fc3b15e
+Item Level: 85
+Version: Resurrected
++5% Faster Run/Walk
++31 Maximum Stamina
 Finished: C:\Users\Preston\Saved Games\GoMule\Grail.d2x
 
