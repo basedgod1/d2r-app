@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Form from 'react-bootstrap/Form';
+import { v4 as uuid } from 'uuid';
 import './DirectoryInput.css';
 
 class DirectoryInput extends React.Component {
@@ -18,35 +19,26 @@ class DirectoryInput extends React.Component {
 
     directorySelected(event) {
       if (event?.target?.files?.length) {
-        let path = event.target.files[0].path
+        let path = event.target.files[0].path;
         path = path.slice(0, path.lastIndexOf('\\'));
         this.display.current.value = path;
-        this.readFiles(path);
       }
     }
 
-    readFiles(path) {
-      console.log('reading files...', path);
-    }
-
     render() {
+      const id = uuid().slice(0, 8);
       return (
-        <React.Fragment>
-          <Form.Label htmlFor="saved-games-dir">
-            Saved Games Directory
-          </Form.Label>
+        <Form.Group className="mb-3" controlId={id}>
+          <Form.Label>{this.props.label}</Form.Label>
           <Form.Control
-            id="saved-games-dir"
-            aria-label="saved games directory input"
-            placeholder="C:\Users\Username\Saved Games"
+            placeholder={this.props.placeholder}
             ref={this.display}
             onClick={this.selectDirectory}
           />
-          <input type="file" webkitdirectory="true"
+          <input type="file" webkitdirectory="true" className="d-none"
             ref={this.input} onChange={this.directorySelected}
-            id="saved-games-dir-input"
           />
-        </React.Fragment>
+        </Form.Group>
       );
     }
 };
