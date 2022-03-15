@@ -1,11 +1,9 @@
 import './Config.css';
 
-function Config() {
+export default function Config() {
   return (
     <div className="Config">
-      Config
+
     </div>
   );
 }
-
-export default Config;
