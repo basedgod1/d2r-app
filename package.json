@@ -67,5 +67,8 @@
     "win": {
       "target": "nsis"
     }
+  },
+  "electronmon": {
+    "patterns": ["!data\\sqlite3.db"]
   }
 }

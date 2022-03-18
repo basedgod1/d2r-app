@@ -1,4 +1,5 @@
 const Database = require('better-sqlite3');
+const fsPromises = require('fs').promises;
 
 function dbConnect() {
   return new Database('./data/sqlite3.db');
@@ -18,6 +19,13 @@ const api = {
   setConfig: (config, db = dbConnect()) => {
     const stmt = db.prepare('UPDATE config SET gameDir = ?, saveDir = ?, bakDirs = ? WHERE id = ?');
     stmt.run(config.gameDir, config.saveDir, config.bakDirs, config.id);
+  },
+  verifyGameDir: async (dir) => {
+    const files = await fsPromises.readdir(dir);
+    if (files.includes('D2R.exe')) {
+      return 'Verified';
+    }
+    return `Unable to locate D2R.exe in ${dir}`;
   }
 };
 

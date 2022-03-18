@@ -42,8 +42,13 @@ export default function Config() {
     }
   }
 
-  function verifyGameDir() {
-    // window.api.verifyGameDir(config);
+  async function verifyGameDir(dir) {
+    try {
+      const gameDirStatus = await window.api.verifyGameDir(dir);
+      setConfig({...config, gameDirStatus: gameDirStatus});
+    } catch (e) {
+      console.log(e);
+    }
   }
 
   return (
