@@ -1,4 +1,4 @@
-// Module to control the application lifecycle and the native browser window.
+const { default: installExtension, REDUX_DEVTOOLS } = require('electron-devtools-installer');
 const { app, BrowserWindow, protocol } = require('electron');
 const path = require('path');
 const url = require('url');
@@ -14,6 +14,9 @@ function createWindow() {
       preload: path.join(__dirname, 'preload.js'),
     },
   });
+
+  // Hide menu bar
+  mainWindow.setMenu(null);
 
   // In production, set the initial browser path to the local bundle generated
   // by the Create React App build process.
@@ -52,6 +55,9 @@ function setupLocalFilesNormalizerProxy() {
 // is ready to create the browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
+  installExtension(REDUX_DEVTOOLS)
+    .then((name) => console.log(`Added Extension:  ${name}`))
+    .catch((err) => console.log('An error occurred: ', err));
   createWindow();
   setupLocalFilesNormalizerProxy();
 });
