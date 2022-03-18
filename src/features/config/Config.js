@@ -9,6 +9,8 @@ export default function Config() {
   const [gameDirStatus, setGameDirStatus] = useState('Verifying...');
   const [saveDir, setSaveDir] = useState('');
   const [saveDirStatus, setSaveDirStatus] = useState('Verifying...');
+  const [bakDirs, setBakDirs] = useState([]);
+  const [bakDirsStatus, setBakDirsStatus] = useState('Verifying...');
   const [loaded, setLoaded] = useState(false);
   const [verified, setVerified] = useState({});
 
@@ -18,6 +20,7 @@ export default function Config() {
         const data = await window.api.getConfig();
         setGameDir(data.gameDir);
         setSaveDir(data.saveDir);
+        setBakDirs(data.bakDirs);
         setLoaded(true);
       } catch (e) {
         console.log(e);
@@ -30,6 +33,7 @@ export default function Config() {
     if (loaded) {
       verifyGameDir();
       verifySaveDir();
+      verifyBakDirs();
     }
   }, [loaded]);
 
@@ -51,6 +55,15 @@ export default function Config() {
     }
   }
 
+  async function verifyBakDirs() {
+    try {
+      const bakDirsStatus = await window.api.verifyBakDirs(bakDirs);
+      setBakDirsStatus(bakDirsStatus);
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   function onConfigChange(key, value) {
     console.log('onConfigChange', key, value);
     switch (key) {
@@ -59,6 +72,12 @@ export default function Config() {
         break;
       case 'saveDir':
         setSaveDir(value);
+        break;
+      case 'bakDirs':
+        console.log(bakDirs);
+        bakDirs.push(value);
+        console.log(bakDirs);
+        setBakDirs([...bakDirs]);
         break;
     }
   }
@@ -89,6 +108,21 @@ export default function Config() {
     }
   }, [saveDir]);
 
+  useEffect(() => {
+    console.log('ue', bakDirs);
+    if (loaded) {
+      console.log('loaded');
+      (async () => {
+        try {
+          await window.api.setConfig('bakDirs', bakDirs);
+        } catch (e) {
+          console.log(e);
+        }
+      })();
+      verifyBakDirs();
+    }
+  }, [bakDirs]);
+
   return (
     <div className="Config">
       <Form>
@@ -109,6 +143,16 @@ export default function Config() {
           onChange={onConfigChange}
         />
         {saveDirStatus}
+        <br />
+        <br />
+        <br />
+        <DirectoryInput
+          controlId="bakDirs"
+          label="Backup Directories"
+          value={bakDirs}
+          onChange={onConfigChange}
+        />
+        {bakDirsStatus}
       </Form>
     </div>
   );

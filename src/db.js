@@ -12,15 +12,25 @@ const api = {
       checkTable(table, db);
     }
   },
-  getConfig: (db = dbConnect()) => {
-    const stmt = db.prepare('SELECT * FROM config WHERE id = 1');
-    return stmt.get();
+  getConfig: (id = 1, db = dbConnect()) => {
+    const stmt = db.prepare('SELECT * FROM config WHERE id = ?');
+    const config = stmt.get(id);
+    if (config) {
+      config.bakDirs = JSON.parse(config.bakDirs);
+    }
+    return config;
   },
   setConfig: (key, value, db = dbConnect()) => {
+    if (key == 'bakDirs') {
+      value = JSON.stringify(value || '[]');
+    }
     const stmt = db.prepare(`UPDATE config SET ${key} = ? WHERE id = 1`);
     stmt.run(value);
   },
   verifyGameDir: async (dir) => {
+    if (!dir) {
+      return '';
+    }
     const files = await fsPromises.readdir(dir);
     if (files.includes('D2R.exe')) {
       return 'Verified';
@@ -28,6 +38,9 @@ const api = {
     return `Unable to locate D2R.exe in ${dir}`;
   },
   verifySaveDir: async (dir) => {
+    if (!dir) {
+      return '';
+    }
     const files = await fsPromises.readdir(dir);
     for (file of files) {
       if (/\.d2s$/.test(file)) {
@@ -35,6 +48,10 @@ const api = {
       }
     }
     return `No d2s files in ${dir}`;
+  },
+  verifyBakDirs: async (dirs) => {
+    console.log(dirs);
+    return 'lol';
   }
 };
 
@@ -60,7 +77,7 @@ const tables = [{
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       gameDir TEXT NOT NULL DEFAULT '',
       saveDir TEXT NOT NULL DEFAULT '',
-      bakDirs TEXT NOT NULL DEFAULT ''
+      bakDirs TEXT NOT NULL DEFAULT '[]'
     )
   `,
   data: [{
@@ -68,7 +85,7 @@ const tables = [{
     key: 'id',
     value: 1,
     keys: ['gameDir', 'saveDir', 'bakDirs'],
-    values: ['', '', '']
+    values: ['', '', '[]']
   }]
 }];
 
