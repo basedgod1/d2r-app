@@ -12,13 +12,13 @@ const api = {
       checkTable(table, db);
     }
   },
-  getConfig: (id = 1, db = dbConnect()) => {
-    const stmt = db.prepare('SELECT * FROM config WHERE id = ?');
-    return stmt.get(id);
+  getConfig: (db = dbConnect()) => {
+    const stmt = db.prepare('SELECT * FROM config WHERE id = 1');
+    return stmt.get();
   },
-  setConfig: (config, db = dbConnect()) => {
-    const stmt = db.prepare('UPDATE config SET gameDir = ?, saveDir = ?, bakDirs = ? WHERE id = ?');
-    stmt.run(config.gameDir, config.saveDir, config.bakDirs, config.id);
+  setConfig: (key, value, db = dbConnect()) => {
+    const stmt = db.prepare(`UPDATE config SET ${key} = ? WHERE id = 1`);
+    stmt.run(value);
   },
   verifyGameDir: async (dir) => {
     const files = await fsPromises.readdir(dir);
@@ -26,6 +26,15 @@ const api = {
       return 'Verified';
     }
     return `Unable to locate D2R.exe in ${dir}`;
+  },
+  verifySaveDir: async (dir) => {
+    const files = await fsPromises.readdir(dir);
+    for (file of files) {
+      if (/\.d2s$/.test(file)) {
+        return 'Verified';
+      }
+    }
+    return `No d2s files in ${dir}`;
   }
 };
 

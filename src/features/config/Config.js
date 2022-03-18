@@ -5,13 +5,20 @@ import './Config.css';
 
 export default function Config() {
 
-  const [config, setConfig] = useState({gameDir: '', gameDirStatus: 'Verifying...'});
+  const [gameDir, setGameDir] = useState('');
+  const [gameDirStatus, setGameDirStatus] = useState('Verifying...');
+  const [saveDir, setSaveDir] = useState('');
+  const [saveDirStatus, setSaveDirStatus] = useState('Verifying...');
+  const [loaded, setLoaded] = useState(false);
+  const [verified, setVerified] = useState({});
 
   useEffect(() => {
     const fetchConfig = async () => {
       try {
         const data = await window.api.getConfig();
-        setConfig({...config, ...data});
+        setGameDir(data.gameDir);
+        setSaveDir(data.saveDir);
+        setLoaded(true);
       } catch (e) {
         console.log(e);
       }
@@ -20,36 +27,67 @@ export default function Config() {
   }, []);
 
   useEffect(() => {
-    const saveConfig = async () => {
-      try {
-        const data = await window.api.setConfig(config);
-      } catch (e) {
-        console.log(e);
-      }
-    };
-    if (config.dirty) {
-      saveConfig();
-      config.dirty = false;
+    if (loaded) {
+      verifyGameDir();
+      verifySaveDir();
     }
-  }, [config]);
+  }, [loaded]);
 
-  function configChange(key, value) {
-    const update = {};
-    update[key] = value;
-    setConfig({...config, ...update, dirty: true});
-    if (key == 'gameDir') {
-      verifyGameDir(value);
-    }
-  }
-
-  async function verifyGameDir(dir) {
+  async function verifyGameDir() {
     try {
-      const gameDirStatus = await window.api.verifyGameDir(dir);
-      setConfig({...config, gameDirStatus: gameDirStatus});
+      const gameDirStatus = await window.api.verifyGameDir(gameDir);
+      setGameDirStatus(gameDirStatus);
     } catch (e) {
       console.log(e);
     }
   }
+
+  async function verifySaveDir() {
+    try {
+      const saveDirStatus = await window.api.verifySaveDir(saveDir);
+      setSaveDirStatus(saveDirStatus);
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
+  function onConfigChange(key, value) {
+    console.log('onConfigChange', key, value);
+    switch (key) {
+      case 'gameDir':
+        setGameDir(value);
+        break;
+      case 'saveDir':
+        setSaveDir(value);
+        break;
+    }
+  }
+
+  useEffect(() => {
+    if (loaded) {
+      (async () => {
+        try {
+          await window.api.setConfig('gameDir', gameDir);
+        } catch (e) {
+          console.log(e);
+        }
+      })();
+      verifyGameDir();
+    }
+  }, [gameDir]);
+
+  useEffect(() => {
+    if (loaded) {
+      (async () => {
+        try {
+          await window.api.setConfig('saveDir', saveDir);
+        } catch (e) {
+          console.log(e);
+        }
+      })();
+      verifySaveDir();
+    }
+  }, [saveDir]);
 
   return (
     <div className="Config">
@@ -57,10 +95,20 @@ export default function Config() {
         <DirectoryInput
           controlId="gameDir"
           label="Game Directory"
-          value={config.gameDir}
-          onChange={configChange}
+          value={gameDir}
+          onChange={onConfigChange}
         />
-        {config.gameDirStatus}
+        {gameDirStatus}
+        <br />
+        <br />
+        <br />
+        <DirectoryInput
+          controlId="saveDir"
+          label="Save Directory"
+          value={saveDir}
+          onChange={onConfigChange}
+        />
+        {saveDirStatus}
       </Form>
     </div>
   );
