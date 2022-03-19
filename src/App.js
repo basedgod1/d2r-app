@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Login from './features/login/Login';
 import Home from './features/home/Home';
 import Armory from './features/armory/Armory';
@@ -12,8 +12,17 @@ function App() {
   return (
     <div className="wrapper">
       <BrowserRouter>
+        <div className="header clearfix">
+          <ul className="header-items">
+            <li className="header-item"><Link to="/home">Home</Link></li>
+            <li className="header-item"><Link to="/armory">Armory</Link></li>
+            <li className="header-item"><Link to="/ladder">Ladder</Link></li>
+            <li className="header-item"><Link to="/config">Config</Link></li>
+            <li className="header-item"><Link to="/account">Account</Link></li>
+          </ul>
+        </div>
         <Routes>
-          <Route path="/" element={<Config />} />
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} />
           <Route path="/armory" element={<Armory />} />

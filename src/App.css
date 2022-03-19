@@ -6,3 +6,20 @@
   width: 50%;
   margin: 50px auto;
 }
+
+.header {
+  border-bottom: 1px solid #adadad;
+}
+
+.header-items {
+  margin: 0;
+  padding: 0;
+}
+
+.header-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin: 10px 100px;
+}
