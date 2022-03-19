@@ -1,5 +1,6 @@
 const Database = require('better-sqlite3');
 const fs = require('fs');
+const { exec } = require('child_process');
 
 function dbConnect() {
   return new Database('./data/sqlite3.db');
@@ -58,6 +59,21 @@ const api = {
       ret[dir] = fs.existsSync(dir);
     }
     return ret;
+  },
+  play: () =>{
+    const ls = exec('"C:\\Program Files (x86)\\Diablo II Resurrected\\D2R.exe"', ['-mod', 'filter', '-txt']);
+
+    ls.stdout.on('data', (data) => {
+      console.log(`stdout: ${data}`);
+    });
+
+    ls.stderr.on('data', (data) => {
+      console.error(`stderr: ${data}`);
+    });
+
+    ls.on('close', (code) => {
+      console.log(`child process exited with code ${code}`);
+    });
   }
 };
 

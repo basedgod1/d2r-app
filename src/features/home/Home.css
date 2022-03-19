@@ -1,0 +1,12 @@
+.log {
+  height: 200px;
+  background-color: black;
+}
+
+.play {
+  display: block;
+  width: 60px;
+  margin: 100px auto;
+  font-size: 24pt;
+  cursor: pointer;
+}
