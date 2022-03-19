@@ -2,3 +2,20 @@
   width: 400px;
   margin: 10px auto;
 }
+
+.rm-bak-dir, .bak-dir-path, .bak-dir-status {
+  float: left;
+}
+
+.bak-dir-cell {
+  margin-right: 10px;
+}
+
+.rm-bak-dir {
+  color: red;
+  cursor: pointer;
+}
+
+.bak-dir-status {
+  color: green;
+}

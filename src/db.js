@@ -1,5 +1,5 @@
 const Database = require('better-sqlite3');
-const fsPromises = require('fs').promises;
+const fs = require('fs');
 
 function dbConnect() {
   return new Database('./data/sqlite3.db');
@@ -31,7 +31,7 @@ const api = {
     if (!dir) {
       return '';
     }
-    const files = await fsPromises.readdir(dir);
+    const files = await fs.promises.readdir(dir);
     if (files.includes('D2R.exe')) {
       return 'Verified';
     }
@@ -41,7 +41,7 @@ const api = {
     if (!dir) {
       return '';
     }
-    const files = await fsPromises.readdir(dir);
+    const files = await fs.promises.readdir(dir);
     for (file of files) {
       if (/\.d2s$/.test(file)) {
         return 'Verified';
@@ -50,8 +50,14 @@ const api = {
     return `No d2s files in ${dir}`;
   },
   verifyBakDirs: async (dirs) => {
-    console.log(dirs);
-    return 'lol';
+    if (!dirs.length) {
+      return '';
+    }
+    const ret = {};
+    for (dir of dirs) {
+      ret[dir] = fs.existsSync(dir);
+    }
+    return ret;
   }
 };
 

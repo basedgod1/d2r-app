@@ -10,7 +10,7 @@ export default function Config() {
   const [saveDir, setSaveDir] = useState('');
   const [saveDirStatus, setSaveDirStatus] = useState('Verifying...');
   const [bakDirs, setBakDirs] = useState([]);
-  const [bakDirsStatus, setBakDirsStatus] = useState('Verifying...');
+  const [bakDirsStatus, setBakDirsStatus] = useState({});
   const [loaded, setLoaded] = useState(false);
   const [verified, setVerified] = useState({});
 
@@ -39,8 +39,8 @@ export default function Config() {
 
   async function verifyGameDir() {
     try {
-      const gameDirStatus = await window.api.verifyGameDir(gameDir);
-      setGameDirStatus(gameDirStatus);
+      const status = await window.api.verifyGameDir(gameDir);
+      setGameDirStatus(status);
     } catch (e) {
       console.log(e);
     }
@@ -48,8 +48,8 @@ export default function Config() {
 
   async function verifySaveDir() {
     try {
-      const saveDirStatus = await window.api.verifySaveDir(saveDir);
-      setSaveDirStatus(saveDirStatus);
+      const status = await window.api.verifySaveDir(saveDir);
+      setSaveDirStatus(status);
     } catch (e) {
       console.log(e);
     }
@@ -57,8 +57,8 @@ export default function Config() {
 
   async function verifyBakDirs() {
     try {
-      const bakDirsStatus = await window.api.verifyBakDirs(bakDirs);
-      setBakDirsStatus(bakDirsStatus);
+      const status = await window.api.verifyBakDirs(bakDirs);
+      setBakDirsStatus(status);;
     } catch (e) {
       console.log(e);
     }
@@ -74,10 +74,10 @@ export default function Config() {
         setSaveDir(value);
         break;
       case 'bakDirs':
-        console.log(bakDirs);
-        bakDirs.push(value);
-        console.log(bakDirs);
-        setBakDirs([...bakDirs]);
+        if (!bakDirs.includes(value)) {
+          bakDirs.unshift(value);
+          setBakDirs([...bakDirs]);
+        }
         break;
     }
   }
@@ -109,9 +109,7 @@ export default function Config() {
   }, [saveDir]);
 
   useEffect(() => {
-    console.log('ue', bakDirs);
     if (loaded) {
-      console.log('loaded');
       (async () => {
         try {
           await window.api.setConfig('bakDirs', bakDirs);
@@ -149,10 +147,16 @@ export default function Config() {
         <DirectoryInput
           controlId="bakDirs"
           label="Backup Directories"
-          value={bakDirs}
+          // value={bakDirs}
           onChange={onConfigChange}
         />
-        {bakDirsStatus}
+      {bakDirs.map((dir) =>
+        <div key={dir} className="clearfix">
+          <div className="bak-dir-cell rm-bak-dir" onClick={() => setBakDirs(bakDirs.filter((d) => d != dir))}>X</div>
+          <div className="bak-dir-cell bak-dir-path">{dir}</div>
+          <div className="bak-dir-status">{bakDirsStatus[dir] ? 'Verified' : `Unable to access ${dir}`}</div>
+        </div>
+      )}
       </Form>
     </div>
   );
