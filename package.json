@@ -7,7 +7,6 @@
   "homepage": "./",
   "main": "./public/electron.js",
   "dependencies": {
-    "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
@@ -16,7 +15,6 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.0",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "uuid": "^8.3.2",
@@ -69,6 +67,8 @@
     }
   },
   "electronmon": {
-    "patterns": ["!data\\sqlite3.db"]
+    "patterns": [
+      "!data\\sqlite3.db"
+    ]
   }
 }

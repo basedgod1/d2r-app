@@ -1,4 +1,4 @@
-const { default: installExtension, REDUX_DEVTOOLS } = require('electron-devtools-installer');
+const { default: installExtension, REACT_DEVELOPER_TOOLS } = require('electron-devtools-installer');
 const { app, BrowserWindow, protocol } = require('electron');
 const path = require('path');
 const url = require('url');
@@ -55,7 +55,7 @@ function setupLocalFilesNormalizerProxy() {
 // is ready to create the browser windows.
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
-  installExtension(REDUX_DEVTOOLS)
+  installExtension(REACT_DEVELOPER_TOOLS)
     .then((name) => console.log(`Added Extension:  ${name}`))
     .catch((err) => console.log('An error occurred: ', err));
   createWindow();
