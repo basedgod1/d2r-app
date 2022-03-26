@@ -1,7 +1,10 @@
 const { contextBridge } = require('electron');
-const { api } = require('../src/db');
+const { checkSchema } = require('../src/db');
+const { api } = require('../src/api');
+const { service } = require('../src/service');
 
 process.once('loaded', () => {
-  api.checkSchema();
+  checkSchema();
   contextBridge.exposeInMainWorld('api', api);
+  contextBridge.exposeInMainWorld('service', service);
 });
