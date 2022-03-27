@@ -1,12 +1,15 @@
 .log {
   height: 200px;
+  overflow-y: scroll;
   background-color: black;
+  color: #0f0;
+  font-size: 14px;
 }
 
 .play {
   display: block;
   width: 60px;
   margin: 100px auto;
-  font-size: 24pt;
+  font-size: 24px;
   cursor: pointer;
 }

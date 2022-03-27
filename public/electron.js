@@ -2,6 +2,7 @@ const { default: installExtension, REACT_DEVELOPER_TOOLS } = require('electron-d
 const { app, BrowserWindow, protocol } = require('electron');
 const path = require('path');
 const url = require('url');
+const Service = require('../src/service');
 
 // Create the native browser window.
 function createWindow() {
@@ -11,6 +12,10 @@ function createWindow() {
     // Set the path of an additional 'preload' script that can be used to
     // communicate between node-land and browser-land.
     webPreferences: {
+      webSecurity: true,
+      allowRunningInsecureContent: false,
+      nodeIntegration: false,
+      contextIsolation: true,
       preload: path.join(__dirname, 'preload.js'),
     },
   });
@@ -34,6 +39,9 @@ function createWindow() {
   if (!app.isPackaged) {
     mainWindow.webContents.openDevTools();
   }
+
+  // Initialize D2R 
+  app.service = new Service(mainWindow);
 }
 
 // Setup a local proxy to adjust the paths of requested files when loading

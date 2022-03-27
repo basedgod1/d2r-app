@@ -4,12 +4,10 @@ function dbConnect() {
   return new Database('./data/sqlite3.db');
 }
 
-function checkSchema() {
-  const db = dbConnect();
+function checkSchema(db = dbConnect()) {
   for (table of tables) {
     checkTable(table, db);
   }
-  db.close();
 }
 
 function checkTable (table = {}, db = dbConnect()) {
@@ -46,6 +44,15 @@ const tables = [{
     )
   `,`
     INSERT INTO config (gameDir, saveDir, bakDirs) VALUES ('', '', '[]')
+  `]
+},{
+  name: 'log',
+  setup: [`
+    CREATE TABLE log (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      msg TEXT NOT NULL,
+      ts TEXT NOT NULL
+    )
   `]
 }];
 

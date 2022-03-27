@@ -1,7 +1,31 @@
+const { ipcRenderer } = require('electron')
 const { dbConnect } = require('./db');
 const fs = require('fs');
 
 const api = {
+  log: (msg, db = dbConnect(), mainWindow) => {
+    // console.log('api.log');
+    const stmt = db.prepare(`INSERT INTO log (msg, ts) VALUES (?, datetime('now','localtime'))`);
+    stmt.run(msg);
+    if (mainWindow) {
+      console.log('api sending log-change via main window');
+      mainWindow.webContents.send('log-change', api.getLog(db));
+    }
+  },
+  getLog: (db = dbConnect()) => {
+    // console.log('api.clearLog');
+    const stmt = db.prepare(`SELECT * FROM log`);
+    return stmt.all();
+  },
+  clearLog: (db = dbConnect()) => {
+    // console.log('api.clearLog');
+    const stmt = db.prepare(`DELETE FROM log`);
+    stmt.run();
+  },
+  onLogChange: (callback) => {
+    // console.log('api.onLogChange');
+    ipcRenderer.on('log-change', callback);
+  },
   getConfig: (id = 1, db = dbConnect()) => {
     const stmt = db.prepare('SELECT * FROM config WHERE id = ?');
     const config = stmt.get(id);

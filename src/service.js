@@ -1,19 +1,16 @@
 const { dbConnect, checkSchema } = require('./db');
 const { api } = require('./api');
 
-const service = {
-  init: () => {
-    console.log('si');
-  },
-  checkConfig: function(){
-    const config = api.getConfig();
-    service.verifyGameDir(config);
-  },
-  checkGameDir: function(config){
-    if (!config.gameDir) {
-      return;
+class Service {
+    constructor(mainWindow) {
+      // console.log('serice.constructor');
+      this.mainWindow = mainWindow;
+      const db = dbConnect();
+      checkSchema(db);
+      api.clearLog(db);
+      api.log('Initializing service...', db, this.mainWindow);
+      db.close();
     }
-  }
-};
+}
 
-module.exports = { service };
+module.exports = Service;

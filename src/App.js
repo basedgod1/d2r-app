@@ -9,23 +9,8 @@ import Account from './features/account/Account';
 import './App.css';
 
 function App() {
-
-  let AppContext = createContext();
   const [account, setAccount] = useState({});
-  const [config, setConfig] = useState({});
-  const [log, setLog] = useState([]);
-  const api = window.api;
-  const service = window.service;
-
-  useEffect(() => {
-    const init = async () => {
-      setLog(['Initializing...']);
-      setAccount({...api.getAccount()});
-      setConfig({...api.getConfig()});
-    };
-    init();
-  }, []);
-
+  // useEffect(() => {}, []);
   // useEffect(() => {
   //   if (account.verified) {
   //     console.log('account verified', account);
@@ -35,7 +20,7 @@ function App() {
 
   return (
     <div className="wrapper">
-      <AppContext.Provider value={[account, setAccount, config, setConfig, log, setLog]}>
+      <AppContext.Provider value={[account, setAccount]}>
         <BrowserRouter>
           <div className="header clearfix">
             <ul className="header-items">
@@ -62,3 +47,4 @@ function App() {
 }
 
 export default App;
+export const AppContext = createContext();
