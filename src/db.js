@@ -50,8 +50,9 @@ const tables = [{
   setup: [`
     CREATE TABLE log (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
+      ts TEXT NOT NULL,
       msg TEXT NOT NULL,
-      ts TEXT NOT NULL
+      err TEXT
     )
   `]
 }];

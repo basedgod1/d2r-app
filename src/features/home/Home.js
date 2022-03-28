@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { AppContext } from '../../App';
+import ReactTooltip from 'react-tooltip';
 import './Home.css';
 
 function Home(props) {
@@ -18,7 +18,12 @@ function Home(props) {
   return (
     <div className="Home">
       <div className="log">
-        {log.map((entry) => <div key={entry.id}>{entry.ts} | {entry.msg}</div>)}
+        {log.map((entry) =>
+          <div key={entry.id}>
+            <span className={entry.err ? 'text-danger' : null} data-tip={entry.err}>{entry.ts} | {entry.msg}</span>
+            <ReactTooltip />
+          </div>
+        )}
       </div>
       <a className="play" onClick={() => api.play()}>Play</a>
     </div>

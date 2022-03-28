@@ -3,10 +3,10 @@ const { dbConnect } = require('./db');
 const fs = require('fs');
 
 const api = {
-  log: (msg, db = dbConnect(), mainWindow) => {
+  log: (entry, db = dbConnect(), mainWindow) => {
     // console.log('api.log');
-    const stmt = db.prepare(`INSERT INTO log (msg, ts) VALUES (?, datetime('now','localtime'))`);
-    stmt.run(msg);
+    const stmt = db.prepare(`INSERT INTO log (msg, err, ts) VALUES (?, ?, datetime('now','localtime'))`);
+    stmt.run(entry.msg, entry.err);
     if (mainWindow) {
       console.log('api sending log-change via main window');
       mainWindow.webContents.send('log-change', api.getLog(db));
@@ -26,9 +26,9 @@ const api = {
     // console.log('api.onLogChange');
     ipcRenderer.on('log-change', callback);
   },
-  getConfig: (id = 1, db = dbConnect()) => {
-    const stmt = db.prepare('SELECT * FROM config WHERE id = ?');
-    const config = stmt.get(id);
+  getConfig: (db = dbConnect()) => {
+    const stmt = db.prepare('SELECT * FROM config WHERE id = 1');
+    const config = stmt.get();
     if (config) {
       config.bakDirs = JSON.parse(config.bakDirs);
     }
