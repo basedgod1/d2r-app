@@ -20,7 +20,7 @@ function Home(props) {
       <div className="log">
         {log.map((entry) =>
           <div key={entry.id}>
-            <span className={entry.err ? 'text-danger' : null} data-tip={entry.err}>{entry.ts} | {entry.msg}</span>
+            <span className={entry.err ? 'text-danger' : 'text-success'} data-tip={entry.err}>{entry.ts} | {entry.msg}</span>
             <ReactTooltip />
           </div>
         )}

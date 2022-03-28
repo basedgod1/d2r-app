@@ -1,5 +1,5 @@
 const { default: installExtension, REACT_DEVELOPER_TOOLS } = require('electron-devtools-installer');
-const { app, BrowserWindow, protocol } = require('electron');
+const { app, BrowserWindow, ipcMain, protocol } = require('electron');
 const path = require('path');
 const url = require('url');
 const Service = require('../src/service');
@@ -40,7 +40,7 @@ function createWindow() {
     mainWindow.webContents.openDevTools();
   }
 
-  // Initialize D2R 
+  // Initialize D2R service
   app.service = new Service(mainWindow);
 }
 
@@ -68,6 +68,9 @@ app.whenReady().then(() => {
     .catch((err) => console.log('An error occurred: ', err));
   createWindow();
   setupLocalFilesNormalizerProxy();
+  ipcMain.handle('check-game-dir', app.service.checkGameDir);
+  ipcMain.handle('check-save-dir', app.service.checkSaveDir);
+  ipcMain.handle('check-bak-dirs', app.service.checkBakDirs);
 });
 
 // Quit when all windows are closed, except on macOS.

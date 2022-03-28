@@ -6,60 +6,108 @@ import './Config.css';
 export default function Config() {
 
   const api = window.api;
+  const [config, setConfig] = useState({});
   const [gameDir, setGameDir] = useState('');
-  const [gameDirStatus, setGameDirStatus] = useState('');
+  const [gameDirStatus, setGameDirStatus] = useState({});
   const [saveDir, setSaveDir] = useState('');
-  const [saveDirStatus, setSaveDirStatus] = useState('');
+  const [saveDirStatus, setSaveDirStatus] = useState({});
   const [bakDirs, setBakDirs] = useState([]);
-  const [bakDirsStatus, setBakDirsStatus] = useState({});
+  const [bakDirsStatus, setBakDirsStatus] = useState([]);
   const [loaded, setLoaded] = useState(false);
-  const [verified, setVerified] = useState({});
 
   useEffect(() => {
+    // console.log('useEffect');
     const config = api.getConfig();
-    setGameDir(config.gameDir);
-    setSaveDir(config.saveDir);
-    setBakDirs(config.bakDirs);
-    setLoaded(true);
+    // console.log('useEffect', config);
+    setConfig(config);
   }, []);
 
   useEffect(() => {
+    // console.log('useEffect.config', loaded, config);
+    if (!loaded && config.id) {
+      setLoaded(true);
+      setGameDir(config.gameDir);
+      setSaveDir(config.saveDir);
+      setBakDirs([...config.bakDirs]);
+    }
+  }, [config]);
+
+  useEffect(() => {
+    // console.log('useEffect.gameDir', loaded, gameDir, config.gameDir);
     if (loaded) {
-      verifyGameDir();
-      verifySaveDir();
-      verifyBakDirs();
+      if (gameDir != config.gameDir) {
+        try {
+          // console.log('useEffect.gameDir', 'updateConfig');
+          api.updateConfig('gameDir', gameDir);
+          setConfig({ ...config, gameDir: gameDir });
+        }
+        catch (e) {
+          const entry = { msg: 'Error updating game directory', err: e.message };
+          console.log(entry);
+          api.log(entry);
+        }
+      }
+      checkGameDir();
     }
-  }, [loaded]);
+  }, [gameDir]);
 
-  async function verifyGameDir() {
-    try {
-      setGameDirStatus('Verifying...');
-      const status = await window.api.verifyGameDir(gameDir);
-      setGameDirStatus(status);
-    } catch (e) {
-      setGameDirStatus('Error verifying game directory');
-      console.log(e);
+  useEffect(() => {
+    // console.log('useEffect.saveDir', loaded, saveDir, config.saveDir);
+    if (loaded) {
+      if (saveDir != config.saveDir) {
+        try {
+          // console.log('useEffect.saveDir', 'updateConfig');
+          api.updateConfig('saveDir', saveDir);
+          setConfig({ ...config, saveDir: saveDir });
+        }
+        catch (e) {
+          const entry = { msg: 'Error updating saved games directory', err: e.message };
+          console.log(entry);
+          api.log(entry);
+        }
+      }
+      checkSaveDir();
     }
+  }, [saveDir]);
+
+  useEffect(() => {
+    // console.log('useEffect.bakDirs', loaded, bakDirs, config.bakDirs);
+    if (loaded) {
+      if (JSON.stringify(bakDirs) != JSON.stringify(config.bakDirs)) {
+        try {
+          // console.log('useEffect.bakDirs', 'updateConfig');
+          api.updateConfig('bakDirs', bakDirs);
+          setConfig({ ...config, bakDirs: bakDirs });
+        }
+        catch (e) {
+          const entry = { msg: 'Error updating backup directories', err: e.message };
+          console.log(entry);
+          api.log(entry);
+        }
+      }
+      checkBakDirs();
+    }
+  }, [bakDirs]);
+
+  async function checkGameDir() {
+    // console.log('config.js checkGameDir');
+    const res = await api.checkGameDir(gameDir);
+    // console.log('config.js checkGameDir', res);
+    setGameDirStatus({...res});
   }
 
-  async function verifySaveDir() {
-    try {
-      setSaveDirStatus('Verifying...');
-      const status = await window.api.verifySaveDir(saveDir);
-      setSaveDirStatus(status);
-    } catch (e) {
-      setGameDirStatus('Error verifying save directory');
-      console.log(e);
-    }
+  async function checkSaveDir() {
+    // console.log('config.js checkSaveDir');
+    const res = await api.checkSaveDir(saveDir);
+    // console.log('config.js checkSaveDir', res);
+    setSaveDirStatus({...res});
   }
 
-  async function verifyBakDirs() {
-    try {
-      const status = await window.api.verifyBakDirs(bakDirs);
-      setBakDirsStatus(status);;
-    } catch (e) {
-      console.log(e);
-    }
+  async function checkBakDirs() {
+    // console.log('config.js checkBakDirs', bakDirs);
+    const res = await api.checkBakDirs(bakDirs);
+    // console.log('config.js checkBakDirs res', res);
+    setBakDirsStatus(res);
   }
 
   function onConfigChange(key, value) {
@@ -80,45 +128,6 @@ export default function Config() {
     }
   }
 
-  useEffect(() => {
-    if (loaded) {
-      (async () => {
-        try {
-          await window.api.setConfig('gameDir', gameDir);
-        } catch (e) {
-          console.log(e);
-        }
-      })();
-      verifyGameDir();
-    }
-  }, [gameDir]);
-
-  useEffect(() => {
-    if (loaded) {
-      (async () => {
-        try {
-          await window.api.setConfig('saveDir', saveDir);
-        } catch (e) {
-          console.log(e);
-        }
-      })();
-      verifySaveDir();
-    }
-  }, [saveDir]);
-
-  useEffect(() => {
-    if (loaded) {
-      (async () => {
-        try {
-          await window.api.setConfig('bakDirs', bakDirs);
-        } catch (e) {
-          console.log(e);
-        }
-      })();
-      verifyBakDirs();
-    }
-  }, [bakDirs]);
-
   return (
     <div className="Config">
       <Form>
@@ -128,7 +137,7 @@ export default function Config() {
           value={gameDir}
           onChange={onConfigChange}
         />
-        <span className={/^Verif/.test(gameDirStatus) ? 'text-success' : 'text-danger'}>{gameDirStatus}</span>
+        <span className={gameDirStatus.err ? 'text-danger' : 'text-success'}>{gameDirStatus.msg}</span>
         <br />
         <br />
         <br />
@@ -138,23 +147,24 @@ export default function Config() {
           value={saveDir}
           onChange={onConfigChange}
         />
-        <span className={/^Verif/.test(saveDirStatus) ? 'text-success' : 'text-danger'}>{saveDirStatus}</span>
+        <span className={saveDirStatus.err ? 'text-danger' : 'text-success'}>{saveDirStatus.msg}</span>
         <br />
         <br />
         <br />
         <DirectoryInput
           controlId="bakDirs"
           label="Backup Directories"
-          // value={bakDirs}
           onChange={onConfigChange}
         />
-      {bakDirs.map((dir) =>
-        <div key={dir} className="clearfix">
-          <div className="bak-dir-cell rm-bak-dir" onClick={() => setBakDirs(bakDirs.filter((d) => d != dir))}>X</div>
-          <div className="bak-dir-cell bak-dir-path">{dir}</div>
-          <div className="bak-dir-status">{bakDirsStatus[dir] ? 'Verified' : `Unable to access ${dir}`}</div>
-        </div>
-      )}
+        {bakDirsStatus.map((item) => /^[a-z]/i.test(item.dir) &&
+          <div key={item.dir} className="clearfix">
+            <div className="bak-dir-cell rm-bak-dir" onClick={() => setBakDirs(bakDirs.filter((d) => d != item.dir))}>X</div>
+            <div className="bak-dir-cell bak-dir-path">{item.dir}</div>
+            <div className="bak-dir-status">
+              <span className={item.err ? 'text-danger' : 'text-success'}>{item.msg}</span>
+            </div>
+          </div>
+        )}
       </Form>
     </div>
   );

@@ -25,6 +25,9 @@ class DirectoryInput extends React.Component {
           this.props.onChange(this.props.controlId, path);
         }
       }
+      else {
+        alert('Replace with native dir selector-- cannot rely on file paths');
+      }
     }
 
     render() {
