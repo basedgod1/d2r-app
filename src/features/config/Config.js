@@ -5,28 +5,22 @@ import './Config.css';
 
 export default function Config() {
 
+  const api = window.api;
   const [gameDir, setGameDir] = useState('');
-  const [gameDirStatus, setGameDirStatus] = useState('Verifying...');
+  const [gameDirStatus, setGameDirStatus] = useState('');
   const [saveDir, setSaveDir] = useState('');
-  const [saveDirStatus, setSaveDirStatus] = useState('Verifying...');
+  const [saveDirStatus, setSaveDirStatus] = useState('');
   const [bakDirs, setBakDirs] = useState([]);
   const [bakDirsStatus, setBakDirsStatus] = useState({});
   const [loaded, setLoaded] = useState(false);
   const [verified, setVerified] = useState({});
 
   useEffect(() => {
-    const fetchConfig = async () => {
-      try {
-        const data = await window.api.getConfig();
-        setGameDir(data.gameDir);
-        setSaveDir(data.saveDir);
-        setBakDirs(data.bakDirs);
-        setLoaded(true);
-      } catch (e) {
-        console.log(e);
-      }
-    };
-    fetchConfig();
+    const config = api.getConfig();
+    setGameDir(config.gameDir);
+    setSaveDir(config.saveDir);
+    setBakDirs(config.bakDirs);
+    setLoaded(true);
   }, []);
 
   useEffect(() => {
@@ -39,18 +33,22 @@ export default function Config() {
 
   async function verifyGameDir() {
     try {
+      setGameDirStatus('Verifying...');
       const status = await window.api.verifyGameDir(gameDir);
       setGameDirStatus(status);
     } catch (e) {
+      setGameDirStatus('Error verifying game directory');
       console.log(e);
     }
   }
 
   async function verifySaveDir() {
     try {
+      setSaveDirStatus('Verifying...');
       const status = await window.api.verifySaveDir(saveDir);
       setSaveDirStatus(status);
     } catch (e) {
+      setGameDirStatus('Error verifying save directory');
       console.log(e);
     }
   }
@@ -65,7 +63,7 @@ export default function Config() {
   }
 
   function onConfigChange(key, value) {
-    console.log('onConfigChange', key, value);
+    // console.log('onConfigChange', key, value);
     switch (key) {
       case 'gameDir':
         setGameDir(value);
@@ -130,7 +128,7 @@ export default function Config() {
           value={gameDir}
           onChange={onConfigChange}
         />
-        {gameDirStatus}
+        <span className={/^Verif/.test(gameDirStatus) ? 'text-success' : 'text-danger'}>{gameDirStatus}</span>
         <br />
         <br />
         <br />
@@ -140,7 +138,7 @@ export default function Config() {
           value={saveDir}
           onChange={onConfigChange}
         />
-        {saveDirStatus}
+        <span className={/^Verif/.test(saveDirStatus) ? 'text-success' : 'text-danger'}>{saveDirStatus}</span>
         <br />
         <br />
         <br />
