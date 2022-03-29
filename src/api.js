@@ -41,6 +41,18 @@ const api = {
     const stmt = db.prepare(`UPDATE config SET ${key} = ? WHERE id = 1`);
     stmt.run(value);
   },
+  getFiles: (db) => {
+    const stmt = db.prepare(`SELECT * FROM file`);
+    return stmt.all();
+  },
+  insertFile: (file, db) => {
+    let stmt = db.prepare(`INSERT INTO file (path, hash, ts) VALUES (?, ?, NULL)`);
+    stmt.run(file.path, file.hash);
+  },
+  updateFile: (file, db) => {
+    stmt = db.prepare(`UPDATE file SET hash = ?, ts = NULL WHERE path = ?`);
+    stmt.run(file.hash, file.path);
+  },
   play: () =>{
     exec('"C:\\Program Files (x86)\\Diablo II Resurrected\\D2R.exe"', ['-mod', 'filter', '-txt']);
   },

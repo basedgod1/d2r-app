@@ -42,6 +42,7 @@ function createWindow() {
 
   // Initialize D2R service
   app.service = new Service(mainWindow);
+  app.service.init();
 }
 
 // Setup a local proxy to adjust the paths of requested files when loading

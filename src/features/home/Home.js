@@ -9,10 +9,12 @@ function Home(props) {
   const [log, setLog] = useState([]);
 
   useEffect(() => {
+    let isMounted = true;
     api.onLogChange((_event, value) => {
-      setLog(value);
+      if (isMounted) setLog(value);
     });
     setLog(api.getLog());
+    return () => { isMounted = false }
   }, []);
 
   return (

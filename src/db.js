@@ -55,6 +55,16 @@ const tables = [{
       err TEXT
     )
   `]
+},{
+  name: 'file',
+  setup: [`
+    CREATE TABLE file (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      path TEXT UNIQUE NOT NULL,
+      hash TEXT NOT NULL,
+      ts TEXT
+    )
+  `]
 }];
 
 module.exports = { dbConnect, checkSchema };
