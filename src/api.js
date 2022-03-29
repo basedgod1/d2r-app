@@ -46,12 +46,14 @@ const api = {
     return stmt.all();
   },
   insertFile: (file, db) => {
-    let stmt = db.prepare(`INSERT INTO file (path, hash, ts) VALUES (?, ?, NULL)`);
+    let stmt = db.prepare(`INSERT INTO file (path, hash) VALUES (?, ?)`);
     stmt.run(file.path, file.hash);
   },
   updateFile: (file, db) => {
-    stmt = db.prepare(`UPDATE file SET hash = ?, ts = NULL WHERE path = ?`);
-    stmt.run(file.hash, file.path);
+    const keys = Object.keys(file).filter(f => f != file.path);
+    const updates = keys.join(' = ?, ') + ' = ?';
+    stmt = db.prepare(`UPDATE file SET ${updates} WHERE path = ?`);
+    stmt.run(...keys.map(key => file[key]), file.path);
   },
   play: () =>{
     exec('"C:\\Program Files (x86)\\Diablo II Resurrected\\D2R.exe"', ['-mod', 'filter', '-txt']);

@@ -18,7 +18,7 @@ class Service {
       api.clearLog(db);
       service.log({ msg: 'Initializing service...' }, db);
       await this.checkConfig(db);
-      this.log({ msg: 'Done' }, db);
+      this.log({ msg: 'Ready' }, db);
       db.close();
       }
 
@@ -76,31 +76,55 @@ class Service {
       }
     }
 
-    async checkSaveFiles(saveDir, saveFiles, db){
+    async checkSaveFiles(saveDir, saveFiles, db = dbConnect()){
       const dbFiles = {};
       for (const dbFile of api.getFiles(db)) {
         dbFiles[dbFile.path] = dbFile;
       }
       for (const file of saveFiles) {
+        const path = saveDir + `\\${file}`;
+        let nb = 0;
+        // Track
         try {
-          const path = saveDir + `\\${file}`;
-          // Track
-
-          // Sync
-          const data = await fs.promises.readFile(path);
-          const hash = service.generateChecksum(data);
-          if (!dbFiles[path]){
-            api.insertFile({ path: path, hash: hash }, db);
-          }
-          else if (dbFiles[path].hash != hash) {
-            api.updateFile({ path: path, hash: hash }, db);
-          }
-          // Backup
-          
+          fs.unwatchFile(path);
+          fs.watchFile(path, () => service.checkSaveFiles(saveDir, [file]));
         }
         catch (e) {
-          console.log({ msg: 'Error reading save file',  err: e.message , path: saveDir + `\\${file}`});
+          console.log({ msg: 'Error tracking save file',  err: e.message , path: path});
+          service.log({ msg: 'Error tracking save file',  err: e.message }, db);
+        }
+        // Sync
+        try {
+          const data = await fs.promises.readFile(path);
+          const hash = service.generateChecksum(data);
+          if (!dbFiles[path]) {
+            api.insertFile({ path: path, hash: hash }, db);
+            nb = 1;
+          }
+          else if (dbFiles[path].hash != hash) {
+            api.updateFile({ path: path, hash: hash, nb: 1 }, db);
+            nb = 1;
+          }
+          // Backup
+        }
+        catch (e) {
+          console.log({ msg: 'Error reading save file',  err: e.message , path: path});
           service.log({ msg: 'Error reading save file',  err: e.message }, db);
+        }
+        // Backup
+        if (nb || dbFiles[path].nb) {
+          const config = api.getConfig();
+          for (const dir of config.bakDirs) {
+            try {
+              await fs.promises.copyFile(path, `${dir}\\${file}`);
+              api.updateFile({ path: path, nb: 0 }, db);
+              service.log({ msg: `Copied ${file} to ${dir}` }, db);
+            }
+            catch (e) {
+              console.log({ msg: 'Error copying save file',  err: e.message , path: path, dest: `${dir}\\${file}` });
+              service.log({ msg: 'Error copying save file',  err: e.message }, db);
+            }
+          }
         }
       }
     }

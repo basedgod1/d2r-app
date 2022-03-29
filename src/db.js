@@ -62,7 +62,7 @@ const tables = [{
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       path TEXT UNIQUE NOT NULL,
       hash TEXT NOT NULL,
-      ts TEXT
+      nb INTEGER NOT NULL DEFAULT 1
     )
   `]
 }];
