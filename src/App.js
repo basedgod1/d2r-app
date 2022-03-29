@@ -4,6 +4,7 @@ import Login from './features/login/Login';
 import Home from './features/home/Home';
 import Forums from './features/forums/Forums';
 import Ladder from './features/ladder/Ladder';
+import Garrison from './features/garrison/Garrison';
 import Config from './features/config/Config';
 import Account from './features/account/Account';
 import './App.css';
@@ -27,6 +28,7 @@ function App() {
               <li className="header-item"><Link to="/home">Home</Link></li>
               <li className="header-item"><Link to="/forums">Forums</Link></li>
               <li className="header-item"><Link to="/ladder">Ladder</Link></li>
+              <li className="header-item"><Link to="/garrison">Garrison</Link></li>
               <li className="header-item"><Link to="/config">Config</Link></li>
               <li className="header-item"><Link to="/account">{account.verified ? account.name : 'Account'}</Link></li>
             </ul>
@@ -37,6 +39,7 @@ function App() {
             <Route path="/home" element={<Home />} />
             <Route path="/forums" element={<Forums />} />
             <Route path="/ladder" element={<Ladder />} />
+            <Route path="/garrison" element={<Garrison />} />
             <Route path="/config" element={<Config />} />
             <Route path="/account" element={<Account />} />
           </Routes>

@@ -21,5 +21,9 @@
   margin: 0;
   padding: 0;
   float: left;
-  margin: 10px 100px;
+  margin: 10px 80px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
 }
