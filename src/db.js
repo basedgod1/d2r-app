@@ -40,10 +40,21 @@ const tables = [{
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       gameDir TEXT NOT NULL DEFAULT '',
       saveDir TEXT NOT NULL DEFAULT '',
-      bakDirs TEXT NOT NULL DEFAULT '[]'
+      bakDirs TEXT NOT NULL DEFAULT '[]',
+      filterId INTEGER NOT NULL DEFAULT 0
     )
   `,`
     INSERT INTO config (gameDir, saveDir, bakDirs) VALUES ('', '', '[]')
+  `]
+},{
+  name: 'filter',
+  setup: [`
+    CREATE TABLE filter (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT NOT NULL,
+      json TEXT NOT NULL,
+      ts TEXT
+    )
   `]
 },{
   name: 'log',

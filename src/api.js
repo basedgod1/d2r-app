@@ -29,6 +29,7 @@ const api = {
     const stmt = db.prepare('SELECT * FROM config WHERE id = 1');
     const config = stmt.get();
     if (config) {
+      config.filters = api.getFilters(db);
       config.bakDirs = JSON.parse(config.bakDirs);
     }
     return config;
@@ -40,6 +41,14 @@ const api = {
     }
     const stmt = db.prepare(`UPDATE config SET ${key} = ? WHERE id = 1`);
     stmt.run(value);
+  },
+  getFilter: (id, db) => {
+    const stmt = db.prepare('SELECT * FROM filter WHERE id = ?');
+    return stmt.get(id);
+  },
+  getFilters: (db) => {
+    const stmt = db.prepare(`SELECT * FROM filter ORDER BY name`);
+    return stmt.all();
   },
   getFiles: (db) => {
     const stmt = db.prepare(`SELECT * FROM file`);

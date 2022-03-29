@@ -7,6 +7,8 @@ export default function Config() {
 
   const api = window.api;
   const [config, setConfig] = useState({});
+  const [filterId, setFilterId] = useState(0);
+  const [filters, setFilters] = useState([]);
   const [gameDir, setGameDir] = useState('');
   const [gameDirStatus, setGameDirStatus] = useState({});
   const [saveDir, setSaveDir] = useState('');
@@ -26,11 +28,34 @@ export default function Config() {
     // console.log('useEffect.config', loaded, config);
     if (!loaded && config.id) {
       setLoaded(true);
+      setFilters([...config.filters]);
       setGameDir(config.gameDir);
       setSaveDir(config.saveDir);
       setBakDirs([...config.bakDirs]);
     }
   }, [config]);
+
+  useEffect(() => {
+    // console.log('useEffect.filterId', loaded, filterId, config.filterId);
+    if (loaded) {
+      if (filterId == 'create') {
+        console.log('create filter');
+        return setFilterId(config.filterId);
+      }
+      if (filterId != config.filterId) {
+        try {
+          // console.log('useEffect.filterId', 'updateConfig');
+          api.updateConfig('filterId', filterId);
+          setConfig({ ...config, filterId: filterId });
+        }
+        catch (e) {
+          const entry = { msg: 'Error updating game directory', err: e.message };
+          console.log(entry);
+          api.log(entry);
+        }
+      }
+    }
+  }, [filterId]);
 
   useEffect(() => {
     // console.log('useEffect.gameDir', loaded, gameDir, config.gameDir);
@@ -110,8 +135,12 @@ export default function Config() {
     setBakDirsStatus(res);
   }
 
-  function onConfigChange(key, value) {
-    // console.log('onConfigChange', key, value);
+  function onFilterChange(event) {
+    setFilterId(event.target.value);
+  }
+
+  function onDirChange(key, value) {
+    // console.log('onDirChange', key, value);
     switch (key) {
       case 'gameDir':
         setGameDir(value);
@@ -131,11 +160,24 @@ export default function Config() {
   return (
     <div className="Config">
       <Form>
+        <Form.Group className="mb-3" controlId="filter">
+          <Form.Label>Loot Filter</Form.Label>
+          <Form.Select className="custom-select"
+            value={filterId}
+            onChange={onFilterChange}
+          >
+            <option value="0">None</option>
+            <option value="create">Create New Filter</option>
+            {filters.map(filter => <option value={filter.id}>{filter.name}</option>)}
+          </Form.Select>
+        </Form.Group>
+        <br />
+        <br />
         <DirectoryInput
           controlId="gameDir"
           label="Game Directory"
           value={gameDir}
-          onChange={onConfigChange}
+          onChange={onDirChange}
         />
         <span className={gameDirStatus.err ? 'text-danger' : 'text-success'}>{gameDirStatus.msg}</span>
         <br />
@@ -145,7 +187,7 @@ export default function Config() {
           controlId="saveDir"
           label="Save Directory"
           value={saveDir}
-          onChange={onConfigChange}
+          onChange={onDirChange}
         />
         <span className={saveDirStatus.err ? 'text-danger' : 'text-success'}>{saveDirStatus.msg}</span>
         <br />
@@ -154,7 +196,7 @@ export default function Config() {
         <DirectoryInput
           controlId="bakDirs"
           label="Backup Directories"
-          onChange={onConfigChange}
+          onChange={onDirChange}
         />
         {bakDirsStatus.map((item) => /^[a-z]/i.test(item.dir) &&
           <div key={item.dir} className="clearfix">
