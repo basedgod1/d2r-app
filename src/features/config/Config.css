@@ -50,3 +50,33 @@
 .hb-blank-extra {
   height: 100px;
 }
+
+.filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
+  height: 629px;
+  background: #191d21;
+  border: 1px solid #adadad;
+  margin: 61px 32px;
+  padding: 10px;
+}
+
+.filter-section {
+  margin-right: 100px;
+  cursor: pointer;
+}
+
+.cancel-filter, .save-filter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.save-filter {
+  bottom: 0;
+  right: 0;
+  left: unset;
+}

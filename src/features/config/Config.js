@@ -26,8 +26,8 @@ export default function Config() {
   const [filterHelp, setFilterHelp] = useState(1);
   const [filters, setFilters] = useState([]);
   const [filterName, setFilterName] = useState('');
-  const [filter, setFilter] = useState({});
   const [loaded, setLoaded] = useState(false);
+  const [filter, setFilter] = useState({});
 
   useEffect(() => {
     // console.log('useEffect');
@@ -112,6 +112,7 @@ export default function Config() {
     if (loaded) {
       if (filterId == 'create') {
 
+
       }
       if (filterId != config.filterId) {
         try {
@@ -148,7 +149,7 @@ export default function Config() {
   }, [filterHelp]);
 
   useEffect(() => {
-    console.log('useEffect.filter', filter);
+
   }, [filter]);
 
   useEffect(() => {
@@ -254,48 +255,49 @@ export default function Config() {
             {filters.map(filter => <option value={filter.id}>{filter.name}</option>)}
           </Form.Select>
         </Form.Group>
-        {filterId == 'create' && <div>
-          <div>
-            <div className="cancel-new-filter" data-tip="Cancel" onClick={() => cancelNewFilter()}>Cancel</div>
-            <div className="save-new-filter" data-tip="Save" onClick={() => saveNewFilter()}>Save</div>
-            <ReactTooltip />
-          </div>
-          <br />
-          <br />
-          <Form.Group className="mb-3" controlId="filterName">
-            <Form.Label>Filter Name</Form.Label>
-            <Form.Control value={filterName} onInput={e => setFilterName(e.target.value)} />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="help">
-            <Form.Check className="help-checkbox" type="checkbox" value={filterHelp} onChange={e => setFilterHelp(e.target.checked)} />
-            <Form.Label className="">Help</Form.Label>
-          </Form.Group>
-        </div>}
       </Form>
-      {filterHelp ? <div>
-        <h1>Intro to Filters</h1>
-        <p>Accomplished by overwriting labels in json files (item-names.json, item-nameaffixes.json).</p>
-        <p>Let's say we've already added Witherstring to our Grail. We're no longer interested in Hunter's Bows, so we remove the Hunter's Bow label</p>
-        <p><img className="hb-superior" src={hbSuperior} /> becomes <img className="hb-superior-only" src={hbSuperiorOnly} /> ... that's not going to work!</p>
-        <p>We could remove the label for superior, but then we would no longe be able to distinguish any supperior item from its corresponding normal version.</p>
-        <p>One answer is replacing quality affix labeles with colors, e.g. ÿcO (pink) for superior and ÿcT (sky blue) for low/damaged/cracked/crude</p>
-        <p><img className="hb-superior" src={hbSuperior} /> becomes <img className="hb-superior-only" src={hbPink} /> ... neat</p>
-        <p>Then when we remove the Hunter's Bow label <img className="hb-blank-extra" src={hbBlankExtra} /> ... much better!</p>
+      {filterId ? <div className="filter">
+        <Form.Group className="mb-3 clearfix" controlId="filterName">
+          <Form.Control value={filterName} onInput={e => setFilterName(e.target.value)} placeholder="Filter Name" />
+        </Form.Group>
+        <div className="filter-nav">
+          <a className="filter-section" onclick="">General</a>
+          <a className="filter-section" onclick="">Potions</a>
+          <a className="filter-section" onclick="">Gear</a>
+          <a className="filter-help" onclick=""><label for="help">Help</label></a>
+          <Form.Check id="help" className="help-checkbox" type="checkbox" value={filterHelp} onChange={e => setFilterHelp(e.target.checked)} />
+        </div>
+        {filterHelp ? <div>
+          <h1>Intro to Filters</h1>
+          <p>Accomplished by overwriting labels in json files (item-names.json, item-nameaffixes.json).</p>
+          <p>Let's say we've already added Witherstring to our Grail. We're no longer interested in Hunter's Bows, so we remove the Hunter's Bow label</p>
+          <p><img className="hb-superior" src={hbSuperior} /> becomes <img className="hb-superior-only" src={hbSuperiorOnly} /> ... that's not going to work!</p>
+          <p>We could remove the label for superior, but then we would no longe be able to distinguish any supperior item from its corresponding normal version.</p>
+          <p>One answer is replacing quality affix labeles with colors, e.g. ÿcO (pink) for superior and ÿcT (sky blue) for low/damaged/cracked/crude</p>
+          <p><img className="hb-superior" src={hbSuperior} /> becomes <img className="hb-superior-only" src={hbPink} /> ... neat</p>
+          <p>Then when we remove the Hunter's Bow label <img className="hb-blank-extra" src={hbBlankExtra} /> ... much better!</p>
+          </div> : null}
+          {filterId == 'create' && <div>
+          <FilterForm title="Quality Affixes" filter={filter} setFilter={setFilter} items={[{
+            key: `Superior`, value: `ÿcO` // Pink
+          },{
+            key: `Low Quality`, value: `ÿcT` // Sky blue
+          },{
+            key: `Damaged`, value: `ÿcT`
+          },{
+            key: `Cracked`, value: `ÿcT`
+          },{
+            key: `Crude`, value: `ÿcT`
+          }]}>
+          </FilterForm>
+          <div className="cancel-filter">
+            Cancel
+          </div>
+          <div className="save-filter">
+            Save
+          </div>
+        </div>}
       </div> : null}
-      {filterId == 'create' && <div>
-        <FilterForm title="Quality Affixes" filter={filter} setFilter={setFilter} items={[{
-          key: `Superior`, value: `ÿcO` // Pink
-        },{
-          key: `Low Quality`, value: `ÿcT` // Sky blue
-        },{
-          key: `Damaged`, value: `ÿcT`
-        },{
-          key: `Cracked`, value: `ÿcT`
-        },{
-          key: `Crude`, value: `ÿcT`
-        }]}>
-        </FilterForm>
-      </div>}
     </div>
   );
 }
