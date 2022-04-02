@@ -1,6 +1,9 @@
-.Config {
+.config {
+  margin: 50px;
+}
+
+.config-form {
   width: 400px;
-  margin: 10px auto;
 }
 
 .rm-bak-dir, .bak-dir-path, .bak-dir-status {
@@ -11,11 +14,39 @@
   margin-right: 10px;
 }
 
-.rm-bak-dir {
+.rm-bak-dir, .cancel-new-filter {
   color: red;
   cursor: pointer;
 }
 
 .bak-dir-status {
   color: green;
+}
+
+.cancel-new-filter {
+  float: left;
+}
+
+.save-new-filter {
+  float: right;
+  color: green;
+  cursor: pointer;
+}
+
+.help-checkbox {
+  display: inline;
+  margin-left: 20px;
+}
+
+.hb-superior {
+  height: 26px;
+}
+
+.hb-superior-only {
+  height: 26px;
+}
+
+
+.hb-blank-extra {
+  height: 100px;
 }

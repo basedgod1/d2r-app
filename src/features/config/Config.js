@@ -1,61 +1,54 @@
 import React, {useEffect, useState} from 'react';
 import DirectoryInput from '../../components/DirectoryInput';
+import FilterForm from '../../components/FilterForm';
 import Form from 'react-bootstrap/Form';
+import ReactTooltip from 'react-tooltip';
+import hbBlankExtra from '../../img/blank-extra.png';
+import hbSuperiorOnly from '../../img/superior-only.png';
+import hbSuperior from '../../img/superior.png';
+import hbTriTone from '../../img/tri-tone.png';
+import hbPink from '../../img/ÿcO.png';
+import hbPurple from '../../img/ÿc;.png';
 import './Config.css';
 
 export default function Config() {
 
   const api = window.api;
   const [config, setConfig] = useState({});
-  const [filterId, setFilterId] = useState(0);
-  const [filters, setFilters] = useState([]);
   const [gameDir, setGameDir] = useState('');
   const [gameDirStatus, setGameDirStatus] = useState({});
   const [saveDir, setSaveDir] = useState('');
   const [saveDirStatus, setSaveDirStatus] = useState({});
   const [bakDirs, setBakDirs] = useState([]);
   const [bakDirsStatus, setBakDirsStatus] = useState([]);
+  const [filterId, setFilterId] = useState(0);
+  const [prevFilterId, setPrevFilterId] = useState(0);
+  const [filterHelp, setFilterHelp] = useState(1);
+  const [filters, setFilters] = useState([]);
+  const [filterName, setFilterName] = useState('');
+  const [filter, setFilter] = useState({});
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
     // console.log('useEffect');
     const config = api.getConfig();
     // console.log('useEffect', config);
-    setConfig(config);
+    setConfig({ ...config });
   }, []);
 
   useEffect(() => {
     // console.log('useEffect.config', loaded, config);
     if (!loaded && config.id) {
       setLoaded(true);
-      setFilters([...config.filters]);
       setGameDir(config.gameDir);
       setSaveDir(config.saveDir);
       setBakDirs([...config.bakDirs]);
+      setFilterId(config.filterId);
+      setPrevFilterId(config.filterId);
+      setFilterHelp(config.filterHelp);
+      setFilters([...config.filters]);
     }
   }, [config]);
-
-  useEffect(() => {
-    // console.log('useEffect.filterId', loaded, filterId, config.filterId);
-    if (loaded) {
-      if (filterId == 'create') {
-        console.log('create filter');
-        return setFilterId(config.filterId);
-      }
-      if (filterId != config.filterId) {
-        try {
-          // console.log('useEffect.filterId', 'updateConfig');
-          api.updateConfig('filterId', filterId);
-          setConfig({ ...config, filterId: filterId });
-        }
-        catch (e) {
-          const entry = { msg: 'Error updating game directory', err: e.message };
-          console.log(entry);
-          api.log(entry);
-        }
-      }
-    }
-  }, [filterId]);
 
   useEffect(() => {
     // console.log('useEffect.gameDir', loaded, gameDir, config.gameDir);
@@ -114,6 +107,54 @@ export default function Config() {
     }
   }, [bakDirs]);
 
+  useEffect(() => {
+    // console.log('useEffect.filterId', loaded, filterId, prevFilterId);
+    if (loaded) {
+      if (filterId == 'create') {
+
+      }
+      if (filterId != config.filterId) {
+        try {
+          // console.log('useEffect.filterId', 'updateConfig');
+          api.updateConfig('filterId', filterId);
+          setConfig({ ...config, filterId: filterId });
+          filterId != 'create' && setPrevFilterId(filterId);
+        }
+        catch (e) {
+          const entry = { msg: 'Error updating filter id', err: e.message };
+          console.log(entry);
+          api.log(entry);
+        }
+      }
+    }
+  }, [filterId]);
+
+  useEffect(() => {
+    // console.log('useEffect.filterHelp', filterHelp);
+    if (loaded) {
+      if (filterHelp != config.filterHelp) {
+        try {
+          // console.log('useEffect.filterHelp', 'updateConfig');
+          api.updateConfig('filterHelp', filterHelp);
+          setConfig({ ...config, filterHelp: filterHelp });
+        }
+        catch (e) {
+          const entry = { msg: 'Error updating filter help', err: e.message };
+          console.log(entry);
+          api.log(entry);
+        }
+      }
+    }
+  }, [filterHelp]);
+
+  useEffect(() => {
+    console.log('useEffect.filter', filter);
+  }, [filter]);
+
+  useEffect(() => {
+
+  }, [filterName]);
+
   async function checkGameDir() {
     // console.log('config.js checkGameDir');
     const res = await api.checkGameDir(gameDir);
@@ -135,10 +176,6 @@ export default function Config() {
     setBakDirsStatus(res);
   }
 
-  function onFilterChange(event) {
-    setFilterId(event.target.value);
-  }
-
   function onDirChange(key, value) {
     // console.log('onDirChange', key, value);
     switch (key) {
@@ -157,22 +194,22 @@ export default function Config() {
     }
   }
 
+  function onFilterChange(event) {
+    setFilterId(event.target.value);
+  }
+
+  function cancelNewFilter() {
+    // console.log('cancelNewFilter', filterId, prevFilterId);
+    setFilterId(prevFilterId);
+  }
+
+  function saveNewFilter() {
+    console.log('saveNewFilter');
+  }
+
   return (
-    <div className="Config">
-      <Form>
-        <Form.Group className="mb-3" controlId="filter">
-          <Form.Label>Loot Filter</Form.Label>
-          <Form.Select className="custom-select"
-            value={filterId}
-            onChange={onFilterChange}
-          >
-            <option value="0">None</option>
-            <option value="create">Create New Filter</option>
-            {filters.map(filter => <option value={filter.id}>{filter.name}</option>)}
-          </Form.Select>
-        </Form.Group>
-        <br />
-        <br />
+    <div className="config">
+      <Form className="config-form">
         <DirectoryInput
           controlId="gameDir"
           label="Game Directory"
@@ -207,7 +244,58 @@ export default function Config() {
             </div>
           </div>
         )}
+        <br />
+        <br />
+        <Form.Group className="mb-3}" controlId="filterId">
+          <Form.Label>Loot Filter</Form.Label>
+          <Form.Select className="custom-select" value={filterId} onChange={onFilterChange}>
+            <option value="0">None</option>
+            <option value="create">Create New Filter</option>
+            {filters.map(filter => <option value={filter.id}>{filter.name}</option>)}
+          </Form.Select>
+        </Form.Group>
+        {filterId == 'create' && <div>
+          <div>
+            <div className="cancel-new-filter" data-tip="Cancel" onClick={() => cancelNewFilter()}>Cancel</div>
+            <div className="save-new-filter" data-tip="Save" onClick={() => saveNewFilter()}>Save</div>
+            <ReactTooltip />
+          </div>
+          <br />
+          <br />
+          <Form.Group className="mb-3" controlId="filterName">
+            <Form.Label>Filter Name</Form.Label>
+            <Form.Control value={filterName} onInput={e => setFilterName(e.target.value)} />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="help">
+            <Form.Check className="help-checkbox" type="checkbox" value={filterHelp} onChange={e => setFilterHelp(e.target.checked)} />
+            <Form.Label className="">Help</Form.Label>
+          </Form.Group>
+        </div>}
       </Form>
+      {filterHelp ? <div>
+        <h1>Intro to Filters</h1>
+        <p>Accomplished by overwriting labels in json files (item-names.json, item-nameaffixes.json).</p>
+        <p>Let's say we've already added Witherstring to our Grail. We're no longer interested in Hunter's Bows, so we remove the Hunter's Bow label</p>
+        <p><img className="hb-superior" src={hbSuperior} /> becomes <img className="hb-superior-only" src={hbSuperiorOnly} /> ... that's not going to work!</p>
+        <p>We could remove the label for superior, but then we would no longe be able to distinguish any supperior item from its corresponding normal version.</p>
+        <p>One answer is replacing quality affix labeles with colors, e.g. ÿcO (pink) for superior and ÿcT (sky blue) for low/damaged/cracked/crude</p>
+        <p><img className="hb-superior" src={hbSuperior} /> becomes <img className="hb-superior-only" src={hbPink} /> ... neat</p>
+        <p>Then when we remove the Hunter's Bow label <img className="hb-blank-extra" src={hbBlankExtra} /> ... much better!</p>
+      </div> : null}
+      {filterId == 'create' && <div>
+        <FilterForm title="Quality Affixes" filter={filter} setFilter={setFilter} items={[{
+          key: `Superior`, value: `ÿcO` // Pink
+        },{
+          key: `Low Quality`, value: `ÿcT` // Sky blue
+        },{
+          key: `Damaged`, value: `ÿcT`
+        },{
+          key: `Cracked`, value: `ÿcT`
+        },{
+          key: `Crude`, value: `ÿcT`
+        }]}>
+        </FilterForm>
+      </div>}
     </div>
   );
 }

@@ -41,7 +41,8 @@ const tables = [{
       gameDir TEXT NOT NULL DEFAULT '',
       saveDir TEXT NOT NULL DEFAULT '',
       bakDirs TEXT NOT NULL DEFAULT '[]',
-      filterId INTEGER NOT NULL DEFAULT 0
+      filterId INTEGER NOT NULL DEFAULT 0,
+      filterHelp INTEGER NOT NULL DEFAULT 1
     )
   `,`
     INSERT INTO config (gameDir, saveDir, bakDirs) VALUES ('', '', '[]')

@@ -32,12 +32,18 @@ const api = {
       config.filters = api.getFilters(db);
       config.bakDirs = JSON.parse(config.bakDirs);
     }
-    return config;
+    return config; 
   },
   updateConfig: (key, value, db = dbConnect()) => {
     // console.log('api.setConfig', key, value);
     if (key == 'bakDirs') {
       value = JSON.stringify(value || '[]');
+    }
+    if (value === true) {
+      value = 1;
+    }
+    else if (value === false) {
+      value = 0;
     }
     const stmt = db.prepare(`UPDATE config SET ${key} = ? WHERE id = 1`);
     stmt.run(value);
